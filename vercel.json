@@ -1,5 +1,4 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
       "source": "/cafe",
@@ -10,8 +9,8 @@
       "destination": "https://abc-woad-pi.vercel.app/cafe/:path*"
     },
     {
-      "source": "/cafe/_app/:path*",
-      "destination": "https://abc-woad-pi.vercel.app/cafe/_app/:path*"
+      "source": "/test",
+      "destination": "https://www.youtube.com/"
     }
-  ]
+    ]
 }
