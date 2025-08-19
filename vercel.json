@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/cafe",
-      "destination": "https://abc-woad-pi.vercel.app/"
+      "destination": "https://abc-woad-pi.vercel.app/cafe/"
     },
     {
       "source": "/cafe/:path*",
-      "destination": "https://abc-woad-pi.vercel.app/:path*"
+      "destination": "https://abc-woad-pi.vercel.app/cafe/:path*"
     },
     {
       "source": "/(.*)",
