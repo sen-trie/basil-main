@@ -8,6 +8,10 @@
     {
       "source": "/cafe/:path*",
       "destination": "https://abc-woad-pi.vercel.app/cafe/:path*"
+    },
+    {
+      "source": "/cafe/_app/:path*",
+      "destination": "https://abc-woad-pi.vercel.app/cafe/_app/:path*"
     }
   ]
 }
