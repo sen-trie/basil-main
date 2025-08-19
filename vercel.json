@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/cafe",
+      "destination": "https://abc-woad-pi.vercel.app/"
+    },
+    {
+      "source": "/cafe/:path*",
+      "destination": "https://abc-woad-pi.vercel.app/:path*"
+    }
+  ]
+}
