@@ -5,7 +5,7 @@
   <a href="/">Basil Club</a>
   <div class="flexbox desktop-nav">
     <a href="/">Home</a>
-    <a href="/recipe">Recipes</a>
+    <a href="/recipes">Recipes</a>
     <a href="/about">About</a>
     <a href="/cafe">Cafe</a>
   </div>
