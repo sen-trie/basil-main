@@ -31,13 +31,13 @@
 </script>
 
 <Header />
-<div>
+<div class="article-body">
   {@render children()}
 </div>
 
 <style>
-  div {
-    padding: 25px;
+  .article-body {
+    padding: 25px 30px;
   }
 </style>
 

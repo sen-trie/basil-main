@@ -4,9 +4,10 @@
 <header class="flexbox">
   <a href="/">Basil Club</a>
   <div class="flexbox desktop-nav">
-    <a href="/menu">Menu</a>
+    <a href="/">Home</a>
+    <a href="/recipe">Recipes</a>
     <a href="/about">About</a>
-    <a href="/credits">Credits</a>
+    <a href="/cafe">Cafe</a>
   </div>
   <button>Search</button>
 </header>
@@ -15,10 +16,11 @@
   header {
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 10;
     padding: 35px 20px 25px;
     align-items: center;
     margin: 0 auto;
-    background-color: pink;
+    background-color: var(--colour-light);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   }
 </style>
