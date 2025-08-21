@@ -1,20 +1,50 @@
-<div>
-	<div class="category-header">
+<div class="category-header">
+	<div class="flexbox">
 		<img />
-		<p>12312312</p>
+		<div class="category-content">
+			<h1><i>Cake</i></h1>
+			<h2>Sweet treats perfect for celebrations, desserts, and special occasions.</h2>
+		</div>
 	</div>
 </div>
 
-<style style="scss">
-	.category-header {
-		height: 300px;
-		background-color: teal;
+<div class="body-container">
+	<p>123</p>
+</div>
 
-		img {
-			width: 100px;
-			height: 100px;
-			background-color: aqua;
-			view-transition-name: category-img;
+<style lang="scss">
+	.category-header {
+		height: fit-content;
+		background-color: var(--colour-green);
+		color: var(--colour-dark-green);
+
+		> div {
+			max-width: 1500px;
+			padding: 35px 30px;
+			margin: 0 auto;
+
+			img {
+				width: 150px;
+				height: 150px;
+				background-color: aqua;
+				view-transition-name: category-img;
+				margin-right: 3rem;
+			}
+
+			.category-content {
+				padding: 15px;
+				margin-bottom: 1rem;
+			}
+
+			h1 {
+				margin-bottom: 5px;
+			}
+
+			h2 {
+				font-size: 1.3rem;
+				font-weight: 500;
+				color: var(--colour-black);
+			}
 		}
 	}
 </style>

@@ -14,7 +14,7 @@
 <style>
 	footer {
 		width: 100%;
-		padding: 20px 4rem;
+		padding: 20px 8rem;
 		justify-content: space-between;
 		background-color: var(--colour-black);
 		view-transition-name: footer;

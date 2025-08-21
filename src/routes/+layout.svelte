@@ -5,6 +5,8 @@
 	import { setContext } from 'svelte';
 	import { onNavigate } from '$app/navigation';
 
+	let { children } = $props();
+
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
 
@@ -15,8 +17,6 @@
 			});
 		});
 	});
-
-	let { children } = $props();
 
 	function simplify(obj, path) {
 		return Object.fromEntries(
@@ -46,6 +46,7 @@
 
 <style>
 	.article-body {
+		min-height: 100vh;
 		margin: 0 auto;
 		flex-grow: 1;
 		width: 100%;

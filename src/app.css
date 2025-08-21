@@ -10,8 +10,8 @@
 	--colour-dark: #442214;
 	--colour-black: #2d1810;
 	--colour-red: #ed1f2c;
-	--colour-green: #7a9d54;
-	--colour-dark-green: rgb(71, 99, 41);
+	--colour-green: #9dc275;
+	--colour-dark-green: rgb(47, 68, 24);
 }
 
 * {
@@ -74,6 +74,7 @@ body {
 .flexbox {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 
 .body-container {
@@ -91,6 +92,12 @@ a {
 	cursor: pointer;
 	text-decoration: none;
 	color: inherit;
+}
+
+.link-button {
+	background-color: black;
+	border-radius: 50px;
+	padding: 7px 16px;
 }
 
 ::view-transition-image-pair(category-header-*) {
