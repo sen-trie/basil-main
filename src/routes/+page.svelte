@@ -1,14 +1,3 @@
-<script>
-	let recipeVal = $state('');
-</script>
-
-<div class="recipe-container">
-	<a href="/recipes">View all recipes</a>
-	<div class="search-box">
-		<input type="text" bind:value={recipeVal} placeholder="Search recipes" />
-		<button>Search</button>
-	</div>
-</div>
 <div class="body-container home-div">
 	<a class="cafe-button w-full" href="/cafe"> Visit the cafe!</a>
 
@@ -38,18 +27,6 @@
 </div>
 
 <style>
-	.recipe-container {
-		background-color: var(--colour-med);
-		display: grid;
-		grid-template-columns: 1fr 2fr;
-		align-items: center;
-		text-align: center;
-	}
-
-	.recipe-container > a {
-		align-self: center;
-	}
-
 	.cafe-button {
 		display: block;
 		background-color: white;

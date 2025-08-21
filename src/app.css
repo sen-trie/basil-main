@@ -1,6 +1,7 @@
 :root {
 	--colour-dull-black: rgba(0, 0, 0, 0.3);
-	--colour-white: #f1e6d5;
+	--colour-dim: rgba(0, 0, 0, 0.7);
+	--colour-white: #f3ede5;
 	--colour-light: #e8d5b7;
 	--colour-grey: #949494;
 	--colour-medgrey: #686464;
@@ -22,6 +23,14 @@
 	font-family: 'Nunito', sans-serif;
 	scrollbar-width: thin;
 	scrollbar-color: var(--colour-dark) var(--colour-med);
+}
+
+@media (prefers-reduced-motion) {
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation: none !important;
+	}
 }
 
 html {
@@ -62,6 +71,11 @@ body {
 	background: var(--colour-dark);
 }
 
+.flexbox {
+	display: flex;
+	flex-direction: row;
+}
+
 .body-container {
 	max-width: 1500px;
 	padding: 25px 30px;
@@ -75,4 +89,6 @@ body {
 
 a {
 	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
 }
