@@ -92,3 +92,30 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
+::view-transition-image-pair(category-header-*) {
+	/* Use a custom easing curve for a snappier feel */
+	animation-timing-function: cubic-bezier(0.4, 0, 0.2, 2);
+}
+
+@keyframes slide-in {
+	from {
+		transform: translateY(2220px);
+		opacity: 0;
+	}
+}
+
+@keyframes slide-out {
+	to {
+		transform: translateY(-2220px);
+		opacity: 0;
+	}
+}
+
+:root::view-transition-old(main-content-*) {
+	animation: 250ms cubic-bezier(0.4, 0, 1, 1) both slide-out;
+}
+
+:root::view-transition-new(main-content-*) {
+	animation: 250ms cubic-bezier(0, 0, 0.2, 1) 90ms both slide-in;
+}

@@ -1,17 +1,20 @@
-<div class="body-container home-div">
+<div class="body-container home-div" style:view-transition-name="main-content-main">
 	<a class="cafe-button w-full" href="/cafe"> Visit the cafe!</a>
 
 	<h1>Categories</h1>
 	<div class="category-grid">
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
-		<a class="category-button"><p>TEST</p></a>
+		<a href="/category/123" class="category-header">
+			<img />
+			<p>TEST</p>
+		</a>
+		<a class="category-header"><p>TEST</p></a>
+		<a class="category-header"><p>TEST</p></a>
+		<a class="category-header"><p>TEST</p></a>
+		<a class="category-header"><p>TEST</p></a>
+		<a class="category-header"><p>TEST</p></a>
+		<a class="category-header"><p>TEST</p></a>
+		<a class="category-header"><p>TEST</p></a>
+		<a class="category-header"><p>TEST</p></a>
 	</div>
 
 	<div class="author-div">
@@ -44,21 +47,29 @@
 		margin-bottom: 3rem;
 	}
 
-	.category-grid .category-button {
+	.category-grid .category-header {
 		position: relative;
-		background-color: teal;
 		aspect-ratio: 1;
 	}
 
-	.category-button p {
-		position: absolute;
-		bottom: 10px;
-		left: 50%;
-		translate: -50% 0;
-		background-color: var(--colour-dark);
-		color: var(--colour-white);
-		padding: 0.5rem 2rem;
-		font-size: 1.4rem;
+	.category-header {
+		img {
+			width: 100%;
+			height: 100%;
+			background-color: aqua;
+			view-transition-name: category-img;
+		}
+
+		p {
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			translate: -50% 0;
+			background-color: var(--colour-dark);
+			color: var(--colour-white);
+			padding: 0.5rem 2rem;
+			font-size: 1.4rem;
+		}
 	}
 
 	.author-div {
