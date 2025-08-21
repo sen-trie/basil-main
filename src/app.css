@@ -1,57 +1,78 @@
 :root {
-  --colour-dull-black: rgba(0, 0, 0, 0.3);
-  --colour-white: #f1e6d5;
-  --colour-light: #e8d5b7;
-  --colour-grey: #949494;
-  --colour-medgrey: #686464;
-  --colour-med: #96573b;
-  --colour-darkgrey: #302f2f;
-  --colour-dark: #442214;
-  --colour-black: #2d1810;
-  --colour-red: #ed1f2c;
-  --colour-green: #7a9d54;
-  --colour-dark-green: rgb(71, 99, 41);
+	--colour-dull-black: rgba(0, 0, 0, 0.3);
+	--colour-white: #f1e6d5;
+	--colour-light: #e8d5b7;
+	--colour-grey: #949494;
+	--colour-medgrey: #686464;
+	--colour-med: #96573b;
+	--colour-darkgrey: #302f2f;
+	--colour-dark: #442214;
+	--colour-black: #2d1810;
+	--colour-red: #ed1f2c;
+	--colour-green: #7a9d54;
+	--colour-dark-green: rgb(71, 99, 41);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: none;
-  border: none;
-  font-family: "Nunito", sans-serif;
-  scrollbar-width: thin;
-  scrollbar-color: var(--colour-dark) var(--colour-med);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: none;
+	border: none;
+	font-family: 'Nunito', sans-serif;
+	scrollbar-width: thin;
+	scrollbar-color: var(--colour-dark) var(--colour-med);
 }
 
 html {
-     background-color: var(--colour-white);
+	background-color: var(--colour-white);
+}
+
+body {
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
 }
 
 @font-face {
-  font-family: "Nunito";
-  src: url("/fonts/Nunito-VariableFont_wght.ttf") format("truetype");
-  font-weight: 100 1000;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Nunito';
+	src: url('/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 1000;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: "Nunito";
-  src: url("/fonts/Nunito-Italic-VariableFont_wght.ttf") format("truetype");
-  font-weight: 100 1000;
-  font-style: italic;
-  font-display: swap;
+	font-family: 'Nunito';
+	src: url('/fonts/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 1000;
+	font-style: italic;
+	font-display: swap;
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+	width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--colour-med);
+	background: var(--colour-med);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--colour-dark);
+	background: var(--colour-dark);
+}
+
+.body-container {
+	max-width: 1500px;
+	padding: 25px 30px;
+	margin: 0 auto;
+	gap: 20px;
+}
+
+.w-full {
+	width: 100%;
+}
+
+a {
+	cursor: pointer;
 }
