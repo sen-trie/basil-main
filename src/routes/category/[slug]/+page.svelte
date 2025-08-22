@@ -2,7 +2,7 @@
 	<div class="flexbox">
 		<img />
 		<div class="category-content">
-			<h1><i>Cake</i></h1>
+			<h1 class="category-text"><i>Cake</i></h1>
 			<h2>Sweet treats perfect for celebrations, desserts, and special occasions.</h2>
 		</div>
 	</div>
@@ -34,6 +34,10 @@
 			.category-content {
 				padding: 15px;
 				margin-bottom: 1rem;
+			}
+
+			.category-text {
+				view-transition-name: category-text;
 			}
 
 			h1 {

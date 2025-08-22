@@ -35,7 +35,7 @@
 		align-items: center;
 		margin: 0 auto;
 		background-color: var(--colour-white);
-		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+		border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 		view-transition-name: header;
 	}
 
@@ -59,7 +59,7 @@
 		}
 
 		a.active {
-			color: var(--colour-green);
+			color: var(--colour-dark-green);
 		}
 
 		a.active::before {
@@ -68,7 +68,7 @@
 			width: 100%;
 			bottom: -3px;
 			border-bottom: 3px solid transparent;
-			border-color: var(--colour-green);
+			border-color: var(--colour-dark-green);
 			view-transition-name: active-page;
 		}
 	}

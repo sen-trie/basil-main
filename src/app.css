@@ -100,6 +100,10 @@ a {
 	padding: 7px 16px;
 }
 
+.category-backer {
+	view-transition-name: category-header;
+}
+
 ::view-transition-image-pair(category-header-*) {
 	/* Use a custom easing curve for a snappier feel */
 	animation-timing-function: cubic-bezier(0.4, 0, 0.2, 2);

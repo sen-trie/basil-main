@@ -13,7 +13,7 @@
 			<a href="/category/123" class="category-header">
 				<img />
 			</a>
-			<p>TEST</p>
+			<p class="category-text">Cake</p>
 		</div>
 		<a class="category-header"><p>TEST</p></a>
 		<a class="category-header"><p>TEST</p></a>
@@ -71,30 +71,32 @@
 		padding: 20px;
 		gap: 25px;
 		margin-bottom: 3rem;
-	}
 
-	.category-grid .category-header {
-		position: relative;
-		aspect-ratio: 1;
-	}
+		.category-header {
+			position: relative;
+			aspect-ratio: 1;
 
-	.category-header {
-		img {
-			width: 100%;
-			height: 100%;
-			background-color: aqua;
-			view-transition-name: category-img;
+			img {
+				width: 100%;
+				height: 100%;
+				background-color: aqua;
+				view-transition-name: category-img;
+			}
+
+			p {
+				position: absolute;
+				bottom: 10px;
+				left: 50%;
+				translate: -50% 0;
+				background-color: var(--colour-dark);
+				color: var(--colour-white);
+				padding: 0.5rem 2rem;
+				font-size: 1.4rem;
+			}
 		}
 
-		p {
-			position: absolute;
-			bottom: 10px;
-			left: 50%;
-			translate: -50% 0;
-			background-color: var(--colour-dark);
-			color: var(--colour-white);
-			padding: 0.5rem 2rem;
-			font-size: 1.4rem;
+		.category-text {
+			view-transition-name: category-text;
 		}
 	}
 
