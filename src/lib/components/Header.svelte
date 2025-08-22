@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { getContext } from 'svelte';
+	import Search from '$lib/assets/ui/search.svelte';
 
 	let recipeVal = $state('');
 
@@ -17,9 +18,15 @@
 		<a href="/about" class:active={$page.url.pathname === '/about'}>About</a>
 	</div>
 
-	<div class="search-box">
-		<input type="text" bind:value={recipeVal} placeholder="Search recipes" />
-		<button>Search</button>
+	<div class="flexbox">
+		<form role="search" method="get" class="flexbox">
+			<div class="search-box flexbox">
+				<input type="text" bind:value={recipeVal} placeholder="Search recipes" />
+			</div>
+			<button class="flexbox search-button">
+				<Search />
+			</button>
+		</form>
 		<a href="/cafe">Visit Cafe</a>
 	</div>
 </header>
@@ -71,5 +78,32 @@
 			border-color: var(--colour-dark-green);
 			view-transition-name: active-page;
 		}
+	}
+
+	form {
+		border: 1px solid #010101;
+		max-width: 800px;
+		border-radius: 50px;
+		margin-right: 1rem;
+		height: 40px;
+	}
+
+	.search-box {
+		input[type='text'] {
+			padding: 8px 5px 8px 15px;
+			font-size: 1.1rem;
+			outline: none;
+			box-shadow: none;
+		}
+	}
+
+	.search-button {
+		height: 100%;
+		width: auto;
+		aspect-ratio: 1;
+		border-radius: 99px;
+		background-color: var(--colour-black);
+		fill: var(--colour-white);
+		justify-content: center;
 	}
 </style>

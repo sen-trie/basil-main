@@ -88,7 +88,8 @@ body {
 	width: 100%;
 }
 
-a {
+a,
+button {
 	cursor: pointer;
 	text-decoration: none;
 	color: inherit;

@@ -2,6 +2,15 @@
 	import Cup from '$lib/assets/ui/cup.svelte';
 </script>
 
+{#snippet category(tee)}
+	<div class="category-block">
+		<a href="/category/123" class="category-header">
+			<img style="view-transition-name: category-img-{tee}" />
+		</a>
+		<p class="category-text">Cake {tee}</p>
+	</div>
+{/snippet}
+
 <div class="body-container home-div" style:view-transition-name="main-content-main">
 	<a class="cafe-button w-full" href="/cafe">
 		<p class="flexbox"><Cup /> Visit the cafe!</p>
@@ -9,20 +18,9 @@
 
 	<h1>Categories</h1>
 	<div class="category-grid">
-		<div>
-			<a href="/category/123" class="category-header">
-				<img />
-			</a>
-			<p class="category-text">Cake</p>
-		</div>
-		<a class="category-header"><p>TEST</p></a>
-		<a class="category-header"><p>TEST</p></a>
-		<a class="category-header"><p>TEST</p></a>
-		<a class="category-header"><p>TEST</p></a>
-		<a class="category-header"><p>TEST</p></a>
-		<a class="category-header"><p>TEST</p></a>
-		<a class="category-header"><p>TEST</p></a>
-		<a class="category-header"><p>TEST</p></a>
+		{#each Array(10) as i, index}
+			{@render category(index)}
+		{/each}
 	</div>
 
 	<div class="author-div">
@@ -65,6 +63,11 @@
 		}
 	}
 
+	.category-block {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.category-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -74,29 +77,25 @@
 
 		.category-header {
 			position: relative;
+			display: block;
 			aspect-ratio: 1;
+			width: 100%;
+			height: auto;
+			max-height: 90%;
 
 			img {
 				width: 100%;
 				height: 100%;
 				background-color: aqua;
-				view-transition-name: category-img;
-			}
-
-			p {
-				position: absolute;
-				bottom: 10px;
-				left: 50%;
-				translate: -50% 0;
-				background-color: var(--colour-dark);
-				color: var(--colour-white);
-				padding: 0.5rem 2rem;
-				font-size: 1.4rem;
 			}
 		}
 
 		.category-text {
-			view-transition-name: category-text;
+			width: 100%;
+			background-color: var(--colour-dark);
+			color: var(--colour-white);
+			padding: 10px 16px;
+			font-size: 1.4rem;
 		}
 	}
 

@@ -1,6 +1,6 @@
 <div class="category-header">
 	<div class="flexbox">
-		<img />
+		<img style="view-transition-name: category-img-{0};" />
 		<div class="category-content">
 			<h1 class="category-text"><i>Cake</i></h1>
 			<h2>Sweet treats perfect for celebrations, desserts, and special occasions.</h2>
@@ -27,17 +27,13 @@
 				width: 150px;
 				height: 150px;
 				background-color: aqua;
-				view-transition-name: category-img;
+
 				margin-right: 3rem;
 			}
 
 			.category-content {
 				padding: 15px;
 				margin-bottom: 1rem;
-			}
-
-			.category-text {
-				view-transition-name: category-text;
 			}
 
 			h1 {
