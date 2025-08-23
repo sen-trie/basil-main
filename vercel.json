@@ -12,5 +12,12 @@
 			"source": "/test",
 			"destination": "https://www.youtube.com/"
 		}
+	],
+	"redirects": [
+		{
+			"source": "/cafe",
+			"destination": "/cafe/",
+			"permanent": false
+		}
 	]
 }
