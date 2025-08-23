@@ -1,6 +1,3 @@
-<!-- <div style:view-transition-name="main-content-about" class="category-header">
-	<img />
-</div> -->
 <div class="body-container">
 	<h1>Welcome!</h1>
 	<br />
@@ -45,10 +42,9 @@
 </div>
 
 <style lang="scss">
-	.category-header {
-		height: fit-content;
-		background-color: rgba(0, 0, 0, 0.1);
-		color: var(--colour-dark-green);
+	.body-container {
+		padding: 45px 25px 25px;
+		width: min(1200px, 100%);
 	}
 
 	h1 {
