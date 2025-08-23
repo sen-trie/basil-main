@@ -5,8 +5,8 @@
 			"destination": "https://www.youtube.com/"
 		},
 		{
-			"source": "/cafe/(.*)",
-			"destination": "https://abc-woad-pi.vercel.app/cafe/$1"
+			"source": "/cafe/:path*",
+			"destination": "https://abc-woad-pi.vercel.app/cafe/:path*"
 		},
 		{
 			"source": "/cafe",
