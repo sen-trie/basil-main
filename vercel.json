@@ -1,16 +1,23 @@
 {
 	"rewrites": [
 		{
-			"source": "/test",
-			"destination": "https://www.youtube.com/"
+			"source": "/cafe/",
+			"destination": "https://abc-woad-pi.vercel.app/cafe/"
 		},
 		{
 			"source": "/cafe/:path*",
 			"destination": "https://abc-woad-pi.vercel.app/cafe/:path*"
 		},
 		{
+			"source": "/test",
+			"destination": "https://www.youtube.com/"
+		}
+	],
+	"redirects": [
+		{
 			"source": "/cafe",
-			"destination": "https://abc-woad-pi.vercel.app/cafe/"
+			"destination": "/cafe/",
+			"permanent": false
 		}
 	]
 }
