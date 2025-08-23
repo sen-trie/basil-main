@@ -1,7 +1,7 @@
 {
 	"rewrites": [
 		{
-			"source": "/cafe/",
+			"source": "/cafe",
 			"destination": "https://abc-woad-pi.vercel.app/cafe/"
 		},
 		{
@@ -11,13 +11,6 @@
 		{
 			"source": "/test",
 			"destination": "https://www.youtube.com/"
-		}
-	],
-	"redirects": [
-		{
-			"source": "/cafe",
-			"destination": "/cafe/",
-			"permanent": true
 		}
 	]
 }
