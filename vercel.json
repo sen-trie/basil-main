@@ -1,7 +1,7 @@
 {
 	"rewrites": [
 		{
-			"source": "/cafe",
+			"source": "/cafe/",
 			"destination": "https://abc-woad-pi.vercel.app/cafe/"
 		},
 		{
