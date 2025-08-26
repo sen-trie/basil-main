@@ -22,7 +22,7 @@
 	border: none;
 	font-family: 'Nunito', sans-serif;
 	scrollbar-width: thin;
-	scrollbar-color: var(--colour-dark) var(--colour-med);
+	scrollbar-color: var(--colour-dark) var(--colour-white);
 }
 
 @media (prefers-reduced-motion) {
@@ -96,7 +96,7 @@ button {
 }
 
 .link-button {
-	background-color: black;
+	background-color: var(--colour-dim);
 	border-radius: 50px;
 	padding: 7px 16px;
 }

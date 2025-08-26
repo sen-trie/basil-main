@@ -5,7 +5,6 @@
 <footer class="flexbox">
 	<div class="footer-links flexbox">
 		<a href="/about">About</a>
-		<a href="/about">Contact</a>
 		<a href="/about">Source Code</a>
 	</div>
 	<p class="footer-credit">© {year} sentrie · Built in Svelte 5</p>
