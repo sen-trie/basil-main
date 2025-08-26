@@ -1,0 +1,37 @@
+{
+	"title": "Chocolate Lava Cake",
+	"segments": [
+		{
+			"pan": "2 8oz Ramekins / 4 servings",
+			"ingredients": {
+				"Dark chocolate": [
+					[85, "g"],
+					[3, "oz"]
+				],
+				"Unsalted butter": [
+					[85, "g"],
+					[6, "tbsp"]
+				],
+				"Granulated sugar": [[60, "g"]],
+				"Medium eggs": [[2]],
+				"Vanilla extract": [[0.5, "tsp"]],
+				"All-purpose flour": [
+					[25, "g"],
+					[3, "tbsp"]
+				],
+				"Pinch of salt": [],
+				"Butter and cocoa powder (for greasing ramekins)": []
+			},
+			"steps": [
+				"Preheat your oven to ['temp']{220}. Butter 2 ramekins (8oz) and dust them with a little cocoa powder, tapping out the excess.",
+				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly.",
+				"Mix wet ingredients. In a medium bowl, whisk together the ['ing']{Granulated sugar}, ['ing']{Medium eggs}, and ['ing']{Vanilla extract} until light and fluffy.",
+				"Slowly pour the melted chocolate and butter into the egg mixture, whisking constantly until smooth.",
+				"Gently fold in the ['ing']{All-purpose flour} and salt until just combined. <strong>Do not overmix.</strong>",
+				"Divide the batter evenly between the prepared ramekins, filling them about 3/4 full.",
+				"Place the ramekins on a baking sheet and bake for 12-15 minutes. The edges should be set, but the center should still be soft and jiggly.",
+				"Let the cakes cool for 1-2 minutes, then run a knife around the edges to loosen them."
+			]
+		}
+	]
+}
