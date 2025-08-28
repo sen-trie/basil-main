@@ -106,4 +106,15 @@
 		fill: var(--colour-white);
 		justify-content: center;
 	}
+
+	.cafe-button {
+		background-color: var(--colour-dark-green);
+		color: var(--colour-white);
+		padding: 7px 32px;
+		font-size: 1.2rem;
+		font-weight: 700;
+		border-radius: 25px;
+		margin-left: 10px;
+		margin-right: 3rem;
+	}
 </style>
