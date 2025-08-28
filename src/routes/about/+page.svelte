@@ -37,8 +37,8 @@
 	<h1>How was this site made?</h1>
 	<br />
 	<p>
-		Everything you see here, including the vast majority of the models in <a href="/cafe"
-			><u>/cafe</u></a
+		Besides the recipes, everything you see here, including the vast majority of the models in <a
+			href="/cafe"><u>/cafe</u></a
 		>, was designed, developed and produced by me. Production of this project started in late May
 		2025 and came to fruition about a few months afterwards. I wanted to combine my technical skills
 		with my newfound interest in baking, so this project became a way to practice both web

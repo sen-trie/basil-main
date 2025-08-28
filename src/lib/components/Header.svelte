@@ -1,49 +1,55 @@
 <script>
 	import { page } from '$app/stores';
 	import { getContext } from 'svelte';
-	import Search from '$lib/assets/ui/search.svelte';
+	// import Search from '$lib/assets/ui/search.svelte';
 
 	let recipeVal = $state('');
 
 	const images = getContext('images');
 </script>
 
-<header class="flexbox">
-	<div class="flexbox desktop-nav">
-		<a class="flexbox" href="/">
-			<img class="header-img" src={images['logo.webp']} alt="logo" />
-		</a>
-		<a href="/" class:active={$page.url.pathname === '/'}>Home</a>
-		<a href="/recipes" class:active={$page.url.pathname.startsWith('/recipes')}>Recipes</a>
-		<a href="/about" class:active={$page.url.pathname === '/about'}>About</a>
-	</div>
+<header>
+	<div class="flexbox header-wrapper">
+		<div class="flexbox">
+			<a class="flexbox" href="/">
+				<img class="header-img" src={images['logo.webp']} alt="logo" />
+			</a>
+		</div>
 
-	<div class="flexbox">
-		<form role="search" method="get" class="flexbox">
+		<div class="flexbox desktop-nav">
+			<a href="/" class:active={$page.url.pathname === '/'}>Home</a>
+			<a href="/recipes" class:active={$page.url.pathname.startsWith('/recipes')}>Recipes</a>
+			<a href="/about" class:active={$page.url.pathname === '/about'}>About</a>
+		</div>
+
+		<!-- <form role="search" method="get" class="flexbox">
 			<div class="search-box flexbox">
 				<input type="text" bind:value={recipeVal} placeholder="Search recipes" />
 			</div>
 			<button class="flexbox search-button">
 				<Search />
 			</button>
-		</form>
-		<a class="cafe-button" href="/cafe">Visit Cafe</a>
+		</form> -->
+		<a class="cafe-button" href="/cafe">Visit cafe</a>
 	</div>
 </header>
 
 <style>
 	header {
 		position: sticky;
-		justify-content: space-between;
-		width: 100%;
 		top: 0;
 		z-index: 10;
-		padding: 10px 60px 10px;
-		align-items: center;
-		margin: 0 auto;
+		padding: 8px 60px 8px;
 		background-color: var(--colour-white);
 		border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 		view-transition-name: header;
+	}
+
+	.header-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.header-img {
@@ -80,7 +86,7 @@
 		}
 	}
 
-	form {
+	/* form {
 		border: 1px solid #010101;
 		max-width: 800px;
 		border-radius: 50px;
@@ -105,7 +111,7 @@
 		background-color: var(--colour-black);
 		fill: var(--colour-white);
 		justify-content: center;
-	}
+	} */
 
 	.cafe-button {
 		background-color: var(--colour-dark-green);

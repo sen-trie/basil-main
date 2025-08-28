@@ -1,8 +1,20 @@
+<script>
+	let { data } = $props();
+	let { slug } = data;
+
+	import { getContext } from 'svelte';
+	const images = getContext('images');
+</script>
+
 <div class="category-header">
 	<div class="flexbox">
-		<img style="view-transition-name: category-img-{0};" />
+		<img
+			src={images['avatar.webp']}
+			style="view-transition-name: category-img-{slug.replace(/ /g, '')}"
+			alt="category img"
+		/>
 		<div class="category-content">
-			<h1 class="category-text"><i>Cake</i></h1>
+			<h1 class="category-text"><i>{slug}</i></h1>
 			<h2>Sweet treats perfect for celebrations, desserts, and special occasions.</h2>
 		</div>
 	</div>
@@ -26,8 +38,7 @@
 			img {
 				width: 150px;
 				height: 150px;
-				background-color: aqua;
-
+				border-radius: 100%;
 				margin-right: 3rem;
 			}
 

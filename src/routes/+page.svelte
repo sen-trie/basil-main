@@ -1,28 +1,33 @@
 <script>
 	import Cup from '$lib/assets/ui/cup.svelte';
+	import { categories } from '$lib';
 	import { getContext } from 'svelte';
 
 	const images = getContext('images');
 </script>
 
-{#snippet category(tee)}
+{#snippet categoryCard(catName)}
 	<div class="category-block">
-		<a href="/category/123" class="category-header" aria-label="link">
-			<img style="view-transition-name: category-img-{tee}" alt="category" />
+		<a href="/category/{catName}" class="category-header" aria-label="link">
+			<img
+				src={images['avatar.webp']}
+				style="view-transition-name: category-img-{catName.replace(/ /g, '')}"
+				alt="category"
+			/>
 		</a>
-		<p class="category-text">Cake {tee}</p>
+		<h2 class="category-text">{catName}</h2>
 	</div>
 {/snippet}
 
 <div class="body-container home-div" style:view-transition-name="main-content-main">
 	<a class="cafe-button w-full" href="/cafe">
-		<p class="flexbox"><Cup /> Visit the cafe!</p>
+		<h2 class="flexbox"><Cup /> Visit the cafe!</h2>
 	</a>
 
 	<h1>Categories</h1>
 	<div class="category-grid">
-		{#each Array(10) as i, index}
-			{@render category(index)}
+		{#each Object.keys(categories) as categoryName, index}
+			{@render categoryCard(categoryName, index)}
 		{/each}
 	</div>
 
@@ -85,7 +90,7 @@
 		background-size: cover;
 		background-attachment: fixed;
 
-		p {
+		h2 {
 			color: var(--colour-white);
 			background-color: var(--colour-dim);
 			padding: 6px 16px;
@@ -93,7 +98,6 @@
 			position: absolute;
 			bottom: 1rem;
 			right: 1rem;
-			font-size: 1.8rem;
 		}
 	}
 
@@ -105,8 +109,8 @@
 	.category-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		padding: 20px;
-		gap: 25px;
+		padding: 24px 40px;
+		gap: 40px;
 		margin-bottom: 3rem;
 
 		.category-header {
@@ -115,21 +119,20 @@
 			aspect-ratio: 1;
 			width: 100%;
 			height: auto;
-			max-height: 90%;
+			margin-bottom: 1rem;
 
 			img {
 				width: 100%;
 				height: 100%;
-				background-color: aqua;
+				border-radius: 100%;
 			}
 		}
 
 		.category-text {
 			width: 100%;
-			background-color: var(--colour-dark);
-			color: var(--colour-white);
-			padding: 10px 16px;
-			font-size: 1.4rem;
+			color: var(--colour-dark);
+			font-weight: 700;
+			text-align: center;
 		}
 	}
 
