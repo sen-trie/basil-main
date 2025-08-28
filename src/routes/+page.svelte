@@ -12,7 +12,7 @@
 {/snippet}
 
 <div class="body-container home-div" style:view-transition-name="main-content-main">
-	<a class="cafe-button w-full" href="/cafe">
+	<a class="cafe-button w-full" href="https://explore.basilclub.cafe">
 		<p class="flexbox"><Cup /> Visit the cafe!</p>
 	</a>
 

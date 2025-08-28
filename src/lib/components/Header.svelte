@@ -27,7 +27,7 @@
 				<Search />
 			</button>
 		</form>
-		<a href="/cafe">Visit Cafe</a>
+		<a href="https://explore.basilclub.cafe">Visit Cafe</a>
 	</div>
 </header>
 
