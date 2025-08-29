@@ -1,13 +1,15 @@
 import { error } from '@sveltejs/kit';
-
-export const entries = async () => {
-	return [{ slug: '123' }];
-};
+import { categories } from '$lib';
 
 export async function load({ params }) {
 	const slug = params.slug;
 
+	if (!Object.keys(categories).includes(slug)) {
+		throw error(404, 'Category not found');
+	}
+
 	return {
-		slug
+		slug,
+		...categories[slug]
 	};
 }

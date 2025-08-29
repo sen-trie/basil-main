@@ -1,4 +1,4 @@
-<div style:view-transition-name="main-content-recipes">
+<div class="body-container">
 	<p>eee</p>
 	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
 	/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br

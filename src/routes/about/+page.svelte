@@ -28,7 +28,7 @@
 		to organize these adapted recipes in a format that's easily usable when you're baking.
 	</p>
 	<figure>
-		<img src={images['progress.webp']} />
+		<img src={images['progress.webp']} alt="3d Model stages" />
 		<figcaption>
 			Experimenting with texture colors was a major part of the design process. An important goal
 			was establishing contrast, which helped to visually separate the first and second floors.
@@ -47,7 +47,7 @@
 		challenging, as it was my first time optimizing models for low-end devices.
 	</p>
 	<figure>
-		<img src={images['izakaya.webp']} />
+		<img src={images['izakaya.webp']} alt="Failed Model" />
 		<figcaption>
 			Initial failed attempt at creating a restaurant, inspired by an izakaya. This model never got
 			past the prototyping stage as I didn't like how the premade textures looked.
@@ -74,7 +74,7 @@
 
 	figure {
 		display: block;
-		margin: 2rem auto 0;
+		margin: 3rem auto 1rem;
 		width: min(700px, 70%);
 
 		img {

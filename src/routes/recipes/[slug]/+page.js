@@ -5,10 +5,6 @@ const files = import.meta.glob('$lib/recipes/*.json', {
 	import: 'default'
 });
 
-export const entries = async () => {
-	return [{ slug: 'cake' }];
-};
-
 export async function load({ params }) {
 	const slug = params.slug;
 	const path = `/src/lib/recipes/${slug}.json`;
