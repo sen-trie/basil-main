@@ -7,7 +7,7 @@
 </script>
 
 <div class="category-header">
-	<div class="flexbox">
+	<div class="body-container flexbox">
 		<img
 			src={images['avatar.webp']}
 			style="view-transition-name: category-img-{slug.replace(/ /g, '')}"
@@ -27,7 +27,7 @@
 <style lang="scss">
 	.category-header {
 		height: fit-content;
-		background-color: var(--colour-green);
+		background-color: var(--colour-light-green);
 		color: var(--colour-dark-green);
 
 		> div {
@@ -39,7 +39,6 @@
 				width: 150px;
 				height: 150px;
 				border-radius: 100%;
-				margin-right: 3rem;
 			}
 
 			.category-content {
@@ -54,7 +53,6 @@
 			h2 {
 				font-size: 1.3rem;
 				font-weight: 500;
-				color: var(--colour-black);
 			}
 		}
 	}

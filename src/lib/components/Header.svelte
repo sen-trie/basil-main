@@ -9,7 +9,7 @@
 </script>
 
 <header>
-	<div class="flexbox header-wrapper">
+	<div class="flexbox body-container header-wrapper">
 		<div class="flexbox">
 			<a class="flexbox" href="/">
 				<img class="header-img" src={images['logo.webp']} alt="logo" />
@@ -39,15 +39,13 @@
 		position: sticky;
 		top: 0;
 		z-index: 10;
-		padding: 8px 60px 8px;
 		background-color: var(--colour-white);
 		border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 		view-transition-name: header;
 	}
 
 	.header-wrapper {
-		max-width: 1200px;
-		margin: 0 auto;
+		padding: 8px 32px 8px;
 		align-items: center;
 		justify-content: space-between;
 	}
@@ -116,11 +114,9 @@
 	.cafe-button {
 		background-color: var(--colour-dark-green);
 		color: var(--colour-white);
-		padding: 7px 32px;
+		padding: 8px 32px;
 		font-size: 1.2rem;
 		font-weight: 700;
 		border-radius: 25px;
-		margin-left: 10px;
-		margin-right: 3rem;
 	}
 </style>

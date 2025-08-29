@@ -11,6 +11,7 @@
 	--colour-dark: #442214;
 	--colour-black: #2d1810;
 	--colour-red: #ed1f2c;
+	--colour-light-green: #bfdf9e;
 	--colour-green: #9dc275;
 	--colour-dark-green: rgb(47, 68, 24);
 }
@@ -79,8 +80,8 @@ body {
 }
 
 .body-container {
-	max-width: 1300px;
-	padding: 25px 30px;
+	width: min(1200px, 100%);
+	padding: 40px 32px 48px;
 	margin: 0 auto;
 	gap: 20px;
 }

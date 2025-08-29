@@ -63,11 +63,6 @@
 </div>
 
 <style lang="scss">
-	.body-container {
-		padding: 45px 25px 25px;
-		width: min(1200px, 100%);
-	}
-
 	h1 {
 		font-size: 2.2rem;
 	}

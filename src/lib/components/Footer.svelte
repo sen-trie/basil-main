@@ -2,7 +2,7 @@
 	const year = new Date().getFullYear();
 </script>
 
-<footer class="flexbox">
+<footer class="flexbox body-container">
 	<div class="footer-links flexbox">
 		<a href="/about">About</a>
 		<a href="/about">Source Code</a>
@@ -12,16 +12,15 @@
 
 <style>
 	footer {
-		width: 100%;
-		padding: 20px 8rem;
+		padding: 20px 40px;
 		justify-content: space-between;
-		background-color: var(--colour-light);
+		background-color: var(--colour-white);
 		view-transition-name: footer;
 		color: var(--colour-black);
 	}
 
 	.footer-links {
-		opacity: 0.5;
+		opacity: 0.7;
 		width: fit-content;
 		gap: 3rem;
 	}
