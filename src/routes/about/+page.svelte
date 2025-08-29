@@ -13,8 +13,9 @@
 		to make it a proper hobby. This website is essentially my digital recipe notebook that I've
 		decided to share as I continue learning.
 		<br /><br />
-		If you haven't checked it out yet, head over to the <a href="/cafe"><u>/cafe</u></a> for an interactive
-		experience! There, I leverage my 3D experience to create an isometric room with a bunch of interactables.
+		If you haven't checked it out yet, head over to the
+		<a href="https://explore.basilclub.cafe"><u>cafe</u></a> for an interactive experience! There, I
+		leverage my 3D experience to create an isometric room with a bunch of interactables.
 	</p>
 	<br />
 	<h1>Did you create these recipes?</h1>
@@ -38,7 +39,7 @@
 	<br />
 	<p>
 		Besides the recipes, everything you see here, including the vast majority of the models in <a
-			href="/cafe"><u>/cafe</u></a
+			href="https://explore.basilclub.cafe"><u>/cafe</u></a
 		>, was designed, developed and produced by me. Production of this project started in late May
 		2025 and came to fruition about a few months afterwards. I wanted to combine my technical skills
 		with my newfound interest in baking, so this project became a way to practice both web

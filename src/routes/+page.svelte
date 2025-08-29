@@ -20,7 +20,7 @@
 {/snippet}
 
 <div class="body-container home-div" style:view-transition-name="main-content-main">
-	<a class="cafe-big-button w-full" href="/cafe">
+	<a class="cafe-big-button w-full" href="https://explore.basilclub.cafe">
 		<h2 class="flexbox"><Cup /> Visit the cafe!</h2>
 	</a>
 

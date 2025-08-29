@@ -29,8 +29,9 @@
 			<button class="flexbox search-button">
 				<Search />
 			</button>
-		</form> -->
-		<a class="cafe-button" href="/cafe">Visit cafe</a>
+		</form>
+	-->
+		<a class="cafe-button" href="https://explore.basilclub.cafe">Visit Cafe</a>
 	</div>
 </header>
 
