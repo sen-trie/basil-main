@@ -47,3 +47,12 @@ export const categories = {
 };
 
 export const allDishes = Object.values(categories).flatMap((category) => category.dishes);
+
+export function getCategoryFromDish(dishName) {
+	for (const [category, data] of Object.entries(categories)) {
+		if (data.dishes.includes(dishName)) {
+			return category;
+		}
+	}
+	return null;
+}

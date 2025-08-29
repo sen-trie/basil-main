@@ -1,4 +1,5 @@
 import { error } from '@sveltejs/kit';
+import { getCategoryFromDish } from '$lib';
 
 const files = import.meta.glob('$lib/recipes/*.json', {
 	query: '?raw',
@@ -18,6 +19,7 @@ export async function load({ params }) {
 
 	return {
 		slug,
-		content: raw
+		content: raw,
+		category: getCategoryFromDish(slug)
 	};
 }

@@ -1,7 +1,10 @@
 {
+	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"cuisine": "",
+	"referenceText": "",
+	"referenceLink": "",
 	"segments": [
 		{
-			"pan": "2 8oz Ramekins / 4 servings",
 			"ingredients": {
 				"Dark chocolate": [
 					[85, "g"],
@@ -22,7 +25,7 @@
 				"Butter and cocoa powder (for greasing ramekins)": []
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter 2 ramekins (8oz) and dust them with a little cocoa powder, tapping out the excess.",
+				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
 				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly.",
 				"Mix wet ingredients. In a medium bowl, whisk together the ['ing']{Granulated sugar}, ['ing']{Medium eggs}, and ['ing']{Vanilla extract} until light and fluffy.",
 				"Slowly pour the melted chocolate and butter into the egg mixture, whisking constantly until smooth.",
