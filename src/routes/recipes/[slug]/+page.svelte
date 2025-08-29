@@ -58,18 +58,27 @@
 </script>
 
 <div class="body-container">
+	<div class="link-container">
+		<a href="/">Home </a> ·
+		<a href="/recipes">Recipes </a> ·
+		<a href="/category/{category}">{category}</a>
+	</div>
 	<div class="recipe-container">
 		<h1>{slug.replaceAll('_', ' ')}</h1>
 		<div class="recipe-header flexbox">
 			<div class="recipe-header-text">
 				<h3>Yield: {parseServing(pan)}</h3>
-				<h3>Category: {category}</h3>
+				<h3>Category: <a href="/category/{category}"><u>{category}</u></a></h3>
 				<h3>Cuisine: {cuisine}</h3>
-				<a href={referenceLink} target="_blank">
-					<h3>
-						Reference: {referenceText}1
-					</h3>
-				</a>
+				{#if referenceLink && referenceLink !== ''}
+					<a href={referenceLink} target="_blank">
+						<h3>
+							Reference: {referenceText}
+						</h3>
+					</a>
+				{:else}
+					<h3>Reference: Original Recipe</h3>
+				{/if}
 			</div>
 			<img alt="recipe" />
 		</div>
@@ -112,7 +121,13 @@
 			</ul>
 			<ToggleSwitch />
 			<hr />
-			<h2>Steps</h2>
+			<h2>
+				Steps <span class="current-step"
+					>{activeStepIndex === -1
+						? ''
+						: `(Currently on ${activeStepIndex + 1}/${seg.steps.length})`}</span
+				>
+			</h2>
 			<ol>
 				{#each seg.steps as step, index}
 					<li class:active={activeStepIndex === index}>
@@ -133,6 +148,10 @@
 		padding: 40px 8px;
 	}
 
+	.link-container {
+		margin-bottom: 24px;
+	}
+
 	.recipe-container {
 		background-color: var(--colour-white);
 		border: 4px groove var(--colour-white);
@@ -142,11 +161,21 @@
 			color: var(--colour-dark-green);
 			padding-bottom: 4px;
 			border-bottom: 2px dotted var(--colour-dark-green);
-			margin-bottom: 1rem;
+			margin-bottom: 12px;
 		}
 
 		h2 {
-			margin: 8px 0 4px;
+			border-top: 2px dotted var(--colour-dark-green);
+			margin: 12px 0 16px;
+			padding-top: 20px;
+
+			.current-step {
+				display: inline-block;
+				font-size: 1.2rem;
+				margin-left: 4px;
+				opacity: 0.5;
+				translate: 0 -1px;
+			}
 		}
 
 		.recipe-header {
@@ -157,9 +186,9 @@
 				height: 100%;
 				display: flex;
 				flex-direction: column;
-				justify-content: flex-start;
+				justify-content: space-between;
 				align-self: flex-start;
-				gap: 8px;
+				padding: 4px 0;
 
 				* {
 					width: fit-content;
@@ -176,7 +205,7 @@
 
 		.serving-factor {
 			font-size: 18px;
-			margin-bottom: 8px;
+			margin: 8px 0 16px;
 
 			button {
 				height: 2rem;
@@ -202,22 +231,25 @@
 			list-style-type: none;
 
 			li {
-				margin-top: 4px;
+				margin-top: 12px;
 
 				input[type='checkbox'] {
-					width: 1rem;
-					height: 1rem;
+					width: 20px;
+					height: 20px;
 					translate: 0 1px;
 					cursor: pointer;
+					accent-color: var(--colour-dark-green);
 				}
 
 				input[type='checkbox']:checked + label {
-					text-decoration: line-through;
+					text-decoration: line-through var(--colour-dark-green);
 				}
 
 				label {
+					display: inline-block;
 					font-size: $text-size;
-					margin-left: 4px;
+					margin-left: 8px;
+					translate: 0 -2px;
 				}
 			}
 		}
@@ -227,31 +259,27 @@
 			list-style: number;
 			margin-left: 24px;
 			padding-right: 24px;
-		}
 
-		ol li {
-			font-size: $text-size;
-			transition: 0.3s ease;
-			padding: 2px 4px;
-			display: list-item;
+			li {
+				font-size: $text-size;
+				transition:
+					0.3s background-color ease,
+					0.3s padding ease;
+				padding: 4px 8px;
+				margin-top: 4px;
+				display: list-item;
 
-			&::marker {
-				transition: 0.3s ease;
-			}
-
-			&.active {
-				&::marker {
-					color: var(--colour-dark-green);
+				&.active {
+					background-color: rgba(157, 194, 117, 0.4);
+					border-left: 2px solid var(--colour-dark-green);
 				}
 
-				background-color: rgba(157, 194, 117, 0.5);
-			}
-
-			button {
-				display: block;
-				text-align: left;
-				border: none;
-				font-size: inherit;
+				button {
+					display: block;
+					text-align: left;
+					border: none;
+					font-size: inherit;
+				}
 			}
 		}
 	}

@@ -42,18 +42,21 @@
 <style lang="scss">
 	.toggle-switch {
 		position: relative;
-		display: inline-block;
+		display: inline-flex;
+		align-items: center;
 		width: fit-content;
-		margin: 8px 0;
-		height: 24px;
+		margin: 16px 0;
+		height: 28px;
 
 		.toggle-label {
 			position: absolute;
 			top: 0;
 			left: 0;
-			width: 40px;
+			width: 44px;
 			height: 24px;
 			background-color: var(--colour-dull-black);
+			box-sizing: content-box;
+			border: 2px solid var(--colour-dull-black);
 			border-radius: 34px;
 			cursor: pointer;
 			transition: background-color 0.3s;
@@ -63,7 +66,7 @@
 				position: absolute;
 				width: 20px;
 				height: 20px;
-				border-radius: 50%;
+				border-radius: 100px;
 				top: 2px;
 				left: 2px;
 				background-color: #fff;
@@ -79,13 +82,13 @@
 			background-color: var(--colour-green);
 
 			&::before {
-				transform: translateX(16px);
+				transform: translateX(20px);
 			}
 		}
 
 		.toggle-text {
 			height: 100%;
-			margin-left: 48px;
+			margin-left: 56px;
 			user-select: none;
 			-webkit-user-select: none;
 			-moz-user-select: none;
