@@ -1,11 +1,12 @@
+<script>
+	import RecipeGrid from '$lib/components/RecipeGrid.svelte';
+	import { getContext } from 'svelte';
+	import { allDishes as dishes } from '$lib';
+
+	const images = getContext('images');
+</script>
+
 <div class="body-container">
-	<p>eee</p>
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-	/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-	/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-	/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-	/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-	/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-	/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	<p>eee</p>
+	<h1>All Recipes</h1>
+	<RecipeGrid {dishes} {images} />
 </div>

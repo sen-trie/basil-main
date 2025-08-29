@@ -45,3 +45,5 @@ export const categories = {
 		dishes: ['Red_Velvet_Cupcake']
 	}
 };
+
+export const allDishes = Object.values(categories).flatMap((category) => category.dishes);
