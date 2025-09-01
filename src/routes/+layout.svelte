@@ -4,11 +4,22 @@
 	import '../app.scss';
 	import { setContext } from 'svelte';
 	import { onNavigate } from '$app/navigation';
+	import { browser } from '$app/environment';
 
 	let { children } = $props();
 
+	let isMobile = $state(false);
+
+	if (browser) {
+		const checkMobile = () => {
+			isMobile = window.innerWidth <= 768;
+		};
+		checkMobile();
+		window.addEventListener('resize', checkMobile);
+	}
+
 	onNavigate((navigation) => {
-		if (!document.startViewTransition) return;
+		if (!document.startViewTransition || isMobile) return;
 
 		return new Promise((resolve) => {
 			document.startViewTransition(async () => {

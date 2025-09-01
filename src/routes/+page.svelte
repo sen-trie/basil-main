@@ -20,8 +20,9 @@
 	</div>
 {/snippet}
 
-<div class="body-container home-div" style:view-transition-name="main-content-main">
+<div class="body-container home-div">
 	<a class="cafe-big-button w-full" href="https://explore.basilclub.cafe">
+		<div class="bg"></div>
 		<h2 class="flexbox"><Cup /> Visit the cafe!</h2>
 	</a>
 
@@ -45,11 +46,14 @@
 		border: 5px solid var(--colour-dark);
 		border-radius: 15px;
 		margin: 0 auto 2rem;
-		background-image: url('/cafe-bg.webp');
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+		overflow: hidden;
+
+		.bg {
+			position: absolute;
+			inset: 0;
+			background: url('/cafe-bg.webp') center/cover no-repeat;
+			transform: translateZ(0); // keeps GPU-accelerated
+		}
 
 		h2 {
 			color: var(--colour-white);
