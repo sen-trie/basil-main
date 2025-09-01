@@ -22,20 +22,11 @@
 			<a href="/about" class:active={$page.url.pathname === '/about'}>About</a>
 		</div>
 
-		<!-- <form role="search" method="get" class="flexbox">
-			<div class="search-box flexbox">
-				<input type="text" bind:value={recipeVal} placeholder="Search recipes" />
-			</div>
-			<button class="flexbox search-button">
-				<Search />
-			</button>
-		</form>
-	-->
 		<a class="cafe-button" href="https://explore.basilclub.cafe">Visit cafe</a>
 	</div>
 </header>
 
-<style>
+<style lang="scss">
 	header {
 		position: sticky;
 		top: 0;
@@ -85,33 +76,6 @@
 		}
 	}
 
-	/* form {
-		border: 1px solid #010101;
-		max-width: 800px;
-		border-radius: 50px;
-		margin-right: 1rem;
-		height: 40px;
-	}
-
-	.search-box {
-		input[type='text'] {
-			padding: 8px 5px 8px 15px;
-			font-size: 1.1rem;
-			outline: none;
-			box-shadow: none;
-		}
-	}
-
-	.search-button {
-		height: 100%;
-		width: auto;
-		aspect-ratio: 1;
-		border-radius: 99px;
-		background-color: var(--colour-black);
-		fill: var(--colour-white);
-		justify-content: center;
-	} */
-
 	.cafe-button {
 		background-color: var(--colour-black);
 		color: var(--colour-white);
@@ -119,5 +83,16 @@
 		font-size: 1.2rem;
 		font-weight: 700;
 		border-radius: 25px;
+	}
+
+	@media (max-width: 768px) {
+		.desktop-nav,
+		.cafe-button {
+			display: none;
+		}
+
+		.header-img {
+			height: 60px;
+		}
 	}
 </style>

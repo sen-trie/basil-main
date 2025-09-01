@@ -10,22 +10,34 @@
 	<p class="footer-credit">© {year} sentrie · Built in Svelte 5</p>
 </footer>
 
-<style>
+<style lang="scss">
 	footer {
 		padding: 20px 40px;
 		justify-content: space-between;
 		background-color: var(--colour-white);
 		view-transition-name: footer;
 		color: var(--colour-black);
+
+		.footer-links {
+			opacity: 0.7;
+			width: fit-content;
+			gap: 3rem;
+		}
+
+		.footer-credit {
+			width: fit-content;
+		}
 	}
 
-	.footer-links {
-		opacity: 0.7;
-		width: fit-content;
-		gap: 3rem;
-	}
+	@media (max-width: 768px) {
+		footer {
+			padding: 10px 10px;
+			flex-direction: column;
+			gap: 10px;
 
-	.footer-credit {
-		width: fit-content;
+			.footer-links {
+				text-align: center;
+			}
+		}
 	}
 </style>
