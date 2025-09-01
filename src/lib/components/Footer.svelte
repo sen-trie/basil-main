@@ -5,7 +5,7 @@
 <footer class="flexbox body-container">
 	<div class="footer-links flexbox">
 		<a href="/about">About</a>
-		<a href="/about">Source Code</a>
+		<a href="https://github.com/sen-trie/basil-main">Source code</a>
 	</div>
 	<p class="footer-credit">© {year} sentrie · Built in Svelte 5</p>
 </footer>

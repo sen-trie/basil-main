@@ -46,7 +46,7 @@
 
 <style>
 	.article-body {
-		min-height: 100vh;
+		min-height: calc(100vh - 90px);
 		margin: 0 auto;
 		flex-grow: 1;
 		width: 100%;

@@ -31,7 +31,7 @@
 			</button>
 		</form>
 	-->
-		<a class="cafe-button" href="https://explore.basilclub.cafe">Visit Cafe</a>
+		<a class="cafe-button" href="https://explore.basilclub.cafe">Visit cafe</a>
 	</div>
 </header>
 
@@ -60,7 +60,7 @@
 	.desktop-nav {
 		a {
 			position: relative;
-			margin-left: 3rem;
+			margin-left: 40px;
 			font-size: 1.4rem;
 
 			transition: 0.2s ease;
@@ -113,7 +113,7 @@
 	} */
 
 	.cafe-button {
-		background-color: var(--colour-dark-green);
+		background-color: var(--colour-black);
 		color: var(--colour-white);
 		padding: 8px 32px;
 		font-size: 1.2rem;
