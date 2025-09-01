@@ -1,0 +1,20 @@
+{
+	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"cuisine": "",
+	"referenceText": "",
+	"referenceLink": "",
+	"segments": [
+		{
+			"ingredients": {
+				"Dark chocolate": [
+					[85, "g"],
+					[3, "oz"]
+				]
+			},
+			"steps": [
+				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
+				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+			]
+		}
+	]
+}

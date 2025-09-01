@@ -39,8 +39,13 @@
 		});
 
 		processedStep = processedStep.replace(/\[\'ing\'\]\{([^}]+)\}/g, (match, ingredientName) => {
-			const fv = processIngredients(ing[ingredientName]);
-			return `<u>${fv} ${ingredientName.toLowerCase()}</u>`;
+			if (ing[ingredientName]) {
+				const fv = processIngredients(ing[ingredientName]);
+				return `<u>${fv} ${ingredientName.toLowerCase()}</u>`;
+			}
+
+			console.warn(`Missing ingredient bind: ${ingredientName}`);
+			return `<u>${ingredientName.toLowerCase()}</u>`;
 		});
 
 		return processedStep;
