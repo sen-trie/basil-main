@@ -49,4 +49,22 @@
 			text-align: center;
 		}
 	}
+
+	@media (max-width: 768px) {
+		.dish-grid {
+			grid-template-columns: repeat(2, 1fr);
+			padding: 16px 8px;
+			gap: 16px;
+
+			.dish-header {
+				aspect-ratio: 12 / 16;
+				margin-bottom: 8px;
+			}
+
+			.dish-text {
+				font-size: 1.3rem;
+				line-height: 1.7rem;
+			}
+		}
+	}
 </style>

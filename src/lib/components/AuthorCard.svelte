@@ -120,7 +120,8 @@
 			margin-top: -48px;
 
 			.author-img {
-				translate: 0 48px;
+				width: 140px;
+				translate: 0 52px;
 			}
 
 			.author-text {

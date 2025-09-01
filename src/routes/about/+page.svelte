@@ -14,18 +14,18 @@
 		decided to share as I continue learning.
 		<br /><br />
 		If you haven't checked it out yet, head over to the
-		<a href="https://explore.basilclub.cafe"><u>cafe</u></a> for an interactive experience! There, I
-		leverage my 3D experience to create an isometric room with a bunch of interactables.
+		<a href="https://explore.basilclub.cafe"><u>explore.basilclub.cafe</u></a> for an interactive experience!
+		There, I leverage my 3D experience to create an isometric room with a bunch of interactables.
 	</p>
 	<br />
 	<h1>Did you create these recipes?</h1>
 	<br />
 	<p>
-		The recipes here are adapted from well-known sites and cookbooks. I take existing recipes and
-		modify them based on what I have available or what I've learned works better. Many recipe sites
-		have poor UI that makes it hard to reference while baking, especially on mobile. You'd have to
-		scroll through long stories or deal with layouts that aren't practical in the kitchen. I wanted
-		to organize these adapted recipes in a format that's easily usable when you're baking.
+		The recipes here are adapted from well-known sites. I take existing recipes and modify them
+		based on what I have available or what I've learned works better. <br /><br />Many recipe sites
+		have UI that make it hard to reference while baking, especially on mobile. For instance, you'd
+		have to scroll through long stories or deal with layouts that aren't practical in the kitchen. I
+		wanted to organize these adapted recipes in a format that's easily usable when you're baking.
 	</p>
 	<figure>
 		<img src={images['progress.webp']} alt="3d Model stages" />
@@ -38,12 +38,12 @@
 	<h1>How was this site made?</h1>
 	<br />
 	<p>
-		Besides the recipes, everything you see here, including the vast majority of the models in <a
-			href="https://explore.basilclub.cafe"><u>/cafe</u></a
+		This website, as well as the vast majority of the models in <a
+			href="https://explore.basilclub.cafe"><u>explore.basilclub.cafe</u></a
 		>, was designed, developed and produced by me. Production of this project started in late May
-		2025 and came to fruition about a few months afterwards. I wanted to combine my technical skills
-		with my newfound interest in baking, so this project became a way to practice both web
-		development and 3D modelling. Learning how to maintain web performance was particularly
+		2025 and came to fruition about a few months afterwards. <br /><br />I wanted to combine my
+		technical skills with my newfound interest in baking, so this project became a way to practice
+		both web development and 3D modelling. Learning how to maintain web performance was particularly
 		challenging, as it was my first time optimizing models for low-end devices.
 	</p>
 	<figure>
@@ -64,6 +64,10 @@
 </div>
 
 <style lang="scss">
+	.body-container {
+		width: min(1000px, 100%);
+	}
+
 	h1 {
 		font-size: 2.2rem;
 	}
@@ -75,7 +79,7 @@
 	figure {
 		display: block;
 		margin: 3rem auto 1rem;
-		width: min(700px, 70%);
+		width: min(700px, 100%);
 
 		img {
 			width: 100%;
@@ -83,6 +87,22 @@
 
 		figcaption {
 			width: fit-content;
+			opacity: 0.5;
+		}
+	}
+
+	@media (max-width: 768px) {
+		h1 {
+			font-size: 1.6rem;
+			margin-bottom: -12px;
+		}
+
+		p {
+			font-size: 1.2rem;
+		}
+
+		figure {
+			margin: 2rem auto 0.5rem;
 		}
 	}
 </style>

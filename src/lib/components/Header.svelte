@@ -94,5 +94,9 @@
 		.header-img {
 			height: 60px;
 		}
+
+		.header-wrapper {
+			padding: 8px 16px;
+		}
 	}
 </style>

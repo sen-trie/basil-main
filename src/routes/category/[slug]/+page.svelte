@@ -58,4 +58,21 @@
 			}
 		}
 	}
+
+	@media (max-width: 768px) {
+		.category-header .body-container {
+			flex-direction: column;
+			padding: 20px 12px;
+			gap: 12px;
+
+			.category-content {
+				padding: 0 8px;
+				margin-bottom: 0;
+
+				h1 {
+					text-align: center;
+				}
+			}
+		}
+	}
 </style>
