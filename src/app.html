@@ -16,8 +16,7 @@
 			content="A personal recipe collection. Adapted recipes from well-known sources, organized for easy reference while baking."
 		/>
 		<meta property="og:url" content="https://basil-main.vercel.app" />
-		<meta property="og:image" content="https://basil-main.vercel.app/meta-img.webp" />
-		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:card" content="summary" />
 		<meta property="twitter:title" content="Basil Club" />
 		<meta
 			property="twitter:description"
@@ -36,7 +35,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
+
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+
+		<script
+			defer
+			src="https://static.cloudflareinsights.com/beacon.min.js"
+			data-cf-beacon='{"token": "00ae4965e7fe4e9f846bef4b9cff4aac"}'
+		></script>
 	</body>
 </html>
