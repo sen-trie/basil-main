@@ -97,4 +97,17 @@
 			text-align: center;
 		}
 	}
+
+	@media (max-width: 768px) {
+		.category-grid {
+			grid-template-columns: repeat(2, 1fr);
+			padding: 12px;
+			gap: 20px;
+
+			h2 {
+				font-size: 1.3rem;
+				line-height: 1.6rem;
+			}
+		}
+	}
 </style>

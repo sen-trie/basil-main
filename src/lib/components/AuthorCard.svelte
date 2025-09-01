@@ -47,7 +47,7 @@
 					<path d="M10 17c.667 .333 1.333 .5 2 .5s1.333 -.167 2 -.5" />
 				</svg>
 			</a>
-			<a href="/about" class="about-button">About 🡒</a>
+			<a href="/about" class="about-button">About</a>
 		</div>
 	</section>
 </div>
@@ -108,6 +108,40 @@
 					color: var(--colour-dark-green);
 					font-weight: 600;
 					padding: 7px 32px;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		.author-div {
+			flex-direction: column;
+			padding: 0px;
+			margin-top: -48px;
+
+			.author-img {
+				translate: 0 48px;
+			}
+
+			.author-text {
+				width: 100%;
+				padding: 60px 20px 24px 20px;
+
+				h3 {
+					margin: 24px 0;
+				}
+
+				.social-link {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					margin-bottom: 0 !important;
+					margin-right: 4px !important;
+
+					svg {
+						width: 40px;
+						height: 40px;
+					}
 				}
 			}
 		}

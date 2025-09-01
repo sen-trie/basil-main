@@ -113,7 +113,7 @@
 			</span>
 			<ul>
 				{#each Object.entries(seg.ingredients) as [ingName, value]}
-					<li>
+					<li class="flexbox">
 						<input type="checkbox" id={ingName} />
 						<label for={ingName}>{processIngredients(value)} {ingName}</label>
 					</li>
@@ -121,11 +121,11 @@
 			</ul>
 			<ToggleSwitch />
 			<hr />
-			<h2>
+			<h2 class="step-counter">
 				Steps <span class="current-step"
 					>{activeStepIndex === -1
 						? ''
-						: `(Currently on ${activeStepIndex + 1}/${seg.steps.length})`}</span
+						: `(Currently: ${activeStepIndex + 1}/${seg.steps.length})`}</span
 				>
 			</h2>
 			<ol>
@@ -143,6 +143,8 @@
 
 <style lang="scss">
 	$text-size: 20px;
+	$text-size-m: 18px;
+	$text-size-sm: 16px;
 
 	.body-container {
 		padding: 40px 8px;
@@ -231,6 +233,8 @@
 			list-style-type: none;
 
 			li {
+				align-items: center;
+				position: relative;
 				margin-top: 12px;
 
 				input[type='checkbox'] {
@@ -239,6 +243,8 @@
 					translate: 0 1px;
 					cursor: pointer;
 					accent-color: var(--colour-dark-green);
+					flex-shrink: 0;
+					align-items: flex-start;
 				}
 
 				input[type='checkbox']:checked + label {
@@ -246,10 +252,10 @@
 				}
 
 				label {
-					display: inline-block;
+					align-items: center;
+					position: relative;
 					font-size: $text-size;
 					margin-left: 8px;
-					translate: 0 -2px;
 				}
 			}
 		}
@@ -279,6 +285,44 @@
 					text-align: left;
 					border: none;
 					font-size: inherit;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		.body-container {
+			padding: 20px 8px;
+		}
+
+		.recipe-container {
+			padding: 16px 16px;
+
+			.recipe-header {
+				flex-direction: column-reverse;
+				height: fit-content;
+
+				img {
+					height: unset;
+					width: 50%;
+					margin: 8px 0;
+				}
+			}
+
+			ul li {
+				label {
+					width: 100%;
+					font-size: $text-size-sm;
+				}
+			}
+
+			ol {
+				padding-left: 8px;
+				padding-right: 0;
+
+				li {
+					font-size: $text-size-m;
+					padding: 4px 4px;
 				}
 			}
 		}

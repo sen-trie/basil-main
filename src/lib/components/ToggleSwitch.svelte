@@ -100,4 +100,20 @@
 			}
 		}
 	}
+
+	@media (max-width: 768px) {
+		.toggle-switch {
+			height: fit-content;
+
+			.toggle-label {
+				top: 50%;
+				translate: 0 -50%;
+			}
+
+			.toggle-text {
+				display: inline;
+				font-size: 16px;
+			}
+		}
+	}
 </style>
