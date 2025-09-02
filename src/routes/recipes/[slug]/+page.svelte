@@ -73,6 +73,36 @@
 	};
 </script>
 
+{#snippet scaleFactor()}
+	<span class="serving-factor flexbox">
+		Scale:
+		<button
+			class:active-factor={factor === 1 / 2}
+			onclick={() => {
+				factor = 1 / 2;
+			}}>½×</button
+		>
+		<button
+			class:active-factor={factor === 1}
+			onclick={() => {
+				factor = 1;
+			}}>1×</button
+		>
+		<button
+			class:active-factor={factor === 2}
+			onclick={() => {
+				factor = 2;
+			}}>2×</button
+		>
+		<button
+			class:active-factor={factor === 3}
+			onclick={() => {
+				factor = 3;
+			}}>3×</button
+		>
+	</span>
+{/snippet}
+
 <div class="body-container">
 	<div class="link-container">
 		<a href="/">Home </a> ·
@@ -98,35 +128,20 @@
 			</div>
 			<img alt="recipe" />
 		</div>
-		{#each segments as seg, index}
+		{#if segments.length !== 1}
+			<div class="multi-segment">
+				{@render scaleFactor()}
+				<ToggleSwitch />
+			</div>
+		{/if}
+		{#each segments as seg, segIndex}
+			{#if seg.title && seg.title !== ''}
+				<h2 class="segment-title">Part {segIndex + 1} / {segments.length}: {seg.title}</h2>
+			{/if}
 			<h2>Ingredients</h2>
-			<span class="serving-factor flexbox">
-				Scale:
-				<button
-					class:active-factor={factor === 1 / 2}
-					onclick={() => {
-						factor = 1 / 2;
-					}}>½×</button
-				>
-				<button
-					class:active-factor={factor === 1}
-					onclick={() => {
-						factor = 1;
-					}}>1×</button
-				>
-				<button
-					class:active-factor={factor === 2}
-					onclick={() => {
-						factor = 2;
-					}}>2×</button
-				>
-				<button
-					class:active-factor={factor === 3}
-					onclick={() => {
-						factor = 3;
-					}}>3×</button
-				>
-			</span>
+			{#if segments.length === 1}
+				{@render scaleFactor()}
+			{/if}
 			<ul>
 				{#each Object.entries(seg.ingredients) as [ingName, value]}
 					<li class="flexbox">
@@ -138,7 +153,9 @@
 					</li>
 				{/each}
 			</ul>
-			<ToggleSwitch />
+			{#if segments.length === 1}
+				<ToggleSwitch />
+			{/if}
 			<hr />
 			<h2 class="step-counter">
 				Steps <span class="current-step"
@@ -148,10 +165,12 @@
 				>
 			</h2>
 			<ol>
-				{#each seg.steps as step, index}
-					<li class:active={activeStepIndex === index}>
-						<button onclick={() => (activeStepIndex = activeStepIndex === index ? -1 : index)}>
-							{@html htmlStep(step, seg, index)}
+				{#each seg.steps as step, stepIndex}
+					<li class:active={activeStepIndex === stepIndex}>
+						<button
+							onclick={() => (activeStepIndex = activeStepIndex === stepIndex ? -1 : stepIndex)}
+						>
+							{@html htmlStep(step, seg, stepIndex)}
 						</button>
 					</li>
 				{/each}
@@ -224,6 +243,16 @@
 			}
 		}
 
+		.multi-segment {
+			border-top: 2px dotted var(--colour-dark-green);
+			margin: 12px 0 -8px;
+			padding-top: 20px;
+
+			.serving-factor {
+				margin: 8px 0;
+			}
+		}
+
 		.serving-factor {
 			font-size: 18px;
 			margin: 8px 0 16px;
@@ -250,6 +279,7 @@
 
 		ul {
 			list-style-type: none;
+			margin-bottom: 8px;
 
 			li {
 				align-items: center;

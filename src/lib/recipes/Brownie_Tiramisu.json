@@ -1,19 +1,51 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{1} 9x9 inch Pan / ['fac']{18} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
+			"title": "Brownie",
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Dark or semi-sweet chocolate": [[100, "g", "finely chopped"]],
+				"Natural cocoa powder": [[50, "g"]],
+				"Unsalted butter": [[230, "g"]],
+				"Large eggs": [[4, ""]],
+				"Granulated sugar": [[150, "g"]],
+				"Brown sugar": [[100, "g"]],
+				"All-purpose flour": [[100, "g"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat the oven to ['temp']{180}.",
+				"Line an 9x9\" square baking pan with parchment paper on the bottom and up the sides of the pan.",
+				"In a medium bowl, add the ['ing']{Dark or semi-sweet chocolate} and ['ing']{Natural cocoa powder}. Set aside.",
+				"In a small pan, heat the ['ing']{Unsalted butter} on medium heat. Remove the pan from the heat the moment the milk solids are golden brown and the mixture smells nutty.",
+				"Pour the browned butter over the chocolate and cocoa powder. Let it sit undisturbed for about 3 minutes. Stir the mixture until the chocolate has completely melted. Set aside.",
+				"In a mixing bowl, whisk the ['ing']{Large eggs}, ['ing']{Granulated sugar}, and ['ing']{Brown sugar}. While constantly whisking with one hand, slowly stream the brown butter-chocolate mixture into the egg mixture until combined.",
+				"Add the ['ing']{All-purpose flour} and fold together with a spatula until combined. <strong>Don't overmix.</strong>",
+				"Transfer the brownie batter to your lined pan. Use an offset spatula to spread the batter into the corners of the pan and into an even layer.",
+				"Bake brownies for about 28-30 minutes or until a toothpick inserted in the middle comes out mostly clean but with some wetness.",
+				"Let the brownies cool in the pan on a wire rack at room temperature or in the fridge while preparing the mascarpone cream. The brownie layer should be cool to prevent the mascarpone from melting."
+			]
+		},
+		{
+			"title": "Tiramisu",
+			"ingredients": {
+				"Mascarpone cheese": [[250, "g", "cold"]],
+				"Whipping cream": [[200, "g", "cold"]],
+				"Powdered sugar": [[50, "g"]],
+				"Vanilla extract": [[0.5, "tsp"]],
+				"Espresso": [[150, "ml"]],
+				"Ladyfingers": [[16, ""]]
+			},
+			"steps": [
+				"In a mixing bowl, add the ['ing']{Mascarpone cheese}. Use an electric hand mixer to beat the mascarpone just until loosened and creamy.",
+				"Add the ['ing']{Whipping cream}, ['ing']{Powdered sugar}, and ['ing']{Vanilla extract}. Beat until the mixture thickens, about 5-10 minutes. If you tilt the bowl, the mixture should just barely move and slide around the bowl. Set aside.",
+				"In a shallow bowl or tall cup, dip each ['ing']{Ladyfingers} into the ['ing']{Espresso} soak very briefly, only about 1 second on each side, and let the excess drip off. They should not be completely soaked through otherwise they'll become mushy and fall apart. Arrange the soaked ladyfingers in rows on top of the brownie layer.",
+				"Add the mascarpone cream on top of the ladyfinger layer. Use an offset spatula to smooth the cream into an even layer.",
+				"Chill the tiramisu brownies in the fridge for about 1 hour before slicing to allow the cream to set and ladyfingers to soften.",
+				"Right before slicing, use a fine mesh sieve to dust the top of the tiramisu with cocoa powder.",
+				"Lift the entire sheet of tiramisu brownies out of the pan by pulling up on the parchment paper overhangs. Slice into squares with a large knife, wiping the knife in between each cut for clean-looking slices."
 			]
 		}
 	]

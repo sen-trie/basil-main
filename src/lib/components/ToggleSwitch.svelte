@@ -45,7 +45,7 @@
 		display: inline-flex;
 		align-items: center;
 		width: fit-content;
-		margin: 16px 0;
+		margin: 8px 0 16px;
 		height: 28px;
 
 		.toggle-label {
