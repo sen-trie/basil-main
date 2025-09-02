@@ -1,19 +1,28 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{8} inch Pan / ['fac']{16} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Crushed graham crackers": [[1.5, "cups"]],
+				"White sugar": [[1, "tsp"]],
+				"Ground cinnamon": [[0.5, "tsp"]],
+				"Melted butter": [[4, "tbsp"]],
+				"Cream cheese": [[16, "oz", "softened"]],
+				"Medium eggs": [[3, ""]],
+				"Sugar": [[1, "cup"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Sour cream": [[16, "oz"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat oven to ['temp']{175}.",
+				"Whisk together the ['ing']{Crushed graham crackers}, the ['ing']{White sugar}, ['ing']{Ground cinnamon}. Stir in the ['ing']{Melted butter}. Press the mixture into the bottom of a 8 inch springform pan.",
+				"Bake in the preheated oven for 10 minutes. Remove from oven; allow crust to cool.",
+				"Beat the ['ing']{Cream cheese} with the ['ing']{Medium eggs} on medium-low with an electric mixer until smooth.",
+				"Beat in the ['ing']{Sugar} and ['ing']{Vanilla extract}. Fold in the ['ing']{Sour cream} just until blended. <strong>Do not overmix; overmixing causes the cheesecake to crack.</strong> Pour into the cooled crust.",
+				"Bake in the preheated oven for 45 minutes. Turn oven off. When the cheesecake has reached room temperature, chill in refrigerator for 8 hours before serving."
 			]
 		}
 	]

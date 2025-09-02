@@ -18,7 +18,7 @@
 		return amt;
 	};
 
-	const SPACE_UNITS = ['cup', 'tsp', 'tbsp'];
+	const SPACE_UNITS = ['cup', 'tsp', 'tbsp', 'cups'];
 	const processIngredients = (ingValue) => {
 		const fIngredients = ingValue.map((arr) => {
 			const space = SPACE_UNITS.includes(arr?.[1] ?? '') ? ' ' : '';
@@ -47,6 +47,17 @@
 			console.warn(`Missing ingredient bind: ${ingredientName}`);
 			return `<u>${ingredientName.toLowerCase()}</u>`;
 		});
+
+		processedStep = processedStep.replace(
+			/\['fac'\]\{(\d+)\}(?:\{(-?\d+)\})?/g,
+			(match, factorVal, afterVal) => {
+				let result = factorVal * factor;
+				if (afterVal !== undefined) {
+					result += Number(afterVal);
+				}
+				return result;
+			}
+		);
 
 		return processedStep;
 	};
@@ -120,7 +131,10 @@
 				{#each Object.entries(seg.ingredients) as [ingName, value]}
 					<li class="flexbox">
 						<input type="checkbox" id={ingName} />
-						<label for={ingName}>{processIngredients(value)} {ingName}</label>
+						<label for={ingName}
+							>{processIngredients(value)}
+							{ingName}{value[0] && value[0][2] ? `, ${value[0][2]}` : ''}</label
+						>
 					</li>
 				{/each}
 			</ul>

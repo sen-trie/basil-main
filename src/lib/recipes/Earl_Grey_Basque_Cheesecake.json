@@ -1,19 +1,28 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{8} inch Pan / ['fac']{16} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Whipping cream": [[400, "g"]],
+				"Earl grey tea bags": [[7, "", "reserve 1 for later"]],
+				"Cream cheese": [[750, "g", "softened to room temperature"]],
+				"Granulated sugar": [[200, "g"]],
+				"Salt": [[0.5, "tsp"]],
+				"Medium eggs": [[7, ""]],
+				"Vanilla extract": [[1, "tsp"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat oven to ['temp']{220}. Line the pan with parchment paper twice.",
+				"In a small pot, add the ['ing']{Whipping cream} and <u>['fac']{7}{-1} earl grey tea bags</u>. Cover and bring it to a simmer. Turn off the heat and let the tea steep for 10 minutes.",
+				"Use a spatula to squeeze all the liquid out of the tea bags before discarding them. Let the steeped cream cool at room temperature.",
+				"In a large mixing bowl, add the ['ing']{Cream cheese}, ['ing']{Granulated sugar}, and ['ing']{Salt}. Use an electric hand mixer to beat the cream cheese mixture until it becomes very creamy and smooth.",
+				"Add the ['ing']{Medium eggs} one at a time, mixing in between each addition, until the batter becomes thick and smooth. Mix in the ['ing']{Vanilla extract} with the last egg.",
+				"Pour in ['fac']{270}g of the steeped cream. If you end up with less than ['fac']{270}g, top it up to that amount with some extra whipping cream. Cut open your last earl grey tea bag and add the loose tea leaves to the batter. Mix until well combined.",
+				"Bake in the preheated oven for 45 minutes. When the cake jiggles as one piece, switch the oven to broil and broil 1-2 minutes (if top isn't sufficiently browned).",
+				"Remove from the oven and cool in the pan. When the cheesecake has reached room temperature, chill in refrigerator for 8 hours before serving."
 			]
 		}
 	]

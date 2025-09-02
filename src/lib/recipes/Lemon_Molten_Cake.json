@@ -1,19 +1,31 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{2} 8oz Ramekin / ['fac']{4} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"White chocolate": [[85, "g"]],
+				"Unsalted butter": [[85, "g"]],
+				"Granulated sugar": [[80, "g"]],
+				"Medium eggs": [[2, ""]],
+				"Zest of lemon": [[1, ""]],
+				"Fresh lemon juice": [[3, "tbsp"]],
+				"Vanilla extract": [[0.5, "tsp"]],
+				"All-purpose flour": [[4, "tbsp"]],
+				"Pinch of salt": [],
+				"Butter and cocoa powder for greasing ramekins": []
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat your oven to ['temp']{220}. Butter ['fac']{2} ramekins (8oz size) and dust them with a little flour or sugar, tapping out the excess",
+				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{White chocolate}. Let it cool slightly.",
+				"Mix wet ingredients. In a medium bowl, whisk together the ['ing']{Granulated sugar}, ['ing']{Medium eggs}, ['ing']{Zest of lemon} and ['ing']{Fresh lemon juice} and ['ing']{Vanilla extract} until light and fluffy.",
+				"Add the melted butter and white chocolate, whisk until combined.",
+				"Gently fold in the ['ing']{All-purpose flour} and salt until just combined. <strong>Do not overmix.</strong>",
+				"Divide the batter evenly between the prepared ramekins, filling them about 3/4 full.",
+				"Place the ramekins on a baking sheet and bake for 18 minutes. The edges should be set, but the center should still be soft and jiggly.",
+				"Let the cakes cool for 1–2 minutes, then run a knife around the edges to loosen them."
 			]
 		}
 	]

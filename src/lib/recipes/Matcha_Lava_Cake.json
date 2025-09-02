@@ -1,19 +1,30 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{2} 8oz Ramekin / ['fac']{4} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Dark chocolate": [[120, "g"]],
+				"Unsalted butter": [[80, "g"]],
+				"Granulated sugar": [[25, "g"]],
+				"Matcha powder": [[2, "tbsp", "culinary-grade"]],
+				"Medium eggs": [[2, ""]],
+				"All-purpose flour": [[50, "g"]],
+				"Pinch of salt": [],
+				"Butter for greasing ramekins": [],
+				"Flour for greasing ramekins": []
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat your oven to ['temp']{200}. Butter the ['fac']{2} ramekins (8 oz size) and dust them with a little flour, tapping out the excess.",
+				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly.",
+				"Mix wet ingredients. In a medium bowl, whisk together the ['ing']{Granulated sugar}, ['ing']{Medium eggs} and ['ing']{Matcha powder} until light and fluffy.",
+				"Slowly pour the melted chocolate and butter into the egg mixture, whisking constantly until smooth.",
+				"Gently fold in the ['ing']{All-purpose flour} and salt until just combined. <strong>Do not overmix.</strong>",
+				"Divide the batter evenly between the prepared ramekins, filling them about 3/4 full.",
+				"Place the ramekins on a baking sheet and bake for 8-10 minutes. The edges should be set, but the center should still be soft and jiggly.",
+				"Let the cakes cool for 1-2 minutes, then run a knife around the edges to loosen them."
 			]
 		}
 	]

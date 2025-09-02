@@ -1,19 +1,28 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{15} pieces / ['fac']{5} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Butter": [[115, "g"]],
+				"Cake flour": [[50, "g"]],
+				"Almond meal": [[50, "g"]],
+				"Granulated sugar": [[115, "g"]],
+				"Baking powder": [[0.25, "tsp"]],
+				"Egg whites": [[4, ""]],
+				"Melted butter for molds": []
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat the oven at ['temp']{200}.",
+				"Put ['ing']{Butter} in a pan, and heat it until it turns brown without burning, stirring occasionally to make browned butter. Set it aside and let it cool slightly.",
+				"Combine the ['ing']{Cake flour}, ['ing']{Almond meal}, ['ing']{Granulated sugar}, matcha powder, and ['ing']{Baking powder}, and sift them together. Add the ['ing']{Egg whites} and mix until the batter is smooth and uniform.",
+				"Strain the browned butter into the mixture, stirring well to combine thoroughly.",
+				"Chill in the fridge for 30 minutes to an hour.",
+				"Brush melted butter onto the financier molds.",
+				"Place the chilled batter in a piping bag, and fill the molds to 3/4 full.",
+				"Bake in the oven about 11-13 minutes or golden brown."
 			]
 		}
 	]

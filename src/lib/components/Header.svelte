@@ -11,11 +11,9 @@
 
 <header>
 	<div class="flexbox body-container header-wrapper">
-		<div class="flexbox">
-			<a class="flexbox" href="/">
-				<img class="header-img" src={images['logo.webp']} alt="logo" />
-			</a>
-		</div>
+		<a class="header-img-container flexbox" href="/">
+			<img class="header-img" src={images['logo.webp']} alt="logo" />
+		</a>
 
 		<div class="flexbox desktop-nav">
 			<a href="/" class:active={$page.url.pathname === '/'}>Home</a>
@@ -52,13 +50,14 @@
 
 	.header-wrapper {
 		height: 80px;
-		padding: 8px 32px 8px;
+		padding: 8px 32px;
 		align-items: center;
 		justify-content: space-between;
 	}
 
+	.header-img-container,
 	.header-img {
-		height: 70px;
+		height: 100%;
 		width: auto;
 		aspect-ratio: 1;
 	}

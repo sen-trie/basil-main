@@ -1,19 +1,33 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{8} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"All-purpose flour": [[180, "g"]],
+				"Matcha powder": [[1.5, "tbsp", "culinary-grade"]],
+				"Baking powder": [[1, "tsp"]],
+				"Baking soda": [[0.5, "tsp"]],
+				"Pinch of salt": [],
+				"Unsalted butter": [[95, "g", "batter"]],
+				"Unsalted butter": [[15, "g", "buttermilk"]],
+				"Granulated sugar": [[130, "g"]],
+				"Medium egg": [[1, "", "room temperature"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Whole milk": [[160, "g", "buttermilk"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Whisk ['ing']{All-purpose flour}, ['ing']{Matcha powder}, ['ing']{Baking powder}, ['ing']{Baking soda}, and ['ing']{Pinch of salt}. Set aside.",
+				"Mix 15g melted ['ing']{Unsalted butter} and 160g ['ing']{Whole milk}.",
+				"In a large bowl, whisk 95g melted ['ing']{Unsalted butter} + ['ing']{Granulated sugar}. Add ['ing']{Medium egg} + ['ing']{Vanilla extract}, then the milk mixture.",
+				"Gently fold dry ingredients into wet until just mixed.",
+				"Cover and refrigerate batter for 1 hour.",
+				"Preheat oven to ['temp']{200}. Line 6 muffin cups (for tall tops).",
+				"Scoop chilled batter (fill liners almost to the top).",
+				"Bake 20–25 min until tops spring back.",
+				"Let sit 5–10 minutes before transferring to a rack."
 			]
 		}
 	]

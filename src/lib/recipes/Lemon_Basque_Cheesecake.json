@@ -1,19 +1,28 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
+	"pan": "['fac']{8} inch Pan / ['fac']{16} servings",
 	"cuisine": "",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Cream cheese": [[750, "g", "softened"]],
+				"Medium eggs": [[4, ""]],
+				"Sugar": [[1, "cup"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Heavy cream": [[1, "cup"]],
+				"Flour": [[3, "tbsp"]],
+				"Zest of lemon": [[1, ""]],
+				"Lemon juice": [[60, "ml"]],
+				"Pinch of salt": []
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat oven to ['temp']{200}. Line the pan with parchment paper twice.",
+				"Beat the ['ing']{Cream cheese} on medium-low with an electric mixer until smooth.",
+				"Beat in the ['ing']{Sugar}. Add ['ing']{Medium eggs} two at a time, mixing until just combined.",
+				"Whisk in ['ing']{Heavy cream}, ['ing']{Lemon juice}, ['ing']{Zest of lemon}, ['ing']{Vanilla extract}, ['ing']{Flour} and salt. <strong>(Do not overmix)</strong>",
+				"Bake in the preheated oven for 45 minutes. When the cake jiggles as one piece, switch the oven to broil and broil 1-2 minutes.",
+				"Remove from the oven and cool in the pan. When the cheesecake has reached room temperature, chill in refrigerator for 8 hours before serving."
 			]
 		}
 	]
