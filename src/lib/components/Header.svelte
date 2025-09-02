@@ -2,6 +2,7 @@
 	import { fly } from 'svelte/transition';
 	import { page } from '$app/stores';
 	import { getContext } from 'svelte';
+	import Darklight from '$lib/assets/ui/darklight.svelte';
 	import Burger from '$lib/assets/ui/burger.svelte';
 
 	let drawerOpen = $state(false);
@@ -21,11 +22,17 @@
 			<a href="/about" class:active={$page.url.pathname === '/about'}>About</a>
 		</div>
 
-		<a class="cafe-button" href="https://explore.basilclub.cafe">Visit cafe</a>
+		<div class="header-actions flexbox">
+			<Darklight />
+			<a class="cafe-button" href="https://explore.basilclub.cafe">Visit cafe</a>
+		</div>
 
-		<button class="burger-button" onclick={() => (drawerOpen = !drawerOpen)}>
-			<Burger />
-		</button>
+		<div class="mobile-action flexbox">
+			<Darklight />
+			<button class="burger-button" onclick={() => (drawerOpen = !drawerOpen)}>
+				<Burger />
+			</button>
+		</div>
 	</div>
 </header>
 
@@ -43,7 +50,7 @@
 		position: sticky;
 		top: 0;
 		z-index: 10;
-		background-color: var(--colour-white);
+		background-color: light-dark(var(--light-bg), var(--dark-bg));
 		border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 		view-transition-name: header;
 	}
@@ -75,7 +82,7 @@
 		}
 
 		a.active {
-			color: var(--colour-dark-green);
+			color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 		}
 
 		a.active::before {
@@ -84,23 +91,29 @@
 			width: 100%;
 			bottom: -3px;
 			border-bottom: 3px solid transparent;
-			border-color: var(--colour-dark-green);
+			border-color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 			view-transition-name: active-page;
 		}
 	}
 
 	.cafe-button {
-		background-color: var(--colour-black);
-		color: var(--colour-white);
+		background-color: light-dark(var(--light-text-strong), var(--dark-text-strong));
+		color: light-dark(var(--light-bg), var(--dark-bg));
 		padding: 8px 32px;
 		font-size: 1.2rem;
 		font-weight: 700;
 		border-radius: 25px;
 	}
 
-	.burger-button,
+	.mobile-action,
 	.mobile-nav {
 		display: none;
+	}
+
+	.header-actions {
+		height: 100%;
+		position: relative;
+		gap: 8px;
 	}
 
 	.mobile-nav {
@@ -108,7 +121,7 @@
 		z-index: 8;
 		top: 82px;
 		width: 100%;
-		background-color: var(--colour-white);
+		background-color: light-dark(var(--light-bg), var(--dark-bg));
 		border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 		padding: 12px 20px 8px;
 		flex-direction: column;
@@ -124,7 +137,7 @@
 		}
 
 		a.active {
-			color: var(--colour-dark-green);
+			color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 		}
 
 		a.active::before {
@@ -133,7 +146,7 @@
 			bottom: 0;
 			width: 100%;
 			border-bottom: 3px solid transparent;
-			border-color: var(--colour-dark-green);
+			border-color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 			view-transition-name: active-page;
 		}
 
@@ -147,7 +160,7 @@
 
 	@media (max-width: 768px) {
 		.desktop-nav,
-		.desktop-nav + .cafe-button {
+		.header-wrapper .header-actions {
 			display: none;
 		}
 
@@ -159,10 +172,14 @@
 			padding: 8px 16px;
 		}
 
-		.burger-button {
-			display: block;
-			color: var(--colour-black);
-			translate: 0 2px;
+		.mobile-action {
+			display: flex;
+			position: relative;
+
+			.burger-button {
+				color: light-dark(var(--light-text-strong), var(--dark-text-strong));
+				translate: 0 2px;
+			}
 		}
 
 		.mobile-nav {

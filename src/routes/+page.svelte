@@ -43,7 +43,7 @@
 		background-color: white;
 		width: min(800px, 100%);
 		height: 250px;
-		border: 5px solid var(--colour-dark);
+		border: 5px solid light-dark(var(--light-accent-strong), var(--dark-accent-strong));
 		border-radius: 15px;
 		margin: 0 auto 2rem;
 		overflow: hidden;
@@ -56,8 +56,8 @@
 		}
 
 		h2 {
-			color: var(--colour-white);
-			background-color: var(--colour-dim);
+			color: light-dark(var(--light-bg), var(--light-bg));
+			background-color: light-dark(var(--colour-dim), var(--colour-dim));
 			padding: 6px 16px;
 			font-weight: 700;
 			position: absolute;
@@ -96,7 +96,7 @@
 
 		.category-text {
 			width: 100%;
-			color: var(--colour-dark);
+			color: light-dark(var(--light-accent-strong), var(--dark-accent-strong));
 			font-weight: 700;
 			text-align: center;
 		}

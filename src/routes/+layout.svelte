@@ -61,6 +61,5 @@
 		margin: 0 auto;
 		flex-grow: 1;
 		width: 100%;
-		background-color: white;
 	}
 </style>

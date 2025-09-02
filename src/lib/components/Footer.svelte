@@ -2,21 +2,29 @@
 	const year = new Date().getFullYear();
 </script>
 
-<footer class="flexbox body-container">
-	<div class="footer-links flexbox">
-		<a href="/about">About</a>
-		<a href="https://github.com/sen-trie/basil-main">Source code</a>
+<footer class="body-container">
+	<div class="footer-wrapper flexbox">
+		<div class="footer-links flexbox">
+			<a href="/about">About</a>
+			<a href="https://github.com/sen-trie/basil-main">Source code</a>
+		</div>
+		<p class="footer-credit">© {year} sentrie · Built in Svelte 5</p>
 	</div>
-	<p class="footer-credit">© {year} sentrie · Built in Svelte 5</p>
 </footer>
 
 <style lang="scss">
 	footer {
+		width: 100%;
 		padding: 20px 40px;
-		justify-content: space-between;
-		background-color: var(--colour-white);
+		background-color: light-dark(var(--light-bg), var(--dark-bg));
 		view-transition-name: footer;
-		color: var(--colour-black);
+		color: light-dark(var(--light-text-strong), var(--dark-text-strong));
+
+		.footer-wrapper {
+			margin: 0 auto;
+			max-width: 1200px;
+			justify-content: space-between;
+		}
 
 		.footer-links {
 			opacity: 0.7;
@@ -32,8 +40,11 @@
 	@media (max-width: 768px) {
 		footer {
 			padding: 10px 10px;
-			flex-direction: column;
-			gap: 10px;
+
+			.footer-wrapper {
+				flex-direction: column;
+				gap: 10px;
+			}
 
 			.footer-links {
 				text-align: center;

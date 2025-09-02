@@ -54,9 +54,9 @@
 			left: 0;
 			width: 44px;
 			height: 24px;
-			background-color: var(--colour-dull-black);
 			box-sizing: content-box;
-			border: 2px solid var(--colour-dull-black);
+			background-color: light-dark(var(--colour-dull-black), var(--colour-dull-bright));
+			border: 2px solid light-dark(var(--colour-dull-black), var(--colour-dull-bright));
 			border-radius: 34px;
 			cursor: pointer;
 			transition: background-color 0.3s;
@@ -79,7 +79,7 @@
 		}
 
 		.toggle-input:checked + .toggle-label {
-			background-color: var(--colour-green);
+			background-color: light-dark(var(--light-green-strong), var(--dark-green-strong));
 
 			&::before {
 				transform: translateX(20px);

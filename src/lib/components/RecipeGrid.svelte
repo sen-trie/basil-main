@@ -44,7 +44,7 @@
 
 		.dish-text {
 			width: 100%;
-			color: var(--colour-dark);
+			color: light-dark(var(--light-accent-strong), var(--dark-accent-strong));
 			font-weight: 700;
 			text-align: center;
 		}

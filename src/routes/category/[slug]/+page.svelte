@@ -29,8 +29,8 @@
 <style lang="scss">
 	.category-header {
 		height: fit-content;
-		background-color: var(--colour-light-green);
-		color: var(--colour-dark-green);
+		background-color: light-dark(var(--light-green), var(--dark-green));
+		color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 
 		> div {
 			max-width: 1500px;

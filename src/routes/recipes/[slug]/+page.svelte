@@ -193,19 +193,19 @@
 	}
 
 	.recipe-container {
-		background-color: var(--colour-white);
-		border: 4px groove var(--colour-white);
+		background-color: light-dark(var(--light-bg), var(--dark-bg));
+		border: 4px groove light-dark(var(--light-bg), var(--dark-bg));
 		padding: 24px 32px;
 
 		h1 {
-			color: var(--colour-dark-green);
+			color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 			padding-bottom: 4px;
-			border-bottom: 2px dotted var(--colour-dark-green);
+			border-bottom: 2px dotted light-dark(var(--light-green-deep), var(--dark-green-deep));
 			margin-bottom: 12px;
 		}
 
 		h2 {
-			border-top: 2px dotted var(--colour-dark-green);
+			border-top: 2px dotted light-dark(var(--light-green-deep), var(--dark-green-deep));
 			margin: 12px 0 16px;
 			padding-top: 20px;
 
@@ -244,7 +244,7 @@
 		}
 
 		.multi-segment {
-			border-top: 2px dotted var(--colour-dark-green);
+			border-top: 2px dotted light-dark(var(--light-green-deep), var(--dark-green-deep));
 			margin: 12px 0 -8px;
 			padding-top: 20px;
 
@@ -263,16 +263,16 @@
 				padding: 0 4px;
 				margin: 0 4px;
 				font-size: inherit;
-				color: var(--colour-dim);
-				border: 2px solid var(--colour-dim);
+				color: light-dark(var(--colour-dim), var(--colour-bright));
+				border: 2px solid light-dark(var(--colour-dim), var(--colour-bright));
 
 				&:first-of-type {
 					margin-left: 8px;
 				}
 
 				&.active-factor {
-					background-color: var(--colour-dim);
-					color: var(--colour-white);
+					background-color: light-dark(var(--colour-dim), var(--colour-bright));
+					color: light-dark(var(--light-bg), var(--dark-bg));
 				}
 			}
 		}
@@ -291,13 +291,13 @@
 					height: 20px;
 					translate: 0 1px;
 					cursor: pointer;
-					accent-color: var(--colour-dark-green);
+					accent-color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 					flex-shrink: 0;
 					align-items: flex-start;
 				}
 
 				input[type='checkbox']:checked + label {
-					text-decoration: line-through var(--colour-dark-green);
+					text-decoration: line-through light-dark(var(--light-green-deep), var(--dark-green-deep));
 				}
 
 				label {
@@ -326,7 +326,7 @@
 
 				&.active {
 					background-color: rgba(157, 194, 117, 0.4);
-					border-left: 2px solid var(--colour-dark-green);
+					border-left: 2px solid light-dark(var(--light-green-deep), var(--dark-green-deep));
 				}
 
 				button {

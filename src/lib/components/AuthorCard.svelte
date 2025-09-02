@@ -60,7 +60,7 @@
 		display: flex;
 		align-items: center;
 		padding: 0 calc($author-width / 1.5) 0 $author-padding;
-		stroke: var(--colour-white);
+		stroke: light-dark(var(--light-bg), var(--dark-bg));
 
 		.author-img {
 			width: $author-width;
@@ -73,8 +73,8 @@
 		.author-text {
 			display: flex;
 			flex-direction: column;
-			background-color: var(--colour-dark-green);
-			color: var(--colour-white);
+			background-color: light-dark(var(--light-green-deep), var(--dark-green-deep));
+			color: light-dark(var(--light-bg), var(--dark-bg));
 			flex-grow: 1;
 			padding: 40px 48px 40px calc($author-width / 3 + 24px);
 			min-height: fit-content;
@@ -104,8 +104,8 @@
 					height: fit-content;
 					margin-left: auto;
 					font-size: 1.2rem;
-					background-color: var(--colour-white);
-					color: var(--colour-dark-green);
+					background-color: light-dark(var(--light-bg), var(--dark-bg));
+					color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 					font-weight: 600;
 					padding: 7px 32px;
 				}
