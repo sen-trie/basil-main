@@ -11,7 +11,7 @@
 	<div class="category-block">
 		<a href="/category/{catName}" class="category-header" aria-label="link">
 			<img
-				src={images['avatar.webp']}
+				src={images[`category/${catName}.webp`]}
 				style="view-transition-name: category-img-{catName.split(' ')[0]}"
 				alt="category"
 			/>
@@ -89,8 +89,10 @@
 
 			img {
 				width: 100%;
-				height: 100%;
+				height: auto;
+				aspect-ratio: 1;
 				border-radius: 100%;
+				object-fit: cover;
 			}
 		}
 

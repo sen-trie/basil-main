@@ -6,7 +6,7 @@
 	{#each dishes as dishName, index}
 		<div class="dish-block">
 			<a href="/recipes/{dishName}" class="dish-header" aria-label="link">
-				<img src={images['avatar.webp']} alt="dish" />
+				<img src={images[`recipes/${dishName}.webp`]} alt="dish" loading="lazy" />
 			</a>
 			<h2 class="dish-text">{dishName.replaceAll('_', ' ')}</h2>
 		</div>
@@ -36,9 +36,9 @@
 			margin-bottom: 1rem;
 
 			img {
-				object-fit: cover;
 				width: 100%;
 				height: 100%;
+				object-fit: cover;
 			}
 		}
 

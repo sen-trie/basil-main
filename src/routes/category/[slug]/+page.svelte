@@ -10,7 +10,7 @@
 <div class="category-header">
 	<div class="body-container flexbox">
 		<img
-			src={images['avatar.webp']}
+			src={images[`category/${slug}.webp`]}
 			style="view-transition-name: category-img-{slug.split(' ')[0]}"
 			alt="category img"
 		/>
@@ -41,6 +41,7 @@
 				width: 150px;
 				height: 150px;
 				border-radius: 100%;
+				object-fit: cover;
 			}
 
 			.category-content {

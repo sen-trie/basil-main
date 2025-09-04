@@ -22,7 +22,7 @@ export const categories = {
 	Tarts: {
 		description:
 			'Buttery, crumbly crusts filled with bright, creamy, or nutty goodness. A beautiful balance of texture and flavor in every slice.',
-		dishes: ['Yuzu_Lemon_Tart', 'Pistachio_Tart']
+		dishes: ['Pistachio_Tart', 'Yuzu_Lemon_Tart']
 	},
 	'Custards & Puddings': {
 		description:

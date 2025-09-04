@@ -161,7 +161,7 @@
 					<h3>Reference: Original Recipe</h3>
 				{/if}
 			</div>
-			<img alt="recipe" />
+			<img src={images[`recipes/${slug}.webp`]} alt="recipe" loading="lazy" />
 		</div>
 		{#if segments.length !== 1}
 			<div class="multi-segment">
@@ -286,7 +286,7 @@
 				height: 100%;
 				width: auto;
 				aspect-ratio: 1;
-				background-color: aqua;
+				object-fit: cover;
 			}
 		}
 
