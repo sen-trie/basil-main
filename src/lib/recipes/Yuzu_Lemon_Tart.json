@@ -1,19 +1,61 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
-	"cuisine": "",
-	"referenceText": "",
-	"referenceLink": "",
+	"pan": "['fac']{9} servings",
+	"cuisine": "French-Japanese",
+	"referenceText": "Whiskfully So",
+	"referenceLink": "https://whiskfullyso.com/summer-yuzu-lemon-tarts/",
 	"segments": [
 		{
+			"title": "Tart",
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Graham crackers": [[125, "g", "or Digestives"]],
+				"Lotus Bischoff Cookies": [[125, "g"]],
+				"Brown sugar": [[70, "g"]],
+				"Fine sea salt": [[3, "g"]],
+				"Unsalted butter": [[168, "g", "melted"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat your oven to ['temp']{175} and lightly grease your chosen tart pan with non-stick spray or a light coating of butter.",
+				"Place the ['ing']{Graham crackers} and ['ing']{Lotus Bischoff Cookies} crackers into a plastic bag and crush using a rolling pin / mortar.",
+				"Place the fine crumbs into a medium-size bowl along with ['ing']{Brown sugar}, ['ing']{Fine sea salt} and whisk together before adding ['ing']{Unsalted butter}.",
+				"Mix together until a wet sand mixture forms that holds together when pressed.",
+				"Press into 6 small tart pans evenly, using the bottom of a flat cup to pack together.",
+				"Bake the crust for 20-25 minutes. Set aside to cool completely."
+			]
+		},
+		{
+			"title": "Yuzu Lemon Filling",
+			"ingredients": {
+				"Granulated sugar": [[50, "g"]],
+				"Zest from small lemons": [[2, ""]],
+				"Lemon juice": [[60, "g"]],
+				"Yuzu Extract": [[3, "tbsp"]],
+				"Whole eggs": [[2, ""]],
+				"Egg yolks": [[2, "", "reserve egg whites for Italian meringue topping"]],
+				"Unsalted butter": [[50, "g", "30°C"]],
+				"Gelatin sheet": [[1, "", "or 1 pouch of Gelatin (7g)"]]
+			},
+			"steps": [
+				"Bloom the ['ing']{Gelatin sheet}. Set aside.",
+				"Rub together half of the ['ing']{Granulated sugar} with the ['ing']{Zest from small lemons} in a sauce pot to release the oils from the lemons. Add in ['ing']{Lemon juice}, ['ing']{Yuzu Extract} and bring to a simmer on low heat.",
+				"In another bowl, whisk the ['ing']{Whole eggs}, ['ing']{Egg yolks}, and remaining granulated sugar until smooth. Temper the eggs, by adding half of the simmering lemon syrup into the egg mixture while whisking to fully combine.",
+				"Return the egg/lemon syrup mixture to the saucepan and continue to cook the curd over low heat for another 5 minutes (never boiling) or until thickened and falls off the whisk in ribbons. Be careful not to cook on high heat or it will curdle. Add in either the bloomed gelatin sheet or thickened powdered gelatin, and whisk to cook until fully dissolved.",
+				"Immediately remove the pan from the heat and strain into a pitcher. While still warm whisk in ['ing']{Unsalted butter} and salt, until fully combined.",
+				"Divide the filling amongst the cooled tarts and lightly tap each tart on the counter to smooth out any air bubbles. Lightly cover the top with cling wrap and chill for 4 hours or overnight until the filling is set."
+			]
+		},
+		{
+			"title": "Italian Meringue",
+			"ingredients": {
+				"Egg whites": [[2, ""]],
+				"Granulated sugar": [[75, "g"]],
+				"Water": [[21, "ml"]],
+				"Vanilla extract": [[0.5, "tsp"]]
+			},
+			"steps": [
+				"In the bowl of a stand mixer fitting with a whisk attachment or with a hand-held mixer, whisk the ['ing']{Egg whites} in the bowl of a stand mixer on low speed until frothy and soft peaks form.",
+				"While the egg whites are mixing, combine ['ing']{Granulated sugar} and ['ing']{Water} in a saucepan over medium heat and heat on medium low until it reaches ['temp']{121}. Lower the stand mixer speed to low to avoid the hot sugar from splattering up, and slowly pour the boiling sugar syrup into the bowl of whisking egg whites.",
+				"Once all the syrup is added, add ['ing']{Vanilla extract} and return the machine to high speed and whisk for 2-3 minutes or until the bowl of the mixture is only slightly warm and stiff peaks form. Check continuously to make sure you don't over beat.",
+				"Spoon into a piping bag fitted with a round nozzle, and decorate your chill tarts. Use a blow torch to crisp the edges of the meringue topping."
 			]
 		}
 	]

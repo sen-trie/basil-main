@@ -1,8 +1,8 @@
 {
 	"pan": "['fac']{16} servings",
-	"cuisine": "",
-	"referenceText": "",
-	"referenceLink": "",
+	"cuisine": "American",
+	"referenceText": "Sally's Baking",
+	"referenceLink": "https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/",
 	"segments": [
 		{
 			"ingredients": {

@@ -1,19 +1,79 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
-	"cuisine": "",
-	"referenceText": "",
-	"referenceLink": "",
+	"pan": "['fac']{1} 9x9 inch Pan / ['fac']{18} servings",
+	"cuisine": "British",
+	"referenceText": "allrecipes",
+	"referenceLink": "https://www.allrecipes.com/recipe/217181/best-bread-pudding-with-vanilla-sauce/",
 	"segments": [
 		{
+			"title": "Bread Pudding",
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Brioche loaf": [[330, "g", "cut into 1-inch cubes"]],
+				"Medium eggs": [[3, ""]],
+				"Whole milk": [[780, "g"]],
+				"Sugar": [[80, "g"]],
+				"Cinnamon": [[1, "tsp"]],
+				"Vanilla extract": [[3, "tsp"]],
+				"Fine sea salt": [[0.25, "tsp"]],
+				"Butter, for greasing pan": []
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Dry the ['ing']{Brioche loaf} (if not stale) in an air fryer at ['temp']{60} for 20-30 min on each side, shaking occasionally.",
+				"Beat ['ing']{Medium eggs}, ['ing']{Sugar}, ['ing']{Cinnamon}, ['ing']{Vanilla extract}, and ['ing']{Fine sea salt}. Gradually whisk in ['ing']{Whole milk} until smooth.",
+				"In a buttered baking dish, add dried brioche cubes. Then, pour custard evenly over them.",
+				"Press gently to submerge bread. Let soak 30-45 min.",
+				"Preheat oven to ['temp']{175}.",
+				"Bake 55-65 min until golden brown",
+				"Broil 5-10 min for a golden top."
+			]
+		},
+		{
+			"title": "Vanilla Custard Sauce (Crème Anglaise)",
+			"optional": true,
+			"ingredients": {
+				"Whole milk": [[120, "ml"]],
+				"Heavy cream": [[120, "ml"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Egg yolks": [[2, ""]],
+				"Sugar": [[25, "g"]],
+				"Pinch of salt": []
+			},
+			"steps": [
+				"Heat ['ing']{Whole milk}, ['ing']{Heavy cream}, and ['ing']{Vanilla extract} until steaming.",
+				"Whisk ['ing']{Egg yolks}, ['ing']{Sugar} and salt until pale. Slowly pour hot milk into yolks, whisking.",
+				"Return to low heat; stir constantly until it coats the spoon (~['temp']{82}).",
+				"Strain and chill."
+			]
+		},
+		{
+			"title": "Mascarpone Whipped Cream",
+			"optional": true,
+			"ingredients": {
+				"Mascarpone": [[60, "g", "chilled"]],
+				"Heavy cream": [[60, "ml", "cold"]],
+				"Powdered sugar": [[1, "tbsp"]],
+				"Vanilla": [[0.5, "tsp"]]
+			},
+			"steps": [
+				"Whip ['ing']{Mascarpone} and ['ing']{Powdered sugar} until smooth.",
+				"Gradually add ['ing']{Heavy cream}, whipping to soft peaks."
+			]
+		},
+		{
+			"title": "Lemon Curd Sauce",
+			"optional": true,
+			"ingredients": {
+				"Lemon juice": [[80, "ml"]],
+				"Zest of lemon": [[1, ""]],
+				"Egg yolks": [[3, ""]],
+				"Sugar": [[100, "g"]],
+				"Unsalted butter": [[56, "g", "cubed"]],
+				"Pinch of salt": []
+			},
+			"steps": [
+				"Whisk ['ing']{Egg yolks}, ['ing']{Sugar}, ['ing']{Lemon juice}, ['ing']{Zest of lemon}, and salt in a double boiler.",
+				"Cook, stirring constantly, until thick (10+ min).",
+				"Off heat, whisk in ['ing']{Unsalted butter} until smooth.",
+				"Strain and chill."
 			]
 		}
 	]

@@ -1,19 +1,50 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
-	"cuisine": "",
-	"referenceText": "",
-	"referenceLink": "",
+	"pan": "['fac']{1} 9x4 inch Pan / ['fac']{14} servings",
+	"cuisine": "Spanish",
+	"referenceText": "Jaja Bakes",
+	"referenceLink": "https://jajabakes.com/brownie-basque-cheesecake",
 	"segments": [
 		{
+			"title": "Brownie",
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Dark chocolate": [[75, "g"]],
+				"Unsalted butter": [[55, "g"]],
+				"Egg": [[1, ""]],
+				"Castor sugar": [[50, "g"]],
+				"All-purpose flour": [[50, "g"]],
+				"Cocoa powder": [[15, "g"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Line the bottom and the sides of a 9x4x3-inch pan with parchment paper.",
+				"Melt ['ing']{Dark chocolate} and ['ing']{Unsalted butter} together in a bowl over a water bath (bain-marie) or in microwave until melted. Cool slightly.",
+				"In a medium bowl, add ['ing']{Egg} and ['ing']{Castor sugar}. Whisk until combined. Add the melted chocolate and butter. Whisk until well incorporated.",
+				"Sift in ['ing']{All-purpose flour} and ['ing']{Cocoa powder}. Mix until well incorporated using a spatula.",
+				"Transfer the brownie batter to the prepared pan. Spread evenly on the bottom of the pan. Set aside."
+			]
+		},
+		{
+			"title": "Basque Cheesecake",
+			"ingredients": {
+				"Cream cheese": [[400, "g", "softened"]],
+				"Castor sugar": [[80, "g"]],
+				"Salt": [[0.125, "tsp"]],
+				"Vanilla paste/extract": [[0.5, "tsp"]],
+				"Eggs": [[3, ""]],
+				"Tapioca starch": [[15, "g"]],
+				"Heavy cream": [[200, "ml"]]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{220}.",
+				"In a large bowl, add ['ing']{Cream cheese}. Use a spatula to mix the cream cheese until it becomes spreadable with no lump.",
+				"Add ['ing']{Castor sugar}, ['ing']{Salt}, and ['ing']{Vanilla paste/extract}. Whisk until combined and smooth.",
+				"Add ['ing']{Eggs} one at a time. Whisk until well incorporated and smooth with each addition of egg.",
+				"Sift in the ['ing']{Tapioca starch}. Whisk just until well combined.",
+				"Add ['ing']{Heavy cream} and whisk until well incorporated.",
+				"Pour the batter over the brownie layer. If your batter is lumpy, you can strain the batter. Tap the pan a few times on the countertops to remove the air bubbles.",
+				"Place the cheesecake in the oven. Bake cheesecake until golden brown on top but still very jiggly in the center for about 25-30 minutes.",
+				"Let the cheesecake cool in the pan on a wire rack until it reaches room temperature. Refrigerate uncovered for at least 4 hours to let it set further.",
+				"Remove the cheesecake from the cake pan and carefully peel back the parchment paper.",
+				"For the gooey interior, let the cheesecake stand at room temperature for at least 30 minutes before serving. Serve chilled if you prefer firmer cheesecake."
 			]
 		}
 	]

@@ -1,19 +1,44 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
-	"cuisine": "",
-	"referenceText": "",
-	"referenceLink": "",
+	"pan": "['fac']{9} servings",
+	"cuisine": "French",
+	"referenceText": "Sugar Salt Magic",
+	"referenceLink": "https://www.sugarsaltmagic.com/pistachio-tartlets/",
 	"segments": [
 		{
+			"title": "Tart",
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Graham crackers": [[125, "g", "or Digestives"]],
+				"Lotus Bischoff Cookies": [[125, "g"]],
+				"Brown sugar": [[70, "g"]],
+				"Fine sea salt": [[3, "g"]],
+				"Unsalted butter": [[168, "g", "melted"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat your oven to ['temp']{175} and lightly grease your chosen tart pan with non-stick spray or a light coating of butter.",
+				"Place the ['ing']{Graham crackers} and ['ing']{Lotus Bischoff Cookies} crackers into a plastic bag and crush using a rolling pin / mortar.",
+				"Place the fine crumbs into a medium-size bowl along with ['ing']{Brown sugar}, ['ing']{Fine sea salt} and whisk together before adding ['ing']{Unsalted butter}.",
+				"Mix together until a wet sand mixture forms that holds together when pressed.",
+				"Press into 6 small tart pans evenly, using the bottom of a flat cup to pack together.",
+				"Bake the crust for 20-25 minutes. Set aside to cool completely."
+			]
+		},
+		{
+			"title": "Pistachio Filling",
+			"ingredients": {
+				"Full fat cream cheese": [[250, "g", "softened"]],
+				"Caster sugar": [[100, "g"]],
+				"Lemon zest": [[1, "tsp", "or yuzu juice"]],
+				"Whipping cream": [[80, "ml"]],
+				"Pistachio meal": [[1, "cup"]],
+				"Honey": [[2, "tbsp", "or maple syrup"]]
+			},
+			"steps": [
+				"Mix ['ing']{Pistachio meal} and ['ing']{Honey} until it forms a thick, spreadable paste. Add a splash of cream if too dry. Set aside 1/4 cup for the tart bases.",
+				"Beat ['ing']{Full fat cream cheese} + ['ing']{Caster sugar} until smooth.",
+				"Add remaining pistachio mixture and beat until fully combined.",
+				"Whip the ['ing']{Whipping cream} separately to soft peaks, then fold into the cream cheese mixture.",
+				"Press 1 tsp of the reserved pistachio paste into each tart shell.",
+				"Pipe the pistachio cream filling over the paste."
 			]
 		}
 	]

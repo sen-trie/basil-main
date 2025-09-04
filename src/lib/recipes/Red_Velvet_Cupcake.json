@@ -1,19 +1,52 @@
 {
-	"pan": "['fac']{2} 8oz Ramekins / ['fac']{4} servings",
-	"cuisine": "",
-	"referenceText": "",
-	"referenceLink": "",
+	"pan": "['fac']{14} servings",
+	"cuisine": "American",
+	"referenceText": "Sally's Baking",
+	"referenceLink": "https://sallysbakingaddiction.com/red-velvet-cupcakes",
 	"segments": [
 		{
+			"title": "Cupcake",
 			"ingredients": {
-				"Dark chocolate": [
-					[85, "g"],
-					[3, "oz"]
-				]
+				"Large eggs": [[2, "", "room temperature and separated"]],
+				"All-purpose flour": [[166, "g"]],
+				"Cornstarch": [[32, "g"]],
+				"Baking soda": [[0.5, "tsp"]],
+				"Natural unsweetened cocoa powder": [[7, "g"]],
+				"Salt": [[0.25, "tsp"]],
+				"Unsalted butter": [[56, "g", "room temperature"]],
+				"Granulated sugar": [[200, "g"]],
+				"Canola or vegetable oil": [[120, "ml"]],
+				"Pure vanilla extract": [[2, "tsp"]],
+				"Distilled white vinegar": [[0.5, "tsp"]],
+				"Liquid or gel red food coloring": [],
+				"Buttermilk": [[120, "ml", "room temperature"]]
 			},
 			"steps": [
-				"Preheat your oven to ['temp']{220}. Butter the ramekins and dust them with a little cocoa powder, tapping out the excess.",
-				"In a microwave-safe bowl or saucepan, melt the ['ing']{Unsalted butter} and ['ing']{Dark chocolate}. Let it cool slightly."
+				"Preheat oven to ['temp']{177}. Line a muffin pan with cupcake liners.",
+				"With a handheld or stand mixer fitted with a whisk attachment, beat 2 egg whites on high speed in a medium bowl until soft peaks form, about 2-3 minutes.",
+				"Sift ['ing']{All-purpose flour} and ['ing']{Cornstarch} together to make sure it is evenly combined. Whisk this, along with ['ing']{Baking soda}, ['ing']{Natural unsweetened cocoa powder}, and ['ing']{Salt} together in a medium bowl. Set aside.",
+				"Using a handheld or stand mixer fitted with a paddle attachment, beat the ['ing']{Unsalted butter} on high speed until smooth and creamy - about 1 minute.",
+				"Add the ['ing']{Granulated sugar} and beat on high speed for 2 minutes until creamed together fairly well. Add the ['ing']{Canola or vegetable oil} and beat on high for 2 minutes.",
+				"Add 2 egg yolks and the ['ing']{Pure vanilla extract}. Beat on medium-high speed until combined. Beat in the ['ing']{Distilled white vinegar} and the liquid or gel red food coloring, until you reach your desired color.",
+				"With the mixer on low speed, add the dry ingredients in three additions alternating with the ['ing']{Buttermilk}, beginning and ending with the dry ingredients, and mixing each addition just until incorporated. <strong>Do not overmix.</strong>",
+				"Fold whipped egg whites into cupcake batter with a rubber spatula or wooden spoon. The batter will be silky and slightly thick.",
+				"Spoon batter into cupcake liners filling 2/3 of the way full. Bake for 20-21 minutes or until the tops of the cupcakes spring back when gently touched and a toothpick inserted in the center comes out clean.",
+				"Allow to cool in the pan for 5 minutes, then transfer to a rack to cool completely."
+			]
+		},
+		{
+			"title": "Cream Topping",
+			"ingredients": {
+				"Full-fat brick cream cheese": [[226, "g", "room temperature"]],
+				"Unsalted butter": [[113, "g", "room temperature"]],
+				"Confectioners' sugar": [[370, "g"]],
+				"Pure vanilla extract": [[1, "tsp"]],
+				"Salt": [[0.125, "tsp"]]
+			},
+			"steps": [
+				"In a large bowl using a handheld or stand mixer fitted with a paddle or whisk attachment, beat the ['ing']{Full-fat brick cream cheese} and ['ing']{Unsalted butter} together on high speed until smooth and creamy.",
+				"Add 3 cups ['ing']{Confectioners' sugar}, the ['ing']{Pure vanilla extract}, and ['ing']{Salt}. Beat on low speed for 30 seconds, then switch to high speed and beat for 2 minutes.",
+				"Pipe the frosting onto cupcakes"
 			]
 		}
 	]
