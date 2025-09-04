@@ -2,6 +2,6 @@
 
 [Live site](https://www.basilclub.cafe/) is hosted on Vercel.
 
-The interactive Threlte (three.js) subdomain, [explore.basilclub.cafe](https://explore.basilclub.cafe/), is hosted on a seperate private repository.
+The interactive Threlte (three.js) subdomain, [explore.basilclub.cafe](https://explore.basilclub.cafe/), is hosted on a [seperate repository](https://github.com/sen-trie/basil-club).
 
 Raw recipe JSONs can be in found in `/src/lib/recipes`.
