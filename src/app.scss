@@ -53,7 +53,7 @@
 
 html {
 	transition: 0.3s ease;
-	background-color: light-dark(white, #27221b);
+	background-color: light-dark(#faf9f7, #27221b);
 
 	&.dark {
 		color-scheme: dark;

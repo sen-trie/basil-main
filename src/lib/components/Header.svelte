@@ -36,7 +36,7 @@
 	</div>
 </header>
 
-{#if !drawerOpen}
+{#if drawerOpen}
 	<nav transition:fly={{ y: -250, duration: 500, opacity: 1 }} class="mobile-nav flexbox">
 		<a href="/" class:active={$page.url.pathname === '/'}>Home</a>
 		<a href="/recipes" class:active={$page.url.pathname.startsWith('/recipes')}>Recipes</a>
