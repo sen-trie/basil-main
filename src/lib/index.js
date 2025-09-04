@@ -34,11 +34,6 @@ export const categories = {
 			'Baked fresh, with a perfect chew. Our cookies are soft-centered, slightly crisp-edged, and totally irresistible.',
 		dishes: ['Chewy_Chocolate_Cookie']
 	},
-	Muffins: {
-		description:
-			'Our morning glory. Bakery-style muffins that are tender, bursting with flavor, and perfect for starting your day or enjoying as an afternoon pick-me-up.',
-		dishes: ['Matcha_Muffin']
-	},
 	Cupcakes: {
 		description:
 			'A little celebration in a wrapper. Fluffy cake topped with a cloud of frosting—simple, sweet, and always delightful.',

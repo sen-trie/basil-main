@@ -1,13 +1,16 @@
 {
-	"pan": "['fac']{8} inch Pan / ['fac']{16} servings",
-	"cuisine": "",
+	"pan": "['fac']{1} 8 inch Pan / ['fac']{16} servings",
+	"cuisine": "American",
 	"referenceText": "",
 	"referenceLink": "",
 	"segments": [
 		{
 			"ingredients": {
-				"Crushed graham crackers": [[1.5, "cups"]],
-				"White sugar": [[1, "tsp"]],
+				"Crushed graham crackers": [
+					[170, "g"],
+					[1.5, "cups"]
+				],
+				"White sugar": [[1, "tbsp"]],
 				"Ground cinnamon": [[0.5, "tsp"]],
 				"Melted butter": [[4, "tbsp"]],
 				"Cream cheese": [[16, "oz", "softened"]],

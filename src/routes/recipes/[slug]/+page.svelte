@@ -1,4 +1,5 @@
 <script>
+	import { dev } from '$app/environment';
 	import ToggleSwitch from '$lib/components/ToggleSwitch.svelte';
 	import { getContext } from 'svelte';
 
@@ -8,14 +9,34 @@
 
 	let factor = $state(1);
 	let activeStepIndex = $state(-1);
+	let activeSegIndex = $state(-1);
 	let cookMode = $state(false);
 
 	const images = getContext('images');
 
 	const fraction = (amt) => {
-		if (amt === 0.5) return '½';
-		if (amt === 0.25) return '¼';
-		return amt;
+		const map = [
+			{ val: 0.25, sym: '¼' },
+			{ val: 0.5, sym: '½' },
+			{ val: 0.75, sym: '¾' },
+			{ val: 1 / 3, sym: '⅓' },
+			{ val: 2 / 3, sym: '⅔' },
+			{ val: 1 / 8, sym: '⅛' },
+			{ val: 3 / 8, sym: '⅜' },
+			{ val: 5 / 8, sym: '⅝' },
+			{ val: 7 / 8, sym: '⅞' }
+		];
+
+		const whole = Math.trunc(amt);
+		const frac = amt - whole;
+
+		for (const { val, sym } of map) {
+			if (Math.abs(frac - val) < 1e-6) {
+				return whole ? `${whole}${sym}` : sym;
+			}
+		}
+
+		return whole && frac ? `${amt}` : String(amt);
 	};
 
 	const SPACE_UNITS = ['cup', 'tsp', 'tbsp', 'cups'];
@@ -71,6 +92,20 @@
 			return `${servingNumber * factor}`;
 		});
 	};
+
+	const nonOptionalSegment = segments.filter((seg) => {
+		return seg.optional !== true;
+	});
+
+	const getSegmentPart = (seg, segIndex) => {
+		if (seg.optional === true) {
+			return `Optional: ${seg.title}`;
+		} else if (nonOptionalSegment.length === 1) {
+			return `${seg.title}`;
+		}
+
+		return `Part ${segIndex + 1} / ${nonOptionalSegment.length}: ${seg.title}`;
+	};
 </script>
 
 {#snippet scaleFactor()}
@@ -119,7 +154,7 @@
 				{#if referenceLink && referenceLink !== ''}
 					<a href={referenceLink} target="_blank">
 						<h3>
-							Reference: {referenceText}
+							Reference: <u>{referenceText}</u>
 						</h3>
 					</a>
 				{:else}
@@ -136,7 +171,7 @@
 		{/if}
 		{#each segments as seg, segIndex}
 			{#if seg.title && seg.title !== ''}
-				<h2 class="segment-title">Part {segIndex + 1} / {segments.length}: {seg.title}</h2>
+				<h2 class="segment-title">{getSegmentPart(seg, segIndex)}</h2>
 			{/if}
 			<h2>Ingredients</h2>
 			{#if segments.length === 1}
@@ -145,8 +180,8 @@
 			<ul>
 				{#each Object.entries(seg.ingredients) as [ingName, value]}
 					<li class="flexbox">
-						<input type="checkbox" id={ingName} />
-						<label for={ingName}
+						<input type="checkbox" id="{segIndex}-{ingName}" />
+						<label for="{segIndex}-{ingName}"
 							>{processIngredients(value)}
 							{ingName}{value[0] && value[0][2] ? `, ${value[0][2]}` : ''}</label
 						>
@@ -159,16 +194,28 @@
 			<hr />
 			<h2 class="step-counter">
 				Steps <span class="current-step"
-					>{activeStepIndex === -1
+					>{activeStepIndex === -1 || activeSegIndex !== segIndex
 						? ''
 						: `(Currently: ${activeStepIndex + 1}/${seg.steps.length})`}</span
 				>
 			</h2>
 			<ol>
 				{#each seg.steps as step, stepIndex}
-					<li class:active={activeStepIndex === stepIndex}>
+					<li class:active={activeStepIndex === stepIndex && activeSegIndex === segIndex}>
 						<button
-							onclick={() => (activeStepIndex = activeStepIndex === stepIndex ? -1 : stepIndex)}
+							onclick={() => {
+								if (activeSegIndex === segIndex) {
+									if (activeStepIndex === stepIndex) {
+										activeStepIndex = -1;
+										activeSegIndex = -1;
+									} else {
+										activeStepIndex = stepIndex;
+									}
+								} else {
+									activeStepIndex = stepIndex;
+									activeSegIndex = segIndex;
+								}
+							}}
 						>
 							{@html htmlStep(step, seg, stepIndex)}
 						</button>
