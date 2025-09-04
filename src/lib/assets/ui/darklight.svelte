@@ -2,7 +2,10 @@
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 
-	let darkMode = $state(false);
+	let darkMode = browser
+		? localStorage.getItem('theme') === 'dark' ||
+			(!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+		: false;
 
 	const toggleDark = () => {
 		if (!browser) return;
@@ -24,20 +27,6 @@
 
 		darkMode = html.classList.contains('dark');
 	};
-
-	onMount(() => {
-		const savedTheme = localStorage.getItem('theme');
-		const html = document.documentElement;
-
-		if (savedTheme) {
-			html.classList.add(savedTheme);
-			darkMode = savedTheme === 'dark';
-		} else {
-			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-			html.classList.add(prefersDark ? 'dark' : 'light');
-			darkMode = prefersDark === 'dark';
-		}
-	});
 </script>
 
 <button
@@ -48,29 +37,31 @@
 	aria-live="polite"
 	onclick={toggleDark}
 >
-	{#if darkMode}
-		<svg
-			class="svg-moon"
-			viewBox="0 0 24 24"
-			stroke-width="0"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-		>
-			<path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
-		</svg>
-	{:else}
-		<svg
-			class="svg-sun"
-			viewBox="0 0 24 24"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-		>
-			<path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-			<path
-				d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"
-			/>
-		</svg>
+	{#if browser}
+		{#if darkMode}
+			<svg
+				class="svg-moon"
+				viewBox="0 0 24 24"
+				stroke-width="0"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			>
+				<path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+			</svg>
+		{:else}
+			<svg
+				class="svg-sun"
+				viewBox="0 0 24 24"
+				stroke-width="2"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			>
+				<path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+				<path
+					d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"
+				/>
+			</svg>
+		{/if}
 	{/if}
 </button>
 
