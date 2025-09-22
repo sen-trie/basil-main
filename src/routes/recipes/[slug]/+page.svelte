@@ -5,7 +5,7 @@
 
 	let { data } = $props();
 	let { slug, category, content } = data;
-	let { pan, referenceText, referenceLink, cuisine, segments } = JSON.parse(content);
+	let { pan, referenceText, referenceLink, cuisine, segments, altTitle = '' } = JSON.parse(content);
 
 	let factor = $state(1);
 	let activeStepIndex = $state(-1);
@@ -147,7 +147,7 @@
 		<a href="/category/{category}">{category}</a>
 	</div>
 	<div class="recipe-container">
-		<h1>{slug.replaceAll('_', ' ')}</h1>
+		<h1>{altTitle !== '' ? altTitle : slug.replaceAll('_', ' ')}</h1>
 		<div class="recipe-header flexbox">
 			<div class="recipe-header-text">
 				<h3>Yield: {parseServing(pan)}</h3>

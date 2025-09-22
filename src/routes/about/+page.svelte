@@ -1,5 +1,6 @@
 <script>
 	import { getContext } from 'svelte';
+	import Timeline from './Timeline.svelte';
 
 	const images = getContext('images');
 </script>
@@ -34,6 +35,10 @@
 			was establishing contrast, which helped to visually separate the first and second floors.
 		</figcaption>
 	</figure>
+	<br />
+	<h1>Baking Timeline</h1>
+	<br />
+	<Timeline />
 	<br />
 	<h1>How was this site made?</h1>
 	<br />
