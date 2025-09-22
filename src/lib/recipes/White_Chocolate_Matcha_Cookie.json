@@ -1,0 +1,36 @@
+{
+	"pan": "['fac']{18} servings",
+	"cuisine": "Japanese-American",
+	"referenceText": "Cooking Therapy",
+	"referenceLink": "https://www.cooking-therapy.com/matcha-white-chocolate-chip-cookies/",
+	"segments": [
+		{
+			"title": "White Chocolate Matcha Cookie",
+			"ingredients": {
+				"Bread flour": [[256, "g"]],
+				"Baking soda": [[1, "tsp"]],
+				"Salt": [[0.5, "tsp"]],
+				"Matcha powder": [[3, "tbsp"]],
+				"Unsalted butter": [[200, "g"]],
+				"Granulated sugar": [[100, "g"]],
+				"Light brown sugar": [[200, "g"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Large egg": [[1, "", "at room temperature"]],
+				"Egg yolk": [[1, "", "at room temperature"]],
+				"White chocolate chips": [[170, "g"]]
+			},
+			"steps": [
+				"Heat the ['ing']{Unsalted butter} over medium heat until it turns a golden yellow color. Pour butter in a heat proof bowl to cool. As the butter cools, it will get darker in color.",
+				"Combine ['ing']{Bread flour}, ['ing']{Baking soda}, ['ing']{Salt}, and ['ing']{Matcha powder} in a medium size mixing bowl. Mix well and set aside.",
+				"Add in ['ing']{Granulated sugar} and ['ing']{Light brown sugar} to your butter. Mix to combine. Once well combined, add in your ['ing']{Large egg}, ['ing']{Egg yolk} and ['ing']{Vanilla extract}. Whisk until you get a light and creamy texture.",
+				"Pour into dry ingredients and mix together with a large spoon or spatula. The dough will be very soft, thick, and shiny. <strong>Do not overmix.</strong>",
+				"Fold in the ['ing']{White chocolate chips}. The chocolate chips may not stick to the dough because of the melted butter, but do your best to combine them.",
+				"Cover the dough tightly and refrigerate for at least 2 hours or up to 3 days.",
+				"Preheat oven to ['temp']{175}. Line large baking sheets with parchment paper or silicone baking mats. If the dough has chilled for longer than 2 hours, let it sit at room temperature for about 15 minutes.",
+				"Using a cookie scoop or measuring spoon, scoop 1/4 cup of the chilled cookie dough. Roll into a ball. Arrange the cookies 3 inches apart on the prepared baking sheets.",
+				"Bake the cookies for 12-14 min or until the edges are very lightly browned. The centers will look very soft, but the cookies will continue to set as they cool.",
+				"Cool on the baking sheet for 10 minutes before transferring to a cooling rack to cool completely. While the cookies are still warm, press a few more white chocolate chips into the tops."
+			]
+		}
+	]
+}

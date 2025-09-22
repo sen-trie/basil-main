@@ -1,0 +1,60 @@
+{
+	"pan": "['fac']{22} servings",
+	"cuisine": "Argentinian",
+	"referenceText": "El Mundo Eats",
+	"referenceLink": "https://www.elmundoeats.com/classic-argentine-alfajores/",
+	"segments": [
+		{
+			"title": "Dulce De Leche",
+			"ingredients": {
+				"Sweetened condensed milk": [
+					[397, "g"],
+					[1, " 14oz can"]
+				]
+			},
+			"steps": [
+				"Remove the label from your can.",
+				"Place the can in a large pot. Fill with water so the cans are submerged by 1-2 inches and place over medium high heat.",
+				"As soon as the water comes to a boil, reduce to a simmer.",
+				"Simmer for 3 hours, check on the water level every 30 minutes and refill as necessary."
+			]
+		},
+		{
+			"title": "Alfajores",
+			"ingredients": {
+				"Cornstarch": [
+					[300, "g"],
+					[2.5, "cup"]
+				],
+				"All purpose flour": [
+					[200, "g"],
+					[1.5, "cup"]
+				],
+				"Baking soda": [[0.5, "tsp"]],
+				"Baking powder": [[2, "tsp"]],
+				"Icing sugar": [
+					[150, "g", "sifted"],
+					[1.25, "cup"]
+				],
+				"Unsalted butter": [[200, "g", "softened"]],
+				"Large egg yolks": [[3, "", "room temperature"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Lemon zest": [[1, ""]],
+				"Coconut flakes, as needed": []
+			},
+			"steps": [
+				"Sift ['ing']{Cornstarch}, ['ing']{All purpose flour}, ['ing']{Baking soda} and ['ing']{Baking powder} into a bowl, set aside.",
+				"In another bowl, mix ['ing']{Icing sugar} and ['ing']{Unsalted butter} until creamy using a handheld whisk.",
+				"Add in ['ing']{Large egg yolks} one by one, mixing well to combine after each addition. Add in ['ing']{Vanilla extract}, ['ing']{Lemon zest} and mix to combine.",
+				"Add in dry ingredients in 3 additions, mixing just enough after each addition. Don't over mix. For the 3rd addition, you will not be able to mix everything to combine using hand held mixer. When it's half mixed, pour everything onto the working surface.",
+				"Start folding the mixture onto itself and gently push with your palm until you get a ball. Do not knead.",
+				"Wrap with cling film and chill in the fridge for 30 minutes or until manageable.",
+				"Put ⅓ of dough on a cling film and cover it with another. Gently roll it into 8-10mm thickness. If the dough breaks, just gently push it back together. Chill in the fridge for 10 minutes while you continue rolling the rest.",
+				"Take 1 rolled dough from the fridge and place it on the working surface. Remove the top cling film. Cut out 1.7 inch (4.5 cm) circles using floured cutter/glass. Place on parchment paper on baking tray. Place in the fridge if you're not baking them immediately.",
+				"Bake at ['temp']{180} in a preheated oven, conventional mode, for 10-12 minutes or until fully cooked without having any toasted colour.",
+				"Pipe dulce de leche between two cookies.",
+				"Chill in the fridge for at least a day. Before serving, roll in coconut flakes."
+			]
+		}
+	]
+}

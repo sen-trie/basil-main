@@ -1,0 +1,55 @@
+{
+	"pan": "['fac']{2}  6\" round cake pans / ['fac']{8} servings",
+	"cuisine": "American",
+	"referenceText": "teak & thyme",
+	"referenceLink": "https://teakandthyme.com/jellycat-birthday-cake/",
+	"segments": [
+		{
+			"title": "Cake Layers",
+			"ingredients": {
+				"All-purpose flour": [[225, "g"]],
+				"Baking powder": [[1.5, "tsp"]],
+				"Salt": [[0.5, "tsp"]],
+				"Large eggs": [[3, "", "room temperature"]],
+				"Granulated sugar": [[225, "g"]],
+				"Unsalted butter": [[85, "g"]],
+				"Milk": [[190, "g"]],
+				"Oil": [[2, "tbsp"]],
+				"Vanilla extract": [[1.5, "tsp"]]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{175}. Line two 6\" round cake pans with a round of parchment paper on the bottom of each pan. Set aside.",
+				"In a small bowl, stir together ['ing']{All-purpose flour}, ['ing']{Baking powder}, and ['ing']{Salt}. Set aside.",
+				"In a small pot or microwave-safe bowl, add the ['ing']{Unsalted butter}, ['ing']{Milk}, ['ing']{Oil}, and ['ing']{Vanilla extract}. Heat it on the stovetop or in the microwave until the butter has melted. Don't let it boil. Remove it from the heat and cover to keep it warm while you start making the batter.",
+				"In a large mixing bowl, add the ['ing']{Large eggs} and ['ing']{Granulated sugar}. Use an electric hand mixer fitted with a whisk attachment to beat the mixture for a full 6 minutes at medium speed or until the mixture has tripled in size and becomes very pale (almost white) in colour.",
+				"Add half of the flour mixture and mix on low speed until just barely combined. Add the rest of the flour and mix until mostly combined. <strong>Do not overmix.</strong>",
+				"With the mixer on low speed, slowly stream in the hot milk mixture until you have a smooth and fluid batter.",
+				"Divide the batter into your lined cake pans until about halfway full.",
+				"Bake cakes for about 35-40 minutes or until a toothpick inserted in the middle comes out mostly clean with a few crumbs.",
+				"Let the cakes cool in the pans for about 15 minutes before running an offset spatula around the edges of the pan. Release the cakes onto a wire rack to cool completely."
+			]
+		},
+		{
+			"title": "Filling & Decoration",
+			"ingredients": {
+				"Whipping cream": [[300, "g", "cold"]],
+				"Powdered sugar": [[30, "g"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Cocoa powder": [[1, "tsp"]],
+				"Fresh strawberries": [[3, "", "halved"]],
+				"Dark chocolate": [[20, "g", "roughly chopped"]],
+				"Fruit jam": []
+			},
+			"steps": [
+				"In a large mixing bowl, add the ['ing']{Whipping cream}, ['ing']{Powdered sugar}, and ['ing']{Vanilla extract}. Use an electric hand mixer fitted with a whisk attachment to beat the cream until it becomes soft peaks. Scoop out a small amount of whipped cream into a small bowl and set aside. Finish beating the cream to firm peaks.",
+				"To the portion of cream you scooped out, add the ['ing']{Cocoa powder} and mix until the cream is tinted brown. Transfer this cream to a small piping bag and snip off the tip. Set aside.",
+				"Transfer both the whipped cream and the chocolate whipped cream to separate piping bags and cut the tips off.",
+				"On a large serving plate or cake board, place down the first cake layer. Pipe dollops of whipped cream along the edge of the cake, ending towards the middle of the cake. Use a spatula to smear the tail ends of the dollops towards the middle of the cake.",
+				"To the middle of the cake, add the ['ing']{Fruit jam}. Smooth it into an even layer with an offset spatula without disturbing the whipped cream.",
+				"Place the second cake layer on top. Pipe more dollops of whipped cream on top of the cake. Arrange halved ['ing']{Fresh strawberries} on top of the cream.",
+				"With the brown whipped cream, pipe little legs on top of the plate, extending out from the bottom cake layer.",
+				"Melt the ['ing']{Dark chocolate} in the microwave or on the stovetop, transfer the melted chocolate to a small piping bag, and snip the tip off. Pipe eyes and a smile on the bottom cake layer in between the legs."
+			]
+		}
+	]
+}

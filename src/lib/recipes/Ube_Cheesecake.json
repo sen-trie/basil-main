@@ -1,0 +1,83 @@
+{
+	"pan": "['fac']{1} 8\" Pan / ['fac']{16} servings",
+	"cuisine": "Filipino-American",
+	"referenceText": "teak & thyme",
+	"referenceLink": "https://teakandthyme.com/ube-cheesecake/",
+	"segments": [
+		{
+			"title": "Ube Cheesecake",
+			"ingredients": {
+				"Whole Oreos": [[340, "g"]],
+				"Unsalted butter": [[115, "g", "melted"]],
+				"Cream cheese": [
+					[735, "g", "softened to room temperature"],
+					[24, "oz"]
+				],
+				"Granulated sugar": [[80, "g"]],
+				"Plain Greek yogurt": [[120, "g", "or full-fat sour cream"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Ube halaya": [[150, "g"]],
+				"Ube extract": [[2, "tsp"]],
+				"Large eggs": [[3, "", "room temperature"]]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{175} and line the bottom of a 9\" springform pan with parchment paper. Set aside.",
+				"Fill a ziploc bag with the ['ing']{Whole Oreos} and whack them with a rolling pin until they're finely crushed. You can also whiz them in a food processor.",
+				"Transfer the crushed oreos to a small bowl and pour in ['ing']{Unsalted butter}. Stir well until the mixture resembles wet sand.",
+				"Pour this mixture out into your lined springform pan. Use the bottom of a measuring cup or spatula to firmly press the crumbs into a thin layer on the bottom of the pan and up the sides of the pan.",
+				"Bake the crust for 13-15 minutes. Let cool completely while you prepare the cheesecake.",
+				"Lower the oven temperature to ['temp']{163}.",
+				"In a large mixing bowl, use an electric hand mixer to beat ['ing']{Cream cheese} until very creamy.",
+				"Add ['ing']{Granulated sugar}, ['ing']{Plain Greek yogurt}, ['ing']{Vanilla extract}, ['ing']{Ube halaya}, and ['ing']{Ube extract}. Mix on low speed until thoroughly combined.",
+				"Add ['ing']{Large eggs} one at a time, mixing in between each addition until smooth and creamy.",
+				"Transfer the batter to your baked crust, filling the pan a bit more than ¾ full. Wrap the bottom edges of the pan with aluminum foil to prevent leaking.",
+				"Fill a pan with about 1\" of boiling water and place it on the bottom rack of the oven.",
+				"Bake the cheesecake on the middle rack for 65-70 minutes or until the outer 2\" of the cheesecake is set but the middle half is still jiggly.",
+				"Let the cheesecake cool completely at room temperature before covering it with plastic wrap and chilling it in the fridge for at least 4 hours or overnight."
+			]
+		},
+		{
+			"title": "Cream Topping",
+			"optional": true,
+			"ingredients": {
+				"Full-fat brick cream cheese": [[75, "g", "room temperature"]],
+				"Unsalted butter": [[40, "g", "room temperature"]],
+				"Confectioners' sugar": [
+					[123, "g"],
+					[1, "cup"]
+				],
+				"Vanilla extract": [[0.5, "tsp"]],
+				"Pinch of salt": []
+			},
+			"steps": [
+				"In a bowl using a handheld or stand mixer fitted with a paddle or whisk attachment, beat the ['ing']{Full-fat brick cream cheese} and ['ing']{Unsalted butter} together on high speed until smooth and creamy.",
+				"Add the ['ing']{Confectioners' sugar}, ['ing']{Vanilla extract}, and salt. Beat on low speed for 30 seconds, then switch to high speed and beat for 2 minutes.",
+				"Pipe the frosting onto cake."
+			]
+		},
+		{
+			"title": "Buttercream",
+			"optional": true,
+			"ingredients": {
+				"Unsalted butter": [[75, "g", "softened"]],
+				"Medium egg yolks": [[2, ""]],
+				"Granulated sugar": [[33, "g"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Water": [
+					[10, "ml"],
+					[1, "tbsp"]
+				],
+				"Pinch of salt": [],
+				"Food colouring": []
+			},
+			"steps": [
+				"Combine ['ing']{Granulated sugar} and ['ing']{Water} in medium saucepan. Heat over low heat while stirring until sugar dissolves. Increase heat to medium-high and bring to a boil",
+				"Put ['ing']{Medium egg yolks} in a stand-mixer fitted with a whisk attachment and beat until thick and foamy.",
+				"Cook the sugar and water syrup until it reaches ['temp']{116}. Immediately remove from heat. With mixer running, SLOWLY drizzle hot syrup into bowl with yolks.",
+				"Continue mixing until the bottom of the bowl is cool to the touch and the yolk mixture has cooled to room temperature.",
+				"Add in ['ing']{Unsalted butter} one cube at a time allowing each piece to incorporate before adding the next. Add ['ing']{Vanilla extract} and salt. Continue mixing until buttercream is smooth and creamy, about 5-6 minutes.",
+				"Add food colouring if desired."
+			]
+		}
+	]
+}
