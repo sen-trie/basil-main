@@ -102,7 +102,7 @@
 		padding: 8px 32px;
 		font-size: 1.2rem;
 		font-weight: 700;
-		border-radius: 25px;
+		border-radius: 8px;
 	}
 
 	.mobile-action,

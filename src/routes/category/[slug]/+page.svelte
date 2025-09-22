@@ -1,6 +1,6 @@
 <script>
 	let { data } = $props();
-	let { slug, dishes, description } = data;
+	let { slug, dishes, description, thumbnail } = data;
 	import RecipeGrid from '$lib/components/RecipeGrid.svelte';
 
 	import { getContext } from 'svelte';
@@ -10,7 +10,7 @@
 <div class="category-header">
 	<div class="body-container flexbox">
 		<img
-			src={images[`category/${slug}.webp`]}
+			src={images[`recipes/${thumbnail}.webp`]}
 			style="view-transition-name: category-img-{slug.split(' ')[0]}"
 			alt="category img"
 		/>

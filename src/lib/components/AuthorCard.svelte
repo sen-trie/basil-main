@@ -107,7 +107,8 @@
 					background-color: light-dark(var(--light-bg), var(--dark-bg));
 					color: light-dark(var(--light-green-deep), var(--dark-green-deep));
 					font-weight: 600;
-					padding: 7px 32px;
+					padding: 8px 32px;
+					border-radius: 8px;
 				}
 			}
 		}

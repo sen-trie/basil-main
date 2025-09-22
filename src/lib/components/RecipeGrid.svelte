@@ -30,10 +30,11 @@
 		.dish-header {
 			position: relative;
 			display: block;
-			aspect-ratio: 10/16;
+			aspect-ratio: 10 / 16;
 			width: 100%;
 			height: auto;
 			margin-bottom: 1rem;
+			background-color: light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
 
 			img {
 				width: 100%;

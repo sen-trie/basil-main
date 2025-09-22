@@ -11,7 +11,7 @@
 	<div class="category-block">
 		<a href="/category/{catName}" class="category-header" aria-label="link">
 			<img
-				src={images[`category/${catName}.webp`]}
+				src={images[`recipes/${categories[catName]['thumbnail']}.webp`]}
 				style="view-transition-name: category-img-{catName.split(' ')[0]}"
 				alt="category"
 			/>

@@ -44,7 +44,9 @@
 		const fIngredients = ingValue.map((arr) => {
 			const space = SPACE_UNITS.includes(arr?.[1] ?? '') ? ' ' : '';
 			let amt = factor * arr[0];
-			return `${fraction(amt)}${space}${arr?.[1] ?? ''}`;
+			const displayAmt = amt > 10 ? amt.toString() : fraction(amt);
+
+			return `${displayAmt}${space}${arr?.[1] ?? ''}`;
 		});
 
 		const altValue = fIngredients?.[1] ? `(${fIngredients?.[1]})` : '';

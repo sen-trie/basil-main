@@ -8,5 +8,5 @@
 
 <div class="body-container">
 	<h1>All Recipes</h1>
-	<RecipeGrid {dishes} {images} />
+	<RecipeGrid dishes={dishes.sort()} {images} />
 </div>
