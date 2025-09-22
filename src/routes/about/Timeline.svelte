@@ -159,8 +159,9 @@
 		z-index: 2;
 
 		.expand-button {
-			background-color: light-dark(var(--light-accent), var(--dark-accent));
+			background-color: light-dark(var(--dark-accent), var(--dark-accent));
 			border: 1px solid light-dark(var(--light-accent), var(--dark-accent));
+			color: light-dark(var(--dark-text-strong), var(--dark-text-strong));
 			padding: 8px 16px;
 			border-radius: 4px;
 			cursor: pointer;
