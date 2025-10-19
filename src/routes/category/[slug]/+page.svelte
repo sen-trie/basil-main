@@ -9,11 +9,13 @@
 
 <div class="category-header">
 	<div class="body-container flexbox">
-		<img
-			src={images[`recipes/${thumbnail}.webp`]}
-			style="view-transition-name: category-img-{slug.split(' ')[0]}"
-			alt="category img"
-		/>
+		<div class="category-img-container">
+			<img
+				src={images[`recipes/${thumbnail}.webp`]}
+				style="view-transition-name: category-img-{slug.split(' ')[0]}"
+				alt="category img"
+			/>
+		</div>
 		<div class="category-content">
 			<h1 class="category-text"><i>{slug}</i></h1>
 			<h2>{description}</h2>
@@ -37,11 +39,17 @@
 			padding: 35px 30px;
 			margin: 0 auto;
 
-			img {
+			.category-img-container {
 				width: 150px;
 				height: 150px;
 				border-radius: 100%;
-				object-fit: cover;
+
+				img {
+					width: 150px;
+					height: 150px;
+					border-radius: 100%;
+					object-fit: cover;
+				}
 			}
 
 			.category-content {
