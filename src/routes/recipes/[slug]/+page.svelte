@@ -72,12 +72,24 @@
 		});
 
 		processedStep = processedStep.replace(
-			/\['fac'\]\{(\d+)\}(?:\{(-?\d+)\})?/g,
-			(match, factorVal, afterVal) => {
+			/\[\'fac\'\]\{(\d+)\}(?:\{([^}]+)\})?(?:\[([^\]]+)\])?/g,
+			(match, factorVal, operation, ingredientText) => {
 				let result = factorVal * factor;
-				if (afterVal !== undefined) {
-					result += Number(afterVal);
+
+				// Handle operations like {-1}
+				if (operation !== undefined) {
+					if (/^[+-]?\d+$/.test(operation)) {
+						result += Number(operation);
+					} else {
+						result = `${result}${operation}`;
+					}
 				}
+
+				// Only wrap with <u> if there's an ingredient text in []
+				if (ingredientText !== undefined) {
+					return `<u>${result} ${ingredientText.toLowerCase()}</u>`;
+				}
+
 				return result;
 			}
 		);

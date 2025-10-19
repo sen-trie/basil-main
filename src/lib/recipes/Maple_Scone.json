@@ -1,0 +1,49 @@
+{
+	"pan": "['fac']{8} servings",
+	"cuisine": "American",
+	"referenceText": "The Genetic Chef",
+	"referenceLink": "https://www.thegeneticchef.com/maple-scones/",
+	"segments": [
+		{
+			"title": "Maple Oat Scones",
+			"ingredients": {
+				"All-purpose flour": [
+					[300, "g"],
+					[2.5, "cup"]
+				],
+				"Quick oats": [[100, "g"]],
+				"Brown sugar": [[0.25, "cup"]],
+				"Baking powder": [[1, "tbsp"]],
+				"Fine salt": [[0.75, "tsp"]],
+				"Cold unsalted butter": [
+					[57, "g"],
+					[4, "tbsp"]
+				],
+				"Heavy cream": [[1, "cup"]],
+				"Maple syrup": [[0.5, "cup"]]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{190}.",
+				"Whisk together the ['ing']{All-purpose flour}, <u>['fac']{65}g quick oats</u>, ['ing']{Brown sugar}, ['ing']{Baking powder}, and ['ing']{Fine salt}. Toss in ['ing']{Cold unsalted butter} and using a fork, cut in the butter until it resembles coarse sand.",
+				"Add the ['ing']{Heavy cream} and ['ing']{Maple syrup} and stir until just combined. You will have a shaggy, wet dough.",
+				"Place a piece of parchment the size of your baking sheet on the counter. To keep it from moving, add a few drops of water on top of counter and then place parchment on top. This sticks it to the counter.",
+				"Sprinkle parchment with about <u>['fac']{35}g quick oats</u>. Turn out dough onto oats. Sprinkle top of dough with some more oats. The oats will make the dough less sticky and easier to form. Pat down the dough into approximately a 1\" thick round.",
+				"Cut into 8 wedges using a scraper or knife, and slightly separate as you slice. Don't cut through the parchment. Pick up the parchment by the edges and transfer onto a baking sheet.",
+				"Bake for 20-25 minutes. Cool on wire rack before icing."
+			]
+		},
+		{
+			"title": "Maple Icing",
+			"ingredients": {
+				"Confectioner's sugar": [[1, "cup"]],
+				"Maple syrup": [[2, "tbsp"]],
+				"Heavy cream": [[3, "tbsp"]],
+				"Pinch of salt": []
+			},
+			"steps": [
+				"Combine the ['ing']{Confectioner's sugar}, ['ing']{Maple syrup}, ['ing']{Heavy cream}, and salt in a bowl and whisk until smooth. Add additional cream or milk to thin, if desired.",
+				"Spoon and drizzle over cooled scones to cover tops."
+			]
+		}
+	]
+}

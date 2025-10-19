@@ -8,7 +8,7 @@ export const categories = {
 	'Tea Cakes': {
 		description:
 			'Little bites of heaven. Perfect with a cup of coffee or tea, these delicate cakes are moist, flavorful, and just the right amount of sweet.',
-		dishes: ['Financier', 'Yuzu_Financier'],
+		dishes: ['Financier', 'Yuzu_Financier', 'Maple_Scone'],
 		thumbnail: 'Financier'
 	},
 	Cheesecakes: {
@@ -25,7 +25,7 @@ export const categories = {
 	},
 	'Layer Cakes': {
 		description: 'Multi-layered cakes with filling between each layer, stacked and decorated.',
-		dishes: ['Vanilla_Birthday_Cake'],
+		dishes: ['Vanilla_Birthday_Cake', 'Milhojas'],
 		thumbnail: 'Vanilla_Birthday_Cake'
 	},
 	Tarts: {
@@ -42,15 +42,26 @@ export const categories = {
 	},
 	Cookies: {
 		description:
-			'Baked fresh, with a perfect chew. Our cookies are soft-centered, slightly crisp-edged, and totally irresistible.',
-		dishes: ['Chewy_Chocolate_Cookie', 'White_Chocolate_Matcha_Cookie', 'Alfajores'],
+			'Baked fresh, with a perfect chew. The cookies are soft-centered, slightly crisp-edged, and totally irresistible.',
+		dishes: [
+			'Chewy_Chocolate_Cookie',
+			'White_Chocolate_Matcha_Cookie',
+			'Alfajores',
+			'Tahini_Brownie'
+		],
 		thumbnail: 'Chewy_Chocolate_Cookie'
 	},
 	Cupcakes: {
 		description:
 			'A little celebration in a wrapper. Fluffy cake topped with a cloud of frosting—simple, sweet, and always delightful.',
-		dishes: ['Red_Velvet_Cupcake'],
+		dishes: ['Red_Velvet_Cupcake', 'Chocolate_Cupcake'],
 		thumbnail: 'Red_Velvet_Cupcake'
+	},
+	'Quick Breads & Loaves': {
+		description:
+			'Hearty, moist, and perfect for any time of day. These comforting baked goods are wonderful warm with butter or as a sweet snack.',
+		dishes: ['Double_Chocolate_Banana_Bread'],
+		thumbnail: 'Double_Chocolate_Banana_Bread'
 	}
 };
 

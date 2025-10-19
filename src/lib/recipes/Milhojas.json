@@ -1,0 +1,48 @@
+{
+	"pan": "['fac']{12} servings",
+	"cuisine": "Chilean",
+	"referenceText": "Chilean Food and Garden",
+	"referenceLink": "https://www.chileanfoodandgarden.com/thousand-layers-cake/",
+	"segments": [
+		{
+			"title": "Dough",
+			"ingredients": {
+				"Sifted flour": [[3, "cup"]],
+				"Unsalted butter": [
+					[250, "g"],
+					[8, "oz", "room temperature"]
+				],
+				"Egg yolks": [[3, "", "room temperature"]],
+				"Milk": [[0.75, "cup"]],
+				"Vanilla extract": [[2, "tsp"]],
+				"Pinch of salt": []
+			},
+			"steps": [
+				"Combine the ['ing']{Sifted flour} and salt in a large bowl. Add ['ing']{Unsalted butter} in chunks, ['ing']{Egg yolks}, ['ing']{Milk}, and ['ing']{Vanilla extract} and work to form a dough of medium consistency. Mix using a fork, two knives, or a stand mixer with the paddle attachment. <strong> Do not use your hands as the body heat will melt the butter. </strong>",
+				"Wrap in plastic wrap and refrigerate overnight."
+			]
+		},
+		{
+			"title": "Assembly & Baking",
+			"ingredients": {
+				"Dulce de leche": [
+					[750, "g"],
+					[3, "cups"]
+				],
+				"Chopped walnuts": [
+					[562, "g"],
+					[2.5, "cup"]
+				],
+				"Powdered sugar": [[0.25, "cup"]]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{180}.",
+				"Divide the dough into 14 equal portions. Roll each piece on a floured baking sheet or parchment paper until thin. Using a paring knife, cut circles 8\" in diameter. Pierce the circle of dough with a fork across almost the entire surface.",
+				"Bake each circle over an ungreased baking or cookie sheet for 6-8 minutes until golden. Let cool.",
+				"Assemble the cake filling between each layer with 3-4 tbsp of Dulce de leche. For every three layers, add ground chopped walnuts, saving 1 cup for decoration.",
+				"Cover the whole cake with a thin layer of dulce de leche and sprinkle with a mixture of walnuts, ['ing']{Powdered sugar}, and crumbs.",
+				"Let it rest, covered in the fridge. Serve at room temperature."
+			]
+		}
+	]
+}

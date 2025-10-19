@@ -1,0 +1,40 @@
+{
+	"pan": "8-inch square pan / ['fac']{9} servings",
+	"cuisine": "Mediterranean",
+	"referenceText": "The Mediterranean Dish",
+	"referenceLink": "https://www.themediterraneandish.com/tahini-brownies-recipe/",
+	"segments": [
+		{
+			"ingredients": {
+				"Salted butter": [
+					[57, "g"],
+					[4, "tbsp"]
+				],
+				"Dark chocolate chips": [
+					[113, "g"],
+					[4, "oz"]
+				],
+				"Cocoa powder": [[3, "tbsp"]],
+				"Large eggs": [[2, ""]],
+				"Granulated sugar": [[200, "g"]],
+				"Vanilla extract": [[1, "tbsp"]],
+				"Kosher salt": [[1, "tsp"]],
+				"Tahini": [
+					[180, "ml"],
+					[0.75, "cup"]
+				],
+				"All-purpose flour": [[80, "g"]]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{175}. Line an 8\" square pan with 2 pieces of foil (crossed, and with excess hanging over on all sides of the pan). Lightly brush the foil with salted butter.",
+				"Melt the ['ing']{Salted butter} in a medium saucepan over medium heat. Remove from heat and immediately add the ['ing']{Dark chocolate chips} and ['ing']{Cocoa powder}. Whisk until smooth.",
+				"In a mixing bowl, whisk the ['ing']{Large eggs}, ['ing']{Granulated sugar}, ['ing']{Vanilla extract} and ['ing']{Kosher salt} to form a slightly thick mixture. ",
+				"Add the ['ing']{Tahini} and whisk to combine. Fold in the ['ing']{All-purpose flour}, stir until just incorporated <strong>(Do not overmix)</strong>.",
+				"Reserve half of the tahini mixture in a separate bowl for later. Add the melted chocolate mixture to the remaining tahini mixture, stir until batter is well combined.",
+				"Pour the batter into the pan you prepared. Spread evenly. With a spoon, dollop the reserved tahini mixture over the top (imagine a grid, and add one dollop of tahini mixture to each square on that grid). Using the tip of a butter or paring knife, swirl the tahini dollops into the brownie batter.",
+				"Place the pan on the middle rack of the oven. Bake for 28-30 minutes, until the edges are set but the center remains moist.",
+				"Cool in the pan for 30 minutes. Lift the foil edges up carefully to transfer the brownies from the pan. Cool for another 30 minutes. Cut into 2-inch squares."
+			]
+		}
+	]
+}
