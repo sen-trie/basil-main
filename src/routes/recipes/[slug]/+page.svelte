@@ -152,6 +152,11 @@
 	</span>
 {/snippet}
 
+<svelte:head>
+	<title>{slug.replaceAll('_', ' ')} • Basil Club</title>
+	<meta name="description" content="Recipe for {slug.replaceAll('_', ' ')}" />
+</svelte:head>
+
 <div class="body-container">
 	<div class="link-container">
 		<a href="/">Home </a> ·

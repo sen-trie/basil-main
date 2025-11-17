@@ -5,6 +5,10 @@
 	const images = getContext('images');
 </script>
 
+<svelte:head>
+	<title>About • Basil Club</title>
+</svelte:head>
+
 <div class="body-container">
 	<h1>Welcome!</h1>
 	<br />

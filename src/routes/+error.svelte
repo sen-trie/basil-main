@@ -2,6 +2,10 @@
 	import { page } from '$app/state';
 </script>
 
+<svelte:head>
+	<title>404 • Basil Club</title>
+</svelte:head>
+
 <div class="flexbox">
 	<h1>404</h1>
 	<h2>{page.error.message}</h2>

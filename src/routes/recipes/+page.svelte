@@ -6,6 +6,10 @@
 	const images = getContext('images');
 </script>
 
+<svelte:head>
+	<title>Recipes • Basil Club</title>
+</svelte:head>
+
 <div class="body-container">
 	<h1>All Recipes</h1>
 	<RecipeGrid dishes={dishes.sort()} {images} />

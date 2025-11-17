@@ -20,6 +20,10 @@
 	</div>
 {/snippet}
 
+<svelte:head>
+	<title>Basil Club</title>
+</svelte:head>
+
 <div class="body-container home-div">
 	<a class="cafe-big-button w-full" href="https://explore.basilclub.cafe">
 		<div class="bg"></div>

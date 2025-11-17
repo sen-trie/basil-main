@@ -7,6 +7,10 @@
 	const images = getContext('images');
 </script>
 
+<svelte:head>
+	<title>{slug} • Basil Club</title>
+</svelte:head>
+
 <div class="category-header">
 	<div class="body-container flexbox">
 		<div class="category-img-container">

@@ -4,11 +4,11 @@
 
 <footer class="body-container">
 	<div class="footer-wrapper flexbox">
-		<div class="footer-links flexbox">
+		<!-- <div class="footer-links flexbox">
 			<a href="/about">About</a>
 			<a href="https://github.com/sen-trie/basil-main">Source code</a>
-		</div>
-		<p class="footer-credit">© {year} sentrie · Built in Svelte 5</p>
+		</div> -->
+		<p class="footer-credit">© {year} sentrie</p>
 	</div>
 </footer>
 
@@ -26,14 +26,15 @@
 			justify-content: space-between;
 		}
 
-		.footer-links {
-			opacity: 0.7;
-			width: fit-content;
-			gap: 3rem;
-		}
+		// .footer-links {
+		// 	opacity: 0.7;
+		// 	width: fit-content;
+		// 	gap: 3rem;
+		// }
 
 		.footer-credit {
 			width: fit-content;
+			margin: 0 auto;
 		}
 	}
 
