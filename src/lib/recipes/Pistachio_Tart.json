@@ -11,14 +11,16 @@
 				"Lotus Bischoff Cookies": [[125, "g"]],
 				"Brown sugar": [[70, "g"]],
 				"Fine sea salt": [[3, "g"]],
-				"Unsalted butter": [[168, "g", "melted"]]
+				"Unsalted butter": [[135, "g", "melted"]],
+				"Large egg white": [[1, ""]]
 			},
 			"steps": [
 				"Preheat your oven to ['temp']{175} and lightly grease your chosen tart pan with non-stick spray or a light coating of butter.",
+				"In a separate bowl, whisk the ['ing']{Large egg white} and ['ing']{Unsalted butter} until fully combined.",
 				"Place the ['ing']{Graham crackers} and ['ing']{Lotus Bischoff Cookies} crackers into a plastic bag and crush using a rolling pin / mortar.",
-				"Place the fine crumbs into a medium-size bowl along with ['ing']{Brown sugar}, ['ing']{Fine sea salt} and whisk together before adding ['ing']{Unsalted butter}.",
-				"Mix together until a wet sand mixture forms that holds together when pressed.",
-				"Press into 6 small tart pans evenly, using the bottom of a flat cup to pack together.",
+				"Place the fine crumbs into a medium-size bowl along with ['ing']{Brown sugar}, ['ing']{Fine sea salt} and whisk together.",
+				"Pour the wet mixture over the dry ingredients and mix together until a wet sand mixture forms that holds together when pressed.",
+				"Press into a tart pan, using the bottom of a flat cup to pack together.",
 				"Bake the crust for 20-25 minutes. Set aside to cool completely."
 			]
 		},

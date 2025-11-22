@@ -1,0 +1,46 @@
+{
+	"pan": "9x5\" loaf pan / ['fac']{12} servings",
+	"cuisine": "American",
+	"referenceText": "Munchies By Mallory",
+	"referenceLink": "https://munchiesbymallory.com/recipe/brown-butter-chocolate-chip-banana-bread/#processss",
+	"segments": [
+		{
+			"ingredients": {
+				"Unsalted butter": [[135, "g", "browned and cooled"]],
+				"Brown sugar": [
+					[200, "g", "packed"],
+					[1, "cup"]
+				],
+				"Mashed overripe bananas": [[400, "g", "about 3 large bananas"]],
+				"Large egg": [[1, ""]],
+				"Vanilla extract": [[1, "tsp"]],
+				"All-purpose flour": [
+					[240, "g", "spooned & leveled"],
+					[2, "cup"]
+				],
+				"Sour cream": [
+					[60, "g"],
+					[0.25, "cup", "room temperature"]
+				],
+				"Baking powder": [[1, "tsp"]],
+				"Salt": [[0.25, "tsp"]],
+				"Semi-sweet chocolate chips": [
+					[175, "g", "plus extra for topping"],
+					[1, "cup"]
+				]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{175}. Grease a 9x5-inch loaf pan .",
+				"Brown the ['ing']{Unsalted butter}: Melt butter in saucepan over medium-low heat. Swirl pan occasionally until butter turns golden brown with nutty aroma (5-8 minutes). Transfer to heatproof bowl to cool.",
+				"In a large bowl, mash the ['ing']{Mashed overripe bananas} until smooth.",
+				"To the bananas, beat in the cooled brown butter, ['ing']{Sour cream}, ['ing']{Brown sugar}, ['ing']{Large egg}, and ['ing']{Vanilla extract}. Whisk until well combined.",
+				"In a separate bowl, whisk together the ['ing']{All-purpose flour}, ['ing']{Baking powder}, and ['ing']{Salt}.",
+				"Pour dry ingredients into wet ingredients and gently fold with a spatula until just combined. <strong>Do not overmix.</strong>",
+				"Gently fold in the ['ing']{Semi-sweet chocolate chips} until evenly distributed.",
+				"Pour batter into prepared pan and spread evenly. Top with additional chocolate chips.",
+				"Bake for 60-65 minutes, making sure to loosely cover the bread with aluminum foil halfway through to prevent the top from drying out. The bread is done when a toothpick inserted in the center comes out clean with only a few small moist crumbs.",
+				"Cool in pan for 10 minutes, then transfer to wire rack to cool completely before slicing."
+			]
+		}
+	]
+}

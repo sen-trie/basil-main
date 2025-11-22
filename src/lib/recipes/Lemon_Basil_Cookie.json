@@ -1,0 +1,47 @@
+{
+	"pan": "['fac']{36} servings",
+	"cuisine": "American",
+	"referenceText": "The Lemon Apron",
+	"referenceLink": "https://thelemonapron.com/lemon-basil-cookies-with-white-chocolate-and-pistachios/",
+	"segments": [
+		{
+			"ingredients": {
+				"Lemon Sugar": [[345, "g", "prepared overnight, see step 1"]],
+				"Butter": [
+					[240, "g", "softened to room temperature"],
+					[1, "cup"]
+				],
+				"Large eggs": [[2, ""]],
+				"Lemon juice": [[1.5, "tbsp"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Lemon extract": [[0.25, "tsp", "optional"]],
+				"AP flour": [
+					[375, "g", "spooned and leveled"],
+					[3, "cup"]
+				],
+				"Lemon zest": [[2, "tbsp"]],
+				"Basil leaves": [[2, "tbsp"]],
+				"Baking powder": [[1.25, "tsp"]],
+				"Baking soda": [[0.5, "tsp"]],
+				"Salt": [[0.5, "tsp"]],
+				"White chocolate chips": [[170, "g"]],
+				"Pistachio Meal": [[110, "g"]]
+			},
+			"steps": [
+				"(Making Lemon Sugar) For each cup of granulated sugar, you will need at least one tablespoon of lemon zest. Combine in a small bowl and use your fingers to rub the sugar and zest together.",
+				"In the bowl of stand mixer, or using a handheld mixer, combine the ['ing']{Butter} and ['ing']{Lemon Sugar}. Beat till light and fluffy, about three minutes.",
+				"Add the ['ing']{Large eggs}, one at a time. Beat till combined, scraping down the bowl as needed.",
+				"Add the ['ing']{Lemon juice}, ['ing']{Vanilla extract} and ['ing']{Lemon extract} (if using) and beat to combine.",
+				"In a separate bowl, combine the ['ing']{AP flour}, ['ing']{Lemon zest}, ['ing']{Basil leaves}, ['ing']{Baking powder}, ['ing']{Baking soda} and ['ing']{Salt} with a whisk.",
+				"Add about half of the flour mixture into the bowl with the butter, sugar and egg mixture. Beat on low speed till just combined. Repeat with the remaining flour mixture.",
+				"Add in the ['ing']{White chocolate chips} and ['ing']{Pistachio Meal}. Use a wooden spoon or spatula to fold these in evenly.",
+				"Cover the dough tightly and refrigerate for at least 2 hours or up to 3 days.",
+				"Preheat oven to ['temp']{163}. Line large baking sheets with parchment paper or silicone baking mats. If the dough has chilled for longer than 2 hours, let it sit at room temperature for about 15 minutes.",
+				"Using a cookie scoop or measuring spoon, scoop 1/4 cup of the chilled cookie dough. Roll into a ball, then use your fingers to shape the cookie dough so that it's taller rather than wide—almost like a cylinder. Arrange the cookies 3 inches apart on the prepared baking sheets.",
+				"Bake the cookies for 14-16 min or until the edges are very lightly browned. The centers will look very soft, but the cookies will continue to set as they cool.",
+				"Cool on the baking sheet for 10 minutes before transferring to a cooling rack to cool completely. While the cookies are still warm, press a few more chocolate chips into the tops.",
+				"Store tightly covered at room temperature for up to 1 week."
+			]
+		}
+	]
+}

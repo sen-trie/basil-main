@@ -1,0 +1,37 @@
+{
+	"pan": "8-inch square pan / ['fac']{8} servings",
+	"cuisine": "Filipino",
+	"referenceText": "Panlasang Pinoy",
+	"referenceLink": "https://panlasangpinoy.com/brazo-de-mercedes-cake-recipe",
+	"segments": [
+		{
+			"title": "Meringue Roll",
+			"ingredients": {
+				"Large eggs": [[10, "", "yolks and whites separated"]],
+				"Cream of tartar": [[0.5, "tsp"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Granulated sugar": [[0.75, "cup"]],
+				"Confectioners sugar": [[3, "tbsp"]],
+				"Condensed milk": [
+					[397, "g"],
+					[14, "oz"]
+				]
+			},
+			"steps": [
+				"Beat ['fac']{10}[egg whites] and ['ing']{Cream of tartar} then beat using an stand mixer until soft peaks.",
+				"Gradually add the ['ing']{Granulated sugar} while mixing. Continue mixing until stiff peaks form.",
+				"Preheat the oven to ['temp']{175}. Line an 8\" square pan with greased wax paper.",
+				"Place the meringue on top of the greased wax paper then spread evenly using a spatula.",
+				"Bake the meringue for 20-22 minutes or until the top part turns light-medium brown.",
+				"While the meringue is in the oven, make the filling by combining the ['fac']{10}[egg yolks] and ['ing']{Condensed milk} in a small cooking pot. Apply heat, continuously stirring, until the texture becomes thick.",
+				"Add the ['ing']{Vanilla extract} to the condensed milk and egg yolk mixture, turn off the heat, and mix thoroughly. Set aside.",
+				"Remove the meringue from the oven and cool down for a few minutes.",
+				"Sprinkle the ['ing']{Confectioners sugar} on top of the meringue. Place wax paper over the sugar, followed by a similar sized baking pan. The meringue should now be in the middle of two baking trays.",
+				"Flip the meringue: the new baking pan should now be below. Remove the baking pan and the wax paper, you will now see the bottom of the baked meringue.",
+				"Spread the custard filling over the meringue, leaving half-inch margin along the edges.",
+				"Roll the meringue. Starting from one of the longer sides, use the wax paper underneath to gently lift and tightly roll the meringue over the filling. The seam should be at the bottom.",
+				"Transfer to a serving plate, seam-side down. Dust it with confectioners' sugar before slicing and serving."
+			]
+		}
+	]
+}

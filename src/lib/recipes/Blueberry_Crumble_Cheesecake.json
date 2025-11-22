@@ -1,0 +1,57 @@
+{
+	"pan": "6-inch springform pan / ['fac']{8} servings",
+	"cuisine": "American",
+	"referenceText": "Julie Marie Eats",
+	"referenceLink": "https://juliemarieeats.com/blueberry-crumble-cheesecake/",
+	"segments": [
+		{
+			"title": "Crust, Blueberry Layer & Crumble Topping",
+			"ingredients": {
+				"Digestive biscuits": [[90, "g"]],
+				"Brown sugar": [[2, "tsp"]],
+				"Cinnamon": [[0.25, "tsp"]],
+				"Unsalted butter": [
+					[30, "g", "melted"],
+					[25, "g", "cold"]
+				],
+				"Fresh blueberries": [[100, "g"]],
+				"Granulated sugar": [[1, "tsp"]],
+				"All-purpose flour": [
+					[1, "tsp"],
+					[40, "g"]
+				],
+				"Lemon juice": [[0.75, "tsp"]],
+				"Dark brown sugar": [[30, "g"]],
+				"Quick oats": [[1, "tbsp"]]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{160}. Wrap a 6-inch springform pan tightly with aluminium foil. Line the bottom with parchment paper.",
+				"Crush ['ing']{Digestive biscuits} into fine crumbs. Mix with ['ing']{Brown sugar} and ['ing']{Cinnamon}. Add melted ['ing']{Unsalted butter} until combined. Press firmly into the pan's bottom.",
+				"Bake for 10 minutes. Cool. Reduce oven to ['temp']{150}.",
+				"(Blueberry Layer) Combine ['ing']{Fresh blueberries}, ['ing']{Granulated sugar}, and ['ing']{Lemon juice} in a skillet. Cook over medium heat for 3-5 minutes until berries soften and release juice.",
+				"Sprinkle 1 tsp ['ing']{All-purpose flour} over them and cook for 1 more minute, stirring, until thickened. Spread on a plate to cool completely.",
+				"(Crumble Topping) Mix ['ing']{All-purpose flour}, ['ing']{Dark brown sugar}, and ['ing']{Quick oats}. Rub in the cold ['ing']{Unsalted butter}, cubed, with your fingers until crumbly. Refrigerate."
+			]
+		},
+		{
+			"title": "Cheesecake Filling & Assembly",
+			"ingredients": {
+				"Cream cheese": [[300, "g", "room temperature"]],
+				"Granulated sugar": [[95, "g"]],
+				"Lemon zest": [[1, "tsp"]],
+				"Sour cream": [[75, "g", "room temperature"]],
+				"Cornstarch": [[2, "tsp"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Large egg": [[1, "", "room temperature"]],
+				"Egg yolk": [[1, "", "room temperature"]]
+			},
+			"steps": [
+				"Beat ['ing']{Cream cheese} until smooth. Add ['ing']{Granulated sugar} and ['ing']{Lemon zest}; beat until combined. Mix in ['ing']{Sour cream}, ['ing']{Cornstarch}, and ['ing']{Vanilla extract}. Add the ['ing']{Large egg} and ['ing']{Egg yolk}, mixing on low until just combined.",
+				"Pour ⅔ of the filling over the crust. Dollop the cooled blueberries over the top. Cover with remaining filling. Sprinkle the chilled crumble evenly over everything.",
+				"Place the foil-wrapped pan into a roasting pan. Place in the oven, then carefully pour hot water into the roasting pan until it comes halfway up the cheesecake pan. Bake for 55-70 minutes, until the edges are set but the center jiggles slightly.",
+				"Turn the oven off. Crack the door open and let the cheesecake cool inside for 1 hour. Remove from the water bath and run a knife around the edge. Cool completely on a rack.",
+				"Refrigerate for at least 8 hours or overnight before serving."
+			]
+		}
+	]
+}

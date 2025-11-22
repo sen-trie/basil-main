@@ -10,17 +10,18 @@
 				"Baking soda": [[1, "tsp"]],
 				"Cornstarch": [[1.5, "tsp"]],
 				"Salt": [[0.5, "tsp"]],
-				"Unsalted butter": [[170, "g", "melted"]],
+				"Unsalted butter": [[215, "g", "melted"]],
 				"Light or dark brown sugar": [[150, "g", "packed"]],
-				"Granulated sugar": [[100, "g"]],
+				"Granulated sugar": [[80, "g"]],
 				"Large egg": [[1, ""]],
 				"Egg yolk": [[1, "", "room temperature"]],
 				"Pure vanilla extract": [[2, "tsp"]],
 				"Semi-sweet chocolate chips": [[225, "g"]]
 			},
 			"steps": [
-				"In a large bowl, whisk the ['ing']{All-purpose flour}, ['ing']{Baking soda}, ['ing']{Cornstarch}, and ['ing']{Salt} together. Set aside.",
-				"In a medium bowl, whisk the ['ing']{Unsalted butter}, ['ing']{Light or dark brown sugar}, and ['ing']{Granulated sugar} together until no lumps remain.",
+				"Cut ['ing']{Unsalted butter} into pieces and melt it in a over medium heat. Continue to cook, swirling the pan occasionally, until the butter foams and you see golden brown specks at the bottom. It will smell nutty.",
+				"In a medium bowl, whisk the ['ing']{All-purpose flour}, ['ing']{Baking soda}, ['ing']{Cornstarch}, and ['ing']{Salt} together. Set aside.",
+				"In a large bowl, whisk the cooled browned butter, ['ing']{Light or dark brown sugar}, and ['ing']{Granulated sugar} together until no lumps remain.",
 				"Whisk in the ['ing']{Large egg} and ['ing']{Egg yolk} until combined, then whisk in the ['ing']{Pure vanilla extract}. The mixture will be thin.",
 				"Pour into dry ingredients and mix together with a large spoon or spatula. The dough will be very soft, thick, and shiny. <strong>Do not overmix.</strong>",
 				"Fold in the ['ing']{Semi-sweet chocolate chips}. The chocolate chips may not stick to the dough because of the melted butter, but do your best to combine them.",
@@ -28,7 +29,7 @@
 				"Preheat oven to ['temp']{163}. Line large baking sheets with parchment paper or silicone baking mats. If the dough has chilled for longer than 2 hours, let it sit at room temperature for about 15 minutes.",
 				"Using a cookie scoop or measuring spoon, scoop 1/4 cup of the chilled cookie dough. Roll into a ball, then use your fingers to shape the cookie dough so that it's taller rather than wide—almost like a cylinder. Arrange the cookies 3 inches apart on the prepared baking sheets.",
 				"Bake the cookies for 14-16 min or until the edges are very lightly browned. The centers will look very soft, but the cookies will continue to set as they cool.",
-				"Cool on the baking sheet for 10 minutes before transferring to a cooling rack to cool completely. While the cookies are still warm, press a few more chocolate chips into the tops—this is optional and only for looks!",
+				"Cool on the baking sheet for 10 minutes before transferring to a cooling rack to cool completely. While the cookies are still warm, press a few more chocolate chips into the tops.",
 				"Store tightly covered at room temperature for up to 1 week."
 			]
 		}

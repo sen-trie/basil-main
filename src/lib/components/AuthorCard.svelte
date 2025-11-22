@@ -6,7 +6,7 @@
 	<img class="author-img" src={images['avatar.webp']} alt="author profile" />
 	<section class="author-text">
 		<h2>sentrie</h2>
-		<h4><i>Baker, 3D Artist, Web Developer</i></h4>
+		<h4><i>Baker / Aspiring Pastry Chef</i></h4>
 		<h3>
 			Someone who's just starting out baking, experimenting with recipes and documenting what turns
 			out tasty. Each entry documents another step in the learning process, one recipe at a time.

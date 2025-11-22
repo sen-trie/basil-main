@@ -18,6 +18,7 @@ export const categories = {
 			'Cheesecake',
 			'Lemon_Basque_Cheesecake',
 			'Earl_Grey_Basque_Cheesecake',
+			'Blueberry_Crumble_Cheesecake',
 			'Brownie_Basque_Cheesecake',
 			'Ube_Cheesecake'
 		],
@@ -31,13 +32,13 @@ export const categories = {
 	Tarts: {
 		description:
 			'Buttery, crumbly crusts filled with bright, creamy, or nutty goodness. A beautiful balance of texture and flavor in every slice.',
-		dishes: ['Pistachio_Tart', 'Yuzu_Lemon_Tart'],
+		dishes: ['Pistachio_Tart', 'Yuzu_Lemon_Tart', 'Pastel_De_Nata'],
 		thumbnail: 'Pistachio_Tart'
 	},
 	'Custards & Puddings': {
 		description:
 			'Comfort food at its finest. Silky, spoonable, and wonderfully wobbly desserts that feel like a warm hug.',
-		dishes: ['Chocolate_Crème_Brûlée', 'Bread_Pudding', 'Brownie_Tiramisu'],
+		dishes: ['Chocolate_Crème_Brûlée', 'Bread_Pudding', 'Brownie_Tiramisu', 'Brazo_De_Mercedes'],
 		thumbnail: 'Brownie_Tiramisu'
 	},
 	Cookies: {
@@ -46,6 +47,7 @@ export const categories = {
 		dishes: [
 			'Chewy_Chocolate_Cookie',
 			'White_Chocolate_Matcha_Cookie',
+			'Lemon_Basil_Cookie',
 			'Alfajores',
 			'Tahini_Brownie'
 		],
@@ -60,7 +62,7 @@ export const categories = {
 	'Quick Breads & Loaves': {
 		description:
 			'Hearty, moist, and perfect for any time of day. These comforting baked goods are wonderful warm with butter or as a sweet snack.',
-		dishes: ['Double_Chocolate_Banana_Bread'],
+		dishes: ['Double_Chocolate_Banana_Bread', 'Browned_Butter_Banana_Bread'],
 		thumbnail: 'Double_Chocolate_Banana_Bread'
 	}
 };
