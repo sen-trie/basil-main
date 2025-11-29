@@ -1,6 +1,7 @@
 <script>
 	import { getContext } from 'svelte';
 	import Timeline from './Timeline.svelte';
+	import DishDropdown from './DishDropdown.svelte';
 
 	const images = getContext('images');
 </script>
@@ -27,18 +28,18 @@
 	<br />
 	<p>
 		The recipes here are adapted from well-known sites. I take existing recipes and modify them
-		based on what I have available or what I've learned works better. <br /><br />Many recipe sites
-		have UI that make it hard to reference while baking, especially on mobile. For instance, you'd
-		have to scroll through long stories or deal with layouts that aren't practical in the kitchen. I
-		wanted to organize these adapted recipes in a format that's easily usable when you're baking.
+		based on what I have available or what I've learned works better.
+		<br /><br />
+		Many recipe sites have UI that make it hard to reference while baking, especially on mobile. For
+		instance, you'd have to scroll through long stories or deal with layouts that aren't practical in
+		the kitchen. I wanted to organize these adapted recipes in a format that's easily usable when you're
+		baking.
+		<br /><br />
+		For various reasons, not everything I've baked will make it onto the site as a recipe. The list below
+		shows all the dishes I've attempted that turned out well enough.
 	</p>
-	<figure>
-		<img src={images['progress.webp']} alt="3d Model stages" />
-		<figcaption>
-			Experimenting with texture colors was a major part of the design process. An important goal
-			was establishing contrast, which helped to visually separate the first and second floors.
-		</figcaption>
-	</figure>
+	<br />
+	<DishDropdown />
 	<br />
 	<h1>Baking Timeline</h1>
 	<br />
@@ -50,16 +51,26 @@
 		This website, as well as the vast majority of the models in <a
 			href="https://explore.basilclub.cafe"><u>explore.basilclub.cafe</u></a
 		>, was designed, developed and produced by me. Production of this project started in late May
-		2025 and came to fruition about a few months afterwards. <br /><br />I wanted to combine my
-		technical skills with my newfound interest in baking, so this project became a way to practice
-		both web development and 3D modelling. Learning how to maintain web performance was particularly
-		challenging, as it was my first time optimizing models for low-end devices.
+		2025 and came to fruition about a few months afterwards.
 	</p>
 	<figure>
 		<img src={images['izakaya.webp']} alt="Failed Model" />
 		<figcaption>
 			Initial failed attempt at creating a restaurant, inspired by an izakaya. This model never got
 			past the prototyping stage as I didn't like how the premade textures looked.
+		</figcaption>
+	</figure>
+	<p>
+		I wanted to combine my technical skills with my newfound interest in baking, so this project
+		became a way to practice both web development and 3D modelling. Learning how to maintain web
+		performance was particularly challenging, as it was my first time optimizing models for low-end
+		devices.
+	</p>
+	<figure>
+		<img src={images['progress.webp']} alt="3d Model stages" />
+		<figcaption>
+			Experimenting with texture colors was a major part of the design process. An important goal
+			was establishing contrast, which helped to visually distinguish the top and bottom floors.
 		</figcaption>
 	</figure>
 	<br />
