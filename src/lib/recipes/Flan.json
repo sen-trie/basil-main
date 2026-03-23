@@ -1,0 +1,44 @@
+{
+	"pan": "['fac']{1} 8\" Pan / ['fac']{8} servings",
+	"cuisine": "Latin American",
+	"referenceText": "A Cozy Kitchen",
+	"referenceLink": "https://www.acozykitchen.com/classic-flan#wprm-recipe-container-40948",
+	"segments": [
+		{
+			"ingredients": {
+				"Large eggs": [[4, ""]],
+				"Large egg yolks": [[2, ""]],
+				"Salt": [[0.5, "tsp"]],
+				"Sweetened condensed milk": [
+					[397, "g", "1 can"],
+					[14, "oz"]
+				],
+				"Evaporated milk": [
+					[354, "ml", "1 can"],
+					[12, "oz"]
+				],
+				"Vanilla extract": [[1, "tsp"]],
+				"Granulated sugar": [
+					[200, "g"],
+					[1, "cup"]
+				],
+				"Water": [
+					[60, "ml"],
+					[0.25, "cup"]
+				]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{177}. Prepare a water bath using a large roasting pan.",
+				"In a saucepan over medium-low heat, add the ['ing']{Granulated sugar} and ['ing']{Water}. Cook until the sugar dissolves completely.",
+				"Once dissolved, do not stir. Turn the heat to high and cook for about 5 minutes, until the mixture boils and turns a light golden brown. Immediately lower the heat to medium-low and cook until it becomes a deep golden brown.",
+				"Immediately pour the hot caramel into the 8-inch cake pan, tilting to coat the bottom in an even layer. It hardens quickly. Let it harden for 5 minutes.",
+				"Make the custard: In a blender, add the ['ing']{Large eggs}, ['ing']{Large egg yolks}, ['ing']{Salt}, ['ing']{Sweetened condensed milk}, ['ing']{Evaporated milk}, and ['ing']{Vanilla extract}. Blend until very smooth, about 30 seconds. Avoid over-blending.",
+				"Pour the blended custard over the hardened caramel in the pan. Cover the pan tightly with foil.",
+				"Place the covered pan in the prepared water bath. Carefully fill the bath with hot water from a kettle until it reaches halfway up the sides of the cake pan.",
+				"Bake for 40-45 minutes, until the custard is set but still slightly jiggly in the center.",
+				"Carefully remove from the oven and the water bath. Let it cool on the counter for 30 minutes, then transfer to the refrigerator to chill for at least 4 hours or overnight.",
+				"To serve, run a thin knife around the edge of the pan. Invert a large plate over the pan, then flip it over in one motion. Gently tap the pan to release the flan. Lift the pan away, slice, and serve."
+			]
+		}
+	]
+}

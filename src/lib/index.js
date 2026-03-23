@@ -18,9 +18,10 @@ export const categories = {
 			'Cheesecake',
 			'Lemon_Basque_Cheesecake',
 			'Earl_Grey_Basque_Cheesecake',
+			'Salted_Caramel_Brownie_Basque_Cheesecake',
 			'Blueberry_Crumble_Cheesecake',
-			'Brownie_Basque_Cheesecake',
-			'Ube_Cheesecake'
+			'Ube_Cheesecake',
+			'Brownie_Basque_Cheesecake'
 		],
 		thumbnail: 'Earl_Grey_Basque_Cheesecake'
 	},
@@ -28,6 +29,12 @@ export const categories = {
 		description: 'Multi-layered cakes with filling between each layer, stacked and decorated.',
 		dishes: ['Vanilla_Birthday_Cake', 'Milhojas'],
 		thumbnail: 'Vanilla_Birthday_Cake'
+	},
+	'Steamed Cakes': {
+		description:
+			'Traditional steamed desserts set with rice or starch flours. Chewy, elastic, and delicately sweet, often layered or molded rather than baked.',
+		dishes: ['Banh_Da_Lon', 'Kuih_Bingka'],
+		thumbnail: 'Banh_Da_Lon'
 	},
 	Tarts: {
 		description:
@@ -38,7 +45,17 @@ export const categories = {
 	'Custards & Puddings': {
 		description:
 			'Comfort food at its finest. Silky, spoonable, and wonderfully wobbly desserts that feel like a warm hug.',
-		dishes: ['Chocolate_Crème_Brûlée', 'Bread_Pudding', 'Brownie_Tiramisu', 'Brazo_De_Mercedes'],
+		dishes: [
+			'Chocolate_Crème_Brûlée',
+			'Bread_Pudding',
+			'Bread_And_Butter_Pudding',
+			'Pan_Pudding',
+			'Brownie_Tiramisu',
+			'Souffle',
+			'Brazo_De_Mercedes',
+			'Flan',
+			'Migliaccio'
+		],
 		thumbnail: 'Brownie_Tiramisu'
 	},
 	Cookies: {
@@ -49,6 +66,7 @@ export const categories = {
 			'White_Chocolate_Matcha_Cookie',
 			'Lemon_Basil_Cookie',
 			'Alfajores',
+			'Maamoul',
 			'Tahini_Brownie'
 		],
 		thumbnail: 'Chewy_Chocolate_Cookie'
@@ -62,8 +80,14 @@ export const categories = {
 	'Quick Breads & Loaves': {
 		description:
 			'Hearty, moist, and perfect for any time of day. These comforting baked goods are wonderful warm with butter or as a sweet snack.',
-		dishes: ['Double_Chocolate_Banana_Bread', 'Browned_Butter_Banana_Bread'],
+		dishes: ['Double_Chocolate_Banana_Bread', 'Browned_Butter_Banana_Bread', 'Tahini_Banana_Bread'],
 		thumbnail: 'Double_Chocolate_Banana_Bread'
+	},
+	Confections: {
+		description:
+			'Decadent chocolate treats and sweet confections. Perfect for gifting or indulging.',
+		dishes: ['Pecan_Chocolate_Bark'],
+		thumbnail: 'Pecan_Chocolate_Bark'
 	}
 };
 

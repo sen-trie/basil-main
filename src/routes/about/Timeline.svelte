@@ -48,6 +48,12 @@
 				'Experimented with exotic flavors and dishes not typically found locally like ube cheesecake and alfajores.'
 		},
 		{
+			date: 'December 2025',
+			title: 'Non-Baking Methods',
+			description:
+				'Explored alternative cooking methods like stovetop cooking and steaming to diversify skill set.'
+		},
+		{
 			date: 'Present',
 			title: 'Continuous Learning',
 			description:

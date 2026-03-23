@@ -1,0 +1,61 @@
+{
+	"pan": "9x5-inch loaf pan / ['fac']{10} servings",
+	"cuisine": "Fusion",
+	"referenceText": "Broma Bakery",
+	"referenceLink": "https://bromabakery.com/tahini-banana-bread/#tasty-recipes-25959-jump-target",
+	"segments": [
+		{
+			"title": "Banana Bread",
+			"ingredients": {
+				"Overripe medium bananas": [[3, "", "mashed"]],
+				"Unsalted butter": [[114, "g", "melted"]],
+				"Granulated sugar": [
+					[150, "g"],
+					[0.75, "cup"]
+				],
+				"Brown sugar": [
+					[50, "g", "packed"],
+					[0.25, "cup"]
+				],
+				"Large eggs": [[2, "", "room temperature"]],
+				"Tahini": [
+					[120, "g"],
+					[0.5, "cup"]
+				],
+				"Baking soda": [[0.75, "tsp"]],
+				"Salt": [[1, "tsp"]],
+				"All-purpose flour": [
+					[156, "g"],
+					[1.25, "cup"]
+				]
+			},
+			"steps": [
+				"Preheat oven to ['temp']{177}. Grease a 9x5-inch loaf pan and set aside.",
+				"In a large bowl, whisk together the ['ing']{Overripe medium bananas} and ['ing']{Unsalted butter}. Add the ['ing']{Brown sugar} and ['ing']{Granulated sugar} and whisk to combine.",
+				"Add the ['ing']{Tahini} and ['ing']{Large eggs} and whisk until the mixture is fully combined and smooth.",
+				"In a separate bowl, combine the ['ing']{All-purpose flour}, ['ing']{Baking soda}, and ['ing']{Salt}.",
+				"Fold the dry ingredients into the wet ingredients just until no dry streaks remain. Do not overmix.",
+				"Transfer the batter to the prepared loaf pan. Bake for 50 minutes, or until a knife inserted into the center comes out clean.",
+				"Allow the bread to cool in the pan for 15 minutes before transferring it to a wire rack."
+			]
+		},
+		{
+			"title": "Tahini Glaze",
+			"ingredients": {
+				"Tahini": [[2, "tbsp"]],
+				"Cream or milk": [[1, "tbsp"]],
+				"Powdered sugar": [
+					[120, "g", "sifted"],
+					[1, "cup"]
+				],
+				"Salt": [],
+				"Sesame seeds": []
+			},
+			"steps": [
+				"While the bread cools, make the glaze. In a small saucepan over medium heat, combine the ['ing']{Tahini}, ['ing']{Cream or milk}, ['ing']{Powdered sugar}, and a ['ing']{Salt}.",
+				"Whisk vigorously until the mixture is completely smooth and no clumps of sugar remain.",
+				"Pour the warm glaze over the slightly cooled bread. Sprinkle with ['ing']{Sesame seeds} if desired."
+			]
+		}
+	]
+}

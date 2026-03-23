@@ -1,0 +1,52 @@
+{
+	"pan": "9x5\" baking dish / ['fac']{8} servings",
+	"cuisine": "Japanese",
+	"referenceText": "Shokupan Pan Pudding",
+	"referenceLink": "",
+	"segments": [
+		{
+			"title": "Bread Pudding",
+			"ingredients": {
+				"Unsalted butter": [[1, "tbsp", "for greasing"]],
+				"Shokupan": [[290, "g", "crusts removed"]],
+				"Large Eggs": [[4, ""]],
+				"Granulated sugar": [[120, "g"]],
+				"Salt": [[0.25, "tsp"]],
+				"Vanilla extract": [[1.5, "tsp"]],
+				"Whole milk": [
+					[600, "ml"],
+					[2.5, "cup"]
+				]
+			},
+			"steps": [
+				"Preheat the oven to ['temp']{180}.",
+				"Grease the baking dishes generously on all sides with ['ing']{Unsalted butter}.",
+				"Cut ['ing']{Shokupan} into 1.5\" cubes and space them evenly in the baking dish.",
+				"In a medium bowl, whisk ['ing']{Large Eggs} until blended.",
+				"Add ['ing']{Granulated sugar} and ['ing']{Salt}, whisking until fully dissolved.",
+				"Whisk in ['ing']{Vanilla extract}. Gradually add ['ing']{Whole milk} and mix until smooth.",
+				"Slowly pour half of the custard over the bread. Pause briefly, then pour in the remaining custard.",
+				"Bake at ['temp']{180} for 30-40 minutes, until puffed, lightly golden.",
+				"When the bread pudding starts to puff up and rise but is not browned yet, make the caramel sauce."
+			]
+		},
+		{
+			"title": "Caramel",
+			"ingredients": {
+				"Granulated sugar": [
+					[67, "g"],
+					[0.333, "cup"]
+				],
+				"Water (room temperature)": [[2, "tbsp"]],
+				"Water (hot)": [[2, "tbsp"]]
+			},
+			"steps": [
+				"In a small heavy-bottomed saucepan, combine ['ing']{Granulated sugar} and ['ing']{Water (room temperature)}.",
+				"Heat on medium-low without stirring until the sugar fully dissolves.",
+				"Increase heat to medium-high and cook until the sugar caramelizes to a deep amber, swirling the pan gently.",
+				"Remove from heat and carefully add ['ing']{Water (hot)} in stages, swirling until smooth.",
+				"Drizzle the hot caramel over the baked bread pudding and serve immediately."
+			]
+		}
+	]
+}

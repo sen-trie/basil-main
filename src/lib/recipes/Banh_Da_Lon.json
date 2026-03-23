@@ -1,0 +1,96 @@
+{
+	"pan": "2 4x5-inch pan / ['fac']{4} servings",
+	"cuisine": "Vietnamese",
+	"referenceText": "Full of Plants",
+	"referenceLink": "https://fullofplants.com/banh-da-lon-vietnamese-steamed-cakes/",
+	"segments": [
+		{
+			"title": "Yellow Mung Bean Layer",
+			"ingredients": {
+				"Dried split mung beans": [
+					[50, "g", "soaked for 3-4 hours, drained"],
+					[0.25, "cup"]
+				],
+				"Water (for cooking beans)": [
+					[125, "ml"],
+					[0.5, "cup"]
+				],
+				"Full-fat coconut milk": [
+					[125, "ml"],
+					[0.5, "cup"]
+				],
+				"Water": [
+					[30, "ml"],
+					[2, "tbsp"]
+				],
+				"Granulated white sugar": [
+					[50, "g"],
+					[0.25, "cup"]
+				],
+				"Tapioca starch": [
+					[70, "g"],
+					[0.5, "cup", "plus 1 tbsp"]
+				],
+				"White rice flour": [
+					[15, "g"],
+					[2, "tbsp"]
+				],
+				"Vanilla extract": [[0.5, "tsp"]]
+			},
+			"steps": [
+				"Drain the soaked ['ing']{Dried split mung beans} and transfer to a small saucepan.",
+				"Add ['ing']{Water (for cooking beans)} and bring to a simmer over low-medium heat. Cover and simmer for 10-15 minutes, until the beans are completely soft. Add a bit more water if needed.",
+				"Drain the cooked beans and transfer them to a high-speed blender.",
+				"To the blender, add the ['ing']{Full-fat coconut milk}, ['ing']{Water}, ['ing']{Granulated white sugar}, ['ing']{Tapioca starch}, ['ing']{White rice flour}, and ['ing']{Vanilla extract}. Blend for 10-15 seconds until completely smooth.",
+				"Transfer the yellow batter to a bowl and set aside."
+			]
+		},
+		{
+			"title": "Green Pandan Layer",
+			"ingredients": {
+				"Pandan leaves": [[20, "g", "roughly chopped"]],
+				"Water": [
+					[125, "ml"],
+					[0.5, "cup"]
+				],
+				"Full-fat coconut milk": [
+					[90, "ml"],
+					[6, "tbsp"]
+				],
+				"Sugar": [
+					[60, "g"],
+					[5, "tbsp"]
+				],
+				"Tapioca starch": [
+					[100, "g"],
+					[0.75, "cup", "plus 3 tbsp"]
+				],
+				"White rice flour": [
+					[25, "g"],
+					[3, "tbsp"]
+				],
+				"Pandan extract": [[0.25, "tsp", "optional"]]
+			},
+			"steps": [
+				"Make pandan juice: In a blender, combine the chopped ['ing']{Pandan leaves} and ['ing']{Water}. Blend on high speed for about 30 seconds.",
+				"Strain the mixture through a fine-mesh sieve into a large mixing bowl, pressing on the pulp. Discard the pulp. (The juice will smell grassy, which is normal).",
+				"To the bowl with the pandan juice, add the ['ing']{Full-fat coconut milk}, ['ing']{Sugar}, ['ing']{Tapioca starch}, ['ing']{White rice flour}, and ['ing']{Pandan extract} (if using).",
+				"Whisk until the batter is fully combined and smooth. Set aside."
+			]
+		},
+		{
+			"title": "Steaming & Assembly",
+			"ingredients": {},
+			"steps": [
+				"Prepare a steamer: Fill a saucepan with 2-3 cups of water and place a bamboo steamer on top. Bring the water to a boil.",
+				"Lightly grease two 3x6-inch pans with oil. Place one pan in the steamer to warm for 2 minutes.",
+				"For the first layer, pour about 3 tablespoons of the green pandan batter into the pan to form a thin layer. Steam for 3 minutes, covered.",
+				"For the second layer, pour about 3 tablespoons of the yellow mung bean batter over the set green layer. Steam for 4 minutes, covered.",
+				"Repeat the process, alternating or creating a pattern with the batters, until you have about 7 total layers. For each new layer, increase the steaming time by 1 minute (e.g., 5 minutes for the 3rd layer, 6 for the 4th).",
+				"After adding the final layer, let the entire cake steam for an extra 7 minutes to ensure it is fully set.",
+				"Remove the pan from the steamer and let the cake cool completely in the pan.",
+				"To slice, run a plastic-wrap-wrapped sharp knife around the edges. Invert to release the cake. Cut each loaf into 5 rectangles. Serve as a snack."
+			]
+		}
+	]
+}

@@ -21,7 +21,8 @@
 
 	.dish-grid {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: repeat(4, 1fr);
+		grid-auto-rows: 1fr;
 		padding: 40px 40px;
 		row-gap: 40px;
 		column-gap: 32px;
@@ -32,6 +33,7 @@
 			display: block;
 			aspect-ratio: 10 / 16;
 			width: 100%;
+			flex-grow: 1;
 			height: auto;
 			margin-bottom: 1rem;
 			background-color: light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));

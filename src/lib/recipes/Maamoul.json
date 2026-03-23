@@ -1,0 +1,41 @@
+{
+	"pan": "['fac']{32} servings",
+	"cuisine": "Middle Eastern",
+	"referenceText": "The Delicious Crescent",
+	"referenceLink": "https://www.thedeliciouscrescent.com/maamoul-cookies/",
+	"segments": [
+		{
+			"ingredients": {
+				"Sugar": [[3, "tbsp"]],
+				"Hot water": [
+					[30, "ml"],
+					[2, "tbsp"]
+				],
+				"Cardamom powder": [[0.5, "tsp"]],
+				"Ghee": [[170, "g"]],
+				"All-purpose flour": [[310, "g"]],
+				"Milk": [
+					[45, "g", "as needed"],
+					[3, "tbsp"]
+				],
+				"Soft Medjool dates": [[340, "g", "pitted"]],
+				"Powdered sugar, for dusting": []
+			},
+			"steps": [
+				"Combine ['fac']{1}[tbsp sugar] and ['ing']{Cardamom powder} in a small cup.",
+				"Pour ['ing']{Hot water} over and stir until sugar dissolves completely. Let cool to room temperature.",
+				"Preheat oven to ['temp']{180}. Line a baking sheet with parchment.",
+				"Melt ['ing']{Ghee} gently until liquid but not hot. Stir in ['fac']{2}[tbsp sugar] until dissolved.",
+				"In a mixing bowl, combine the ghee-sugar mixture with ['ing']{All-purpose flour} using your fingers. Add enough flour until the mixture resembles wet sand and no greasy patches remain.",
+				"Pour in the cooled cardamom syrup (give it a final stir first). Mix until incorporated.",
+				"Gradually add ['ing']{Milk}, starting with 2 tbsp (30g), kneading until a soft, pliable dough forms. It should not stick to your fingers. If sticky, knead a bit more, it will come together.",
+				"Cover dough and let rest for 30 minutes.",
+				"Process pitted ['ing']{Soft Medjool dates} in a food processor until a smooth, thick paste forms. If the paste is too sticky to handle, lightly oil your hands.",
+				"Divide dough and filling into 32 equal portions. Roll each into smooth balls.",
+				"To shape each cookie: Flatten a dough ball in your palm. Place a date ball in the center. Gently wrap dough around filling, pinching seams to seal completely. Roll gently between palms to smooth. Place seam-side down on baking sheet and flatten into a disc (~½ inch thick). Fork decoration: Dip fork tines in flour and press gently to create parallel lines or a cross-hatch pattern on top.",
+				"Bake for 15-20 minutes until bottoms are lightly golden and tops look dry and matte (not shiny or wet). They should not brown (<strong>Do not overbake</strong>).",
+				"Cool on baking sheet for 5 minutes, then transfer to wire rack. Once completely cool, dust with powdered sugar."
+			]
+		}
+	]
+}

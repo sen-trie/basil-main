@@ -11,6 +11,6 @@
 </svelte:head>
 
 <div class="body-container">
-	<h1>All Recipes</h1>
+	<h1>All Recipes ({dishes.length})</h1>
 	<RecipeGrid dishes={dishes.sort()} {images} />
 </div>

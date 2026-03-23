@@ -31,7 +31,7 @@
 		const frac = amt - whole;
 
 		for (const { val, sym } of map) {
-			if (Math.abs(frac - val) < 1e-6) {
+			if (Math.abs(frac - val) < 1e-3) {
 				return whole ? `${whole}${sym}` : sym;
 			}
 		}
@@ -192,21 +192,23 @@
 			{#if seg.title && seg.title !== ''}
 				<h2 class="segment-title">{getSegmentPart(seg, segIndex)}</h2>
 			{/if}
-			<h2>Ingredients</h2>
-			{#if segments.length === 1}
-				{@render scaleFactor()}
+			{#if Object.keys(seg.ingredients).length > 0}
+				<h2>Ingredients</h2>
+				{#if segments.length === 1}
+					{@render scaleFactor()}
+				{/if}
+				<ul>
+					{#each Object.entries(seg.ingredients) as [ingName, value]}
+						<li class="flexbox">
+							<input type="checkbox" id="{segIndex}-{ingName}" />
+							<label for="{segIndex}-{ingName}"
+								>{processIngredients(value)}
+								{ingName}{value[0] && value[0][2] ? `, ${value[0][2]}` : ''}</label
+							>
+						</li>
+					{/each}
+				</ul>
 			{/if}
-			<ul>
-				{#each Object.entries(seg.ingredients) as [ingName, value]}
-					<li class="flexbox">
-						<input type="checkbox" id="{segIndex}-{ingName}" />
-						<label for="{segIndex}-{ingName}"
-							>{processIngredients(value)}
-							{ingName}{value[0] && value[0][2] ? `, ${value[0][2]}` : ''}</label
-						>
-					</li>
-				{/each}
-			</ul>
 			{#if segments.length === 1}
 				<ToggleSwitch />
 			{/if}

@@ -1,0 +1,37 @@
+{
+	"pan": "baking tray / ['fac']{24} servings",
+	"cuisine": "American",
+	"referenceText": "Fine Foods Blog",
+	"referenceLink": "https://finefoodsblog.com/cranberry-pecan-dark-chocolate-bark//",
+	"segments": [
+		{
+			"ingredients": {
+				"Raw pecans": [[80, "g"]],
+				"Real maple syrup": [
+					[40, "g"],
+					[3, "tbsp"]
+				],
+				"Orange zest": [[1, ""]],
+				"Ground cinnamon": [[0.25, "tsp"]],
+				"Freshly ground black pepper": [[0.25, "tsp"]],
+				"Melted Compound Chocolate": [[300, "g"]],
+				"Dried cranberries": [
+					[30, "g"],
+					[0.25, "cup"]
+				],
+				"Flaky sea salt, for finishing": []
+			},
+			"steps": [
+				"Preheat oven to ['temp']{175}.",
+				"In a small saucepan, combine ['ing']{Real maple syrup}, ['ing']{Ground cinnamon}, ['ing']{Orange zest}, and ['ing']{Freshly ground black pepper}.",
+				"Bring to a boil over medium-high heat. Once boiling, add ['ing']{Raw pecans}. Stir constantly until all liquid is absorbed by the nuts.",
+				"Line a baking tray with parchment paper. Spread pecans in a single layer. Bake for 10-12 minutes until fragrant and toasty, deep brown and caramelized. Once cool, break apart any large clusters. Roughly chop.",
+				"Line a clean baking tray with fresh parchment paper.",
+				"Pour ['ing']{Melted Compound Chocolate} onto parchment. Spread evenly to 3-4mm thickness.",
+				"Immediately sprinkle with chopped candied pecans and ['ing']{Dried cranberries}. Finish with flaky sea salt across the entire surface.",
+				"Leave at chilly room temperature ['temp']{23} for 25-35 minutes. Test edges: It should be completely firm and snap cleanly (not sticky).",
+				"Once set, break into pieces."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"pan": "['fac']{1} 8\" Pan / ['fac']{12} servings",
+	"cuisine": "Italian",
+	"referenceText": "Simply Recipes",
+	"referenceLink": "https://www.simplyrecipes.com/migliaccio-recipe-8697817",
+	"segments": [
+		{
+			"title": "Migliaccio",
+			"ingredients": {
+				"Semolina flour": [[165, "g", "plus more for the pan"]],
+				"Kosher salt": [[0.5, "tsp"]],
+				"Whole milk": [[2.5, "cup"]],
+				"Unsalted butter": [[57, "g", "plus more for greasing the pan"]],
+				"Granulated sugar": [[200, "g"]],
+				"Large eggs": [[4, ""]],
+				"Whole milk ricotta": [[350, "g", "well-drained"]],
+				"Freshly grated lemon zest": [[1, "tbsp"]],
+				"Vanilla extract": [[1, "tsp"]],
+				"Ground cinnamon": [[0.25, "tsp"]]
+			},
+			"steps": [
+				"Preheat the oven to ['temp']{190}.",
+				"Grease the bottom and sides of the pan with unsalted butter. Line the bottom of the pan with parchment paper and butter the parchment. Coat the pan with ['ing']{Semolina flour} and tap out the excess.",
+				"Add the ['ing']{Semolina flour}, ['ing']{Kosher salt}, and ['ing']{Whole milk} to a medium saucepan and whisk to combine. Set the pan over medium heat, and cook, stirring, until the mixture thickens into a porridge, 6 to 8 minutes. It should be similar to the consistency of cream of wheat.",
+				"Take the pan off the heat. Add the ['ing']{Unsalted butter} and ['ing']{Granulated sugar}, and stir until combined and smooth.",
+				"Before adding the eggs, let the semolina cool slightly until warm but not scalding hot, 10 to 15 minutes.",
+				"Once the semolina has cooled a bit, add the ['ing']{Large eggs}, one at a time, whisking to combine after each. Beat in the ['ing']{Whole milk ricotta} until fully combined and smooth. Stir in the ['ing']{Freshly grated lemon zest}, ['ing']{Vanilla extract}, and ['ing']{Ground cinnamon}.",
+				"Pour the batter into the prepared pan. Bake until the outermost edge of the cake has turned golden brown and the cake has puffed and cracked a bit in places, about 50 minutes. The cake will jiggle slightly, but the center should be no more wobbly than the rest of the cake."
+			]
+		}
+	]
+}

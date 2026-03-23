@@ -28,7 +28,7 @@
 </div>
 
 <div class="body-container">
-	<h1>Recipes</h1>
+	<h1>Recipes ({dishes.length})</h1>
 	<RecipeGrid {dishes} {images} />
 </div>
 

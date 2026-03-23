@@ -1,0 +1,51 @@
+{
+	"pan": "['fac']{1} 8\" Pan / ['fac']{12} servings",
+	"cuisine": "Fusion",
+	"referenceText": "Ems Foodie Fix",
+	"referenceLink": "https://emsfoodiefix.com/salted-caramel-brownie-basque-cheesecake",
+	"segments": [
+		{
+			"title": "Brownie Base",
+			"ingredients": {
+				"Unsalted butter": [[85, "g"]],
+				"Caster sugar": [[100, "g"]],
+				"Light brown sugar": [[30, "g"]],
+				"Medium Eggs": [[2, ""]],
+				"Top flour": [[80, "g"]],
+				"Cocoa powder": [[25, "g"]],
+				"Dark chocolate": [[100, "g", "around 60% cocoa"]],
+				"Salt": [[0.25, "tsp"]]
+			},
+			"steps": [
+				"Line the inside of a 8\" loose bottom or springform cake tin with baking paper and spread butter on the inside of the baking paper. Set aside.",
+				"Melt the ['ing']{Dark chocolate} and ['ing']{Unsalted butter} in the microwave. Set aside.",
+				"Mix the ['ing']{Medium Eggs}, ['ing']{Caster sugar}, ['ing']{Light brown sugar} with an electric beater for 4 mins. It should be pale and creamy.",
+				"Fold in the chocolate butter mix with a spatula.",
+				"Sieve the ['ing']{Top flour}, ['ing']{Cocoa powder} and and ['ing']{Salt} together, add to the wet ingredient, fold in with spatula.",
+				"Pour the brownie mix into the lined pan. Place in the fridge for 10 minutes or until you are ready to pour the cheesecake layer on top."
+			]
+		},
+		{
+			"title": "Salted Caramel Basque Cheesecake",
+			"ingredients": {
+				"Cream cheese": [[500, "g", "room temperature"]],
+				"Caster sugar": [[90, "g"]],
+				"Medium eggs": [[3, "", "room temperature"]],
+				"Dulce de leche": [[190, "g"]],
+				"Whipping cream": [[300, "ml", "room temperature"]],
+				"Top flour": [[25, "g"]],
+				"Salt": [[0.25, "tsp"]],
+				"Salted caramel sauce, to pour on top, store-bought": []
+			},
+			"steps": [
+				"In a mixing bowl, mix the ['ing']{Cream cheese} until smooth. Add the ['ing']{Caster sugar}, mix until combined.",
+				"Add one ['ing']{Medium eggs} at a time, mix until just combined. Then, add the ['ing']{Dulce de leche} and ['ing']{Salt}, mix until combined using a spatula.",
+				"In a separate bowl add the sifted ['ing']{Top flour} and 150ml of the ['ing']{Whipping cream}. Mix together until smooth with no lumps. Add into the cheesecake mixture, mix until combined using a spatula.",
+				"Add the remaining whipping cream using a spatula.",
+				"Take the brownie layer out of the fridge. Once everything is smooth and combined, run the mixture through a sieve pushing it through with a spatula on top of the brownie layer.",
+				"Give the cake tin a tap on the counter to remove any bubbles, then bake in the oven at ['temp']{230} for 35 minutes.",
+				"Once baked, drizzle ['ing']{Salted caramel sauce} on top before serving."
+			]
+		}
+	]
+}

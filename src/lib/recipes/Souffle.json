@@ -1,0 +1,44 @@
+{
+	"pan": "['fac']{4} 6-ounce ramekins / ['fac']{4} servings",
+	"cuisine": "French",
+	"referenceText": "Sally's Baking",
+	"referenceLink": "https://sallysbakingaddiction.com/chocolate-souffle",
+	"segments": [
+		{
+			"title": "Prepping The Ramekins",
+			"ingredients": {
+				"Unsalted butter": [[21, "g", "softened"]],
+				"Granulated sugar": [[20, "g"]]
+			},
+			"steps": [
+				"Butter the insides of four 6-ounce ramekins using the ['ing']{Unsalted butter}. Be generous and brush upward strokes to encourage the soufflé to rise. Add the ['ing']{Granulated sugar} and tilt to coat evenly, then tip out any excess."
+			]
+		},
+		{
+			"title": "Soufflé Base & Meringue",
+			"ingredients": {
+				"Unsalted butter": [
+					[75, "g", "cut into pieces"],
+					[0.3333, "cup"]
+				],
+				"Semi-sweet chocolate": [[156, "g", "coarsely chopped"]],
+				"Large egg yolks": [[4, ""]],
+				"Pure vanilla extract": [[1.25, "tsp"]],
+				"Pinch of salt": [],
+				"Large egg whites": [[4, ""]],
+				"Cream of Tartar": [[0.25, "tsp"]],
+				"Granulated sugar": [
+					[50, "g"],
+					[4, "tbsp"]
+				]
+			},
+			"steps": [
+				"In a heatproof bowl, combine the ['ing']{Unsalted butter} and the ['ing']{Semi-sweet chocolate}. Melt over a double boiler or in the microwave in 20-second bursts, stirring until smooth. Let cool slightly, then whisk in the ['ing']{Large egg yolks}, ['ing']{Pure vanilla extract}, and ['ing']{Pinch of salt} until combined.",
+				"In a clean, grease-free bowl, using an electric mixer, beat the ['ing']{Large egg whites} and ['ing']{Cream of Tartar} on medium-high speed until soft peaks form. Gradually add the ['ing']{Granulated sugar}, about 1 tbsp at a time, and continue beating until stiff, glossy peaks form.",
+				"Gently fold about 1/4 of the meringue into the chocolate base to lighten it. Then, carefully fold in the remaining meringue until just combined and no large white streaks remain.",
+				"Divide the batter evenly among the prepared ramekins, smoothing the tops. Run your thumb around the inside rim of each ramekin to create a \"moat.\" This helps the soufflés rise straight up.",
+				"Bake immediately on a baking sheet in a preheated ['temp']{190} oven for 14-16 minutes, or until puffed and the tops are set. Serve immediately."
+			]
+		}
+	]
+}

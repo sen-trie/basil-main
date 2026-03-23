@@ -1,0 +1,31 @@
+{
+	"pan": "8½ x 4½ inch loaf pan / ['fac']{8} servings",
+	"cuisine": "Malaysian",
+	"referenceText": "What To Cook Today",
+	"referenceLink": "https://whattocooktoday.com/bingka-ubi-kayu.html",
+	"segments": [
+		{
+			"title": "Cassava Cake",
+			"ingredients": {
+				"Grated cassava": [[454, "g"]],
+				"Sugar": [[125, "g"]],
+				"Coconut milk": [[200, "g"]],
+				"Butter": [[40, "g"]],
+				"Large Egg": [[1, ""]],
+				"Salt": [[0.25, "tsp"]],
+				"Tapioca starch": [[12, "g"]],
+				"Yellow food coloring / turmeric powder": []
+			},
+			"steps": [
+				"Line the bottom of the pan with a banana leaf or parchment paper.",
+				"Preheat oven at ['temp']{190} for conventional oven. For convection oven, lower the temperature by 15C.",
+				"Use a fine grater to grate the cassava. You can also use a blender to do so.",
+				"In a large mixing bowl, combine the ['ing']{Grated cassava}, ['ing']{Sugar}, ['ing']{Large Egg}, ['ing']{Coconut milk}, ['ing']{Salt}, ['ing']{Tapioca starch}, ['ing']{Butter}, yellow food coloring. Stir to mix until combined.",
+				"Pour the batter in and smooth the top with rubber spatula the best you can.",
+				"Bake for 50-60 minutes. The cake shouldn't jiggle when you shake the pan. If you insert a skewer, it should not be wet (crumbs are okay).",
+				"Brush the top of the cake with butter. Broil until top is golden brown, about 2-3 minutes.",
+				"Remove from the oven completely and let it cool down completely before cutting."
+			]
+		}
+	]
+}
