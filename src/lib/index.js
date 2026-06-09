@@ -8,8 +8,8 @@ export const categories = {
 	'Tea Cakes': {
 		description:
 			'Little bites of heaven. Perfect with a cup of coffee or tea, these delicate cakes are moist, flavorful, and just the right amount of sweet.',
-		dishes: ['Financier', 'Yuzu_Financier', 'Maple_Scone'],
-		thumbnail: 'Financier'
+		dishes: ['Canele', 'Financier', 'Yuzu_Financier', 'Banh_Bo_Nuong', 'Bolu_Karamel_Sarang_Semut', 'Maple_Scone'],
+		thumbnail: 'Canele'
 	},
 	Cheesecakes: {
 		description:
@@ -25,9 +25,15 @@ export const categories = {
 		],
 		thumbnail: 'Earl_Grey_Basque_Cheesecake'
 	},
+	'Simple Cakes': {
+	description:
+		'Easy, unfussy cakes made with minimal steps, often mixed in a single bowl. Moist, rich, and homey with a focus on simplicity rather than decoration or layers.',
+		dishes: ['Chocolate_Cake'],
+		thumbnail: 'Chocolate_Cake'
+	},
 	'Layer Cakes': {
 		description: 'Multi-layered cakes with filling between each layer, stacked and decorated.',
-		dishes: ['Vanilla_Birthday_Cake', 'Milhojas'],
+		dishes: ['Vanilla_Birthday_Cake', 'Tahini_Layer_Cake', 'Milhojas'],
 		thumbnail: 'Vanilla_Birthday_Cake'
 	},
 	'Steamed Cakes': {
@@ -36,6 +42,12 @@ export const categories = {
 		dishes: ['Banh_Da_Lon', 'Kuih_Bingka'],
 		thumbnail: 'Banh_Da_Lon'
 	},
+	'Breads': {
+	description:
+		'Simple, rustic, and foundational baked goods. These breads are defined by texture, fermentation, and aroma rather than sweetness.',
+		dishes: ['Sourdough_Discard_Focaccia'],
+		thumbnail: 'Sourdough_Discard_Focaccia'
+}	,
 	Tarts: {
 		description:
 			'Buttery, crumbly crusts filled with bright, creamy, or nutty goodness. A beautiful balance of texture and flavor in every slice.',
@@ -86,7 +98,7 @@ export const categories = {
 	Confections: {
 		description:
 			'Decadent chocolate treats and sweet confections. Perfect for gifting or indulging.',
-		dishes: ['Pecan_Chocolate_Bark'],
+		dishes: ['Pecan_Chocolate_Bark', 'Hawaiian_Butter_Mochi'],
 		thumbnail: 'Pecan_Chocolate_Bark'
 	}
 };

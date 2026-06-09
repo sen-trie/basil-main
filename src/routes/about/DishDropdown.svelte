@@ -3,7 +3,7 @@
 	let isDropdownOpen = $state(false);
 
 	function formatDate(dateString) {
-		const [day, month, year] = dateString.split('/');
+		const [day, month, year] = dateString.replaceAll('"', "").split('/');
 		const fullYear = year.length === 2 ? `20${year}` : year;
 
 		const months = [
